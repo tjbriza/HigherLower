@@ -4,7 +4,7 @@ export type CategoryId =
   | "movie-ratings"
   | "game-playerbase"
   | "game-ratings"
-  | "item-prices";
+  | "country-populations";
 
 export interface Category {
   /** Stable URL-safe identifier */
@@ -65,10 +65,10 @@ export const CATEGORIES: Category[] = [
     gradient: "from-amber-500/20 to-yellow-400/20",
   },
   {
-    id: "item-prices",
-    label: "Item Prices (PHP)",
-    description: "Which everyday item costs more in the Philippines?",
-    icon: "🛒",
+    id: "country-populations",
+    label: "Country Populations",
+    description: "Which country has more people?",
+    icon: "🌍",
     gradient: "from-emerald-500/20 to-teal-500/20",
   },
 ];

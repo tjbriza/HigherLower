@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { useState } from "react";
 import { GameItem } from "@/types/api";
 
 interface GameCardProps {
@@ -19,6 +19,7 @@ export default function GameCard({
   side,
   resultTint,
 }: GameCardProps) {
+  const [imgError, setImgError] = useState(false);
   const showValue = side === "current" || revealed;
 
   const tintClass =
@@ -30,23 +31,33 @@ export default function GameCard({
 
   return (
     <div className="relative w-full h-full min-h-[320px] overflow-hidden rounded-2xl group">
-      {/* Background image */}
-      <Image
-        src={item.imageUrl}
-        alt={item.name}
-        fill
-        sizes="(max-width: 768px) 100vw, 50vw"
-        className="object-cover transition-transform duration-700 group-hover:scale-105"
-        priority
-      />
 
-      {/* Gradient overlay */}
+      {/* ── Background: real image OR graceful gradient fallback ─────── */}
+      {!imgError && item.imageUrl ? (
+        /* eslint-disable-next-line @next/next/no-img-element */
+        <img
+          src={item.imageUrl}
+          alt={item.name}
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          loading="eager"
+          onError={() => setImgError(true)}
+        />
+      ) : (
+        /* Styled dark gradient fallback — never a black/blank screen */
+        <div className="absolute inset-0 bg-gradient-to-br from-[var(--bg-elevated)] via-[#1a1f35] to-[#0d1020] flex items-center justify-center">
+          <span className="text-7xl opacity-30 select-none">
+            {side === "current" ? "🎯" : "❓"}
+          </span>
+        </div>
+      )}
+
+      {/* ── Gradient overlay ─────────────────────────────────────────── */}
       <div
         className={`absolute inset-0 transition-colors duration-500 ${tintClass}`}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
 
-      {/* Content */}
+      {/* ── Content ──────────────────────────────────────────────────── */}
       <div className="absolute inset-0 flex flex-col justify-end p-6 gap-2">
         {/* Side label */}
         <span className="section-label text-white/50 mb-1">
@@ -77,7 +88,7 @@ export default function GameCard({
         )}
       </div>
 
-      {/* Result flash ring */}
+      {/* ── Result flash ring ────────────────────────────────────────── */}
       {resultTint && (
         <div
           className={`absolute inset-0 rounded-2xl border-4 transition-opacity duration-300 ${

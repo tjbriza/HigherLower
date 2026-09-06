@@ -13,8 +13,8 @@ import { type CategoryId } from "@/types/game";
 import { type GameItem } from "@/types/api";
 import { fetchMovieRatings } from "./tmdb";
 import { fetchGamePlayerbase } from "./steamspy";
-import { fetchGameRatings } from "./cheapshark"; // replaced RAWG — no API key needed
-import { fetchItemPrices } from "./fakestoreapi";
+import { fetchGameRatings } from "./steamspy_ratings"; // Steam review score %, no key needed
+import { fetchCountryPopulations } from "./worldbank"; // World Bank Open Data, no key needed
 
 // ─── Re-exports for convenience ───────────────────────────────────────────────
 export type { GameItem } from "@/types/api";
@@ -28,7 +28,7 @@ const FETCHER_MAP: Record<CategoryId, FetcherFn> = {
   "movie-ratings": fetchMovieRatings,
   "game-playerbase": fetchGamePlayerbase,
   "game-ratings": fetchGameRatings,
-  "item-prices": fetchItemPrices,
+  "country-populations": fetchCountryPopulations,
 };
 
 // ─── Public API ───────────────────────────────────────────────────────────────
@@ -55,7 +55,12 @@ export async function fetchGameItems(categoryId: string): Promise<GameItem[]> {
     );
   }
 
-  const items = await fetcher();
+  const rawItems = await fetcher();
+
+  // Sanitize: drop any item missing a usable imageUrl or name
+  const items = rawItems.filter(
+    (item) => !!item.name && !!item.imageUrl,
+  );
 
   if (items.length < 2) {
     throw new Error(

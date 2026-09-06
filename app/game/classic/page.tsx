@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import { notFound, redirect } from "next/navigation";
+import Link from "next/link";
 import { fetchGameItems } from "@/lib/api";
 import { CATEGORIES } from "@/types/game";
 import ClassicGame from "@/components/game/ClassicGame";
@@ -44,15 +45,24 @@ async function ClassicGameLoader({
   try {
     items = await fetchGameItems(categoryId);
   } catch (err) {
-    // Surface fetch errors in a friendly way
+    // Log full error server-side for debugging
+    console.error("[ClassicGameLoader] Failed to fetch game items:", err);
     const message = err instanceof Error ? err.message : "Unknown error";
     return (
-      <div className="flex-1 flex flex-col items-center justify-center gap-4 p-8 text-center">
+      <div className="flex-1 flex flex-col items-center justify-center gap-5 p-8 text-center">
         <span className="text-5xl">⚠️</span>
         <h2 className="text-xl font-bold text-[var(--text-primary)]">
           Could not load game data
         </h2>
-        <p className="text-sm text-[var(--text-secondary)] max-w-sm">{message}</p>
+        <p className="text-sm text-[var(--text-secondary)] max-w-sm leading-relaxed">
+          {message}
+        </p>
+        <Link
+          href="/"
+          className="mt-2 inline-flex items-center gap-2 btn-primary text-sm"
+        >
+          ← Back to Menu
+        </Link>
       </div>
     );
   }

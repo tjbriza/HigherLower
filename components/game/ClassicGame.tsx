@@ -1,3 +1,16 @@
+/**
+ * ClassicGame — client-side game logic for Classic Mode.
+ *
+ * Deck system:
+ *   - `deck` is the ordered queue of items not yet shown this round.
+ *   - `currentItem` and `nextItem` are always the first two from the deck.
+ *   - On a correct guess the deck pointer advances by 1 (currentItem consumed).
+ *   - When the deck has only 1 item left (no nextItem possible), the spent
+ *     items are reshuffled and appended so the game never runs out of cards.
+ *   - An item NEVER appears twice in the same uninterrupted stretch because we
+ *     only reshuffle the spent items, not the active pair.
+ */
+
 "use client";
 
 import { useEffect, useCallback, useRef, useState } from "react";
@@ -39,7 +52,7 @@ function saveHighScore(categoryId: string, score: number): void {
   }
 }
 
-/** Client-side Fisher-Yates shuffle — used on "Play Again" */
+/** Fisher-Yates shuffle — returns a NEW array, never mutates in place */
 function shuffle<T>(arr: T[]): T[] {
   const copy = [...arr];
   for (let i = copy.length - 1; i > 0; i--) {
@@ -49,6 +62,14 @@ function shuffle<T>(arr: T[]): T[] {
   return copy;
 }
 
+/**
+ * Build initial deck from the server-fetched pool.
+ * Filters items with missing imageUrl before play begins.
+ */
+function buildDeck(pool: GameItem[]): GameItem[] {
+  return shuffle(pool.filter((item) => !!item.imageUrl && !!item.name));
+}
+
 // ─── Component ────────────────────────────────────────────────────────────────
 
 export default function ClassicGame({
@@ -56,13 +77,17 @@ export default function ClassicGame({
   categoryId,
   categoryLabel,
 }: ClassicGameProps) {
-  // Pool + cursor
-  const [pool, setPool] = useState<GameItem[]>(initialPool);
-  const [idx, setIdx] = useState(0); // currentItem = pool[idx], nextItem = pool[idx+1]
+  /**
+   * `deck` is the ordered queue of upcoming items.
+   * deck[0] = currentItem, deck[1] = nextItem.
+   * When the player guesses correctly we shift deck[0] off and continue.
+   * `spent` accumulates consumed items so we can reshuffle them back in.
+   */
+  const [deck, setDeck] = useState<GameItem[]>(() => buildDeck(initialPool));
+  const [spent, setSpent] = useState<GameItem[]>([]);
 
-  // Derived
-  const currentItem = pool[idx];
-  const nextItem = pool[idx + 1];
+  const currentItem = deck[0];
+  const nextItem = deck[1];
 
   // UI state
   const [phase, setPhase] = useState<GamePhase>("playing");
@@ -71,7 +96,6 @@ export default function ClassicGame({
   const [tint, setTint] = useState<ResultTint>(null);
   const [lastCorrect, setLastCorrect] = useState<boolean | null>(null);
 
-  // Animation / transition ref — avoid stale-closure issues
   const revealTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Load high score from localStorage once mounted
@@ -101,7 +125,6 @@ export default function ClassicGame({
       setTint(isCorrect ? "correct" : "incorrect");
       setLastCorrect(isCorrect);
 
-      // After reveal delay, advance or end game
       revealTimerRef.current = setTimeout(() => {
         setTint(null);
 
@@ -109,18 +132,27 @@ export default function ClassicGame({
           const newScore = score + 1;
           setScore(newScore);
 
-          // If pool is almost exhausted, reshuffle and continue
-          if (idx + 2 >= pool.length - 1) {
-            const newPool = shuffle(initialPool);
-            setPool(newPool);
-            setIdx(0);
+          // currentItem is now "spent" — remove it from the front of the deck
+          const consumed = deck[0];
+          const remaining = deck.slice(1); // deck[1] becomes new currentItem
+
+          let newSpent = [...spent, consumed];
+
+          // If we'd have fewer than 2 items in remaining, fold spent back in.
+          // Exclude the new currentItem (remaining[0]) to avoid an instant repeat.
+          if (remaining.length < 2) {
+            const refill = shuffle(newSpent);
+            setDeck([...remaining, ...refill]);
+            setSpent([]);
           } else {
-            setIdx((prev) => prev + 1);
+            setDeck(remaining);
+            setSpent(newSpent);
           }
+
           setPhase("playing");
           setLastCorrect(null);
         } else {
-          // Game over — persist high score
+          // Game over
           if (score > highScore) {
             setHighScore(score);
             saveHighScore(categoryId, score);
@@ -129,7 +161,7 @@ export default function ClassicGame({
         }
       }, 1400);
     },
-    [phase, nextItem, currentItem, score, highScore, idx, pool, initialPool, categoryId],
+    [phase, nextItem, currentItem, score, highScore, deck, spent, categoryId],
   );
 
   // ── Keyboard support ───────────────────────────────────────────────────────
@@ -146,8 +178,8 @@ export default function ClassicGame({
   // ── Play again ─────────────────────────────────────────────────────────────
 
   function handlePlayAgain() {
-    setPool(shuffle(initialPool));
-    setIdx(0);
+    setDeck(buildDeck(initialPool));
+    setSpent([]);
     setScore(0);
     setPhase("playing");
     setTint(null);

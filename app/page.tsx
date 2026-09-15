@@ -62,7 +62,10 @@ export default function HomePage() {
       <div className="flex-1 flex flex-col lg:flex-row">
 
         {/* LEFT — editorial headline */}
-        <div className="relative flex flex-col justify-center px-6 sm:px-10 lg:px-16 py-12 lg:py-0 lg:w-[52%]
+        <div className="relative flex flex-col justify-center
+                        items-center text-center
+                        lg:items-start lg:text-left
+                        px-6 sm:px-10 lg:px-16 py-12 lg:py-0 lg:w-[52%]
                         bg-[var(--bg-base)]">
 
           {/* Diagonal stripe decoration */}

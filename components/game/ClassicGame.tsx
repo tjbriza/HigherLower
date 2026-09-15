@@ -310,23 +310,65 @@ export default function ClassicGame({
             revealed
             side="current"
             resultTint={phase === "revealing" ? tint : null}
+            thumbnailAspect={categoryId === "country-populations" ? "landscape" : "portrait"}
           />
         </div>
 
-        {/* BOTTOM / RIGHT — next item + centered action buttons */}
+        {/* BOTTOM / RIGHT — next item + action buttons */}
         <div className="flex-1 relative">
-          {/* Background card (name at bottom-left) */}
+          {/* Card: desktop renders buttons via children, mobile ignores them */}
           <GameCard
             key={nextItem.id}
             item={nextItem}
             revealed={phase === "revealing"}
             side="next"
             resultTint={phase === "revealing" ? tint : null}
-          />
+            thumbnailAspect={categoryId === "country-populations" ? "landscape" : "portrait"}
+          >
+            {/* Desktop buttons — injected into GameCard’s centered content column */}
+            {phase !== "game-over" && (
+              <>
+                <button
+                  id="btn-higher-desktop"
+                  onClick={() => handleGuess("higher")}
+                  disabled={phase !== "playing"}
+                  aria-label="Higher"
+                  className={`
+                    w-full py-4 rounded-full font-black tracking-wide
+                    transition-all duration-150
+                    ${phase === "playing"
+                      ? "bg-emerald-500 hover:bg-emerald-400 text-white shadow-lg shadow-emerald-500/40 hover:scale-105 active:scale-95 cursor-pointer"
+                      : "bg-white/10 text-white/20 cursor-not-allowed"
+                    }
+                  `}
+                  style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.15rem", letterSpacing: "0.06em" }}
+                >
+                  ↑ Higher
+                </button>
+                <button
+                  id="btn-lower-desktop"
+                  onClick={() => handleGuess("lower")}
+                  disabled={phase !== "playing"}
+                  aria-label="Lower"
+                  className={`
+                    w-full py-4 rounded-full font-black tracking-wide
+                    transition-all duration-150
+                    ${phase === "playing"
+                      ? "bg-rose-500 hover:bg-rose-400 text-white shadow-lg shadow-rose-500/40 hover:scale-105 active:scale-95 cursor-pointer"
+                      : "bg-white/10 text-white/20 cursor-not-allowed"
+                    }
+                  `}
+                  style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.15rem", letterSpacing: "0.06em" }}
+                >
+                  ↓ Lower
+                </button>
+              </>
+            )}
+          </GameCard>
 
-          {/* Buttons — absolutely centered so they NEVER get clipped */}
+          {/* Mobile buttons — absolutely centred, only visible on small screens */}
           {phase !== "game-over" && (
-            <div className="absolute inset-0 z-30 flex flex-col items-center justify-center gap-3 px-8 pointer-events-none">
+            <div className="md:hidden absolute inset-0 z-30 flex flex-col items-center justify-center gap-3 px-8 pointer-events-none">
               <div className="flex flex-col gap-3 w-full max-w-[260px] pointer-events-auto">
                 <button
                   id="btn-higher"

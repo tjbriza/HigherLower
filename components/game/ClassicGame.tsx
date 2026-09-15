@@ -212,66 +212,75 @@ export default function ClassicGame({
   // ─────────────────────────────────────────────────────────────────────────
 
   return (
-    <div className="relative w-full min-h-dvh flex flex-col md:h-full md:overflow-hidden">
+    <div className="relative w-full h-full flex flex-col overflow-hidden">
 
-      {/* ── Floating score / nav bar ────────────────────────────────── */}
-      <header className="absolute top-0 inset-x-0 z-40 flex items-center justify-between px-5 py-4 bg-gradient-to-b from-black/85 to-transparent pointer-events-none">
-        {/* Back link */}
+      {/* ── Header bar (solid dark) ─────────────────────────────────────── */}
+      <header
+        className="flex-shrink-0 flex items-center justify-between px-4 py-3 z-40"
+        style={{ background: "rgba(8,11,20,0.92)", backdropFilter: "blur(8px)" }}
+      >
+        {/* Back */}
         <Link
           href="/"
-          className="pointer-events-auto flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm font-semibold bg-black/30 border border-white/10 px-3 py-1.5 rounded-lg backdrop-blur-sm"
-          style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.04em" }}
+          className="flex items-center justify-center w-9 h-9 rounded-full bg-white/10 border border-white/10
+                     text-white/70 hover:text-white hover:bg-white/20 transition-colors"
         >
-          <ArrowLeft size={14} strokeWidth={2} />
-          MENU
+          <ArrowLeft size={16} strokeWidth={2} />
         </Link>
 
-        <div className="text-center drop-shadow-lg">
+        {/* Centre — category · mode · subtitle */}
+        <div className="flex flex-col items-center text-center">
           <p
-            className="text-xs font-bold uppercase tracking-[0.18em] text-white/50"
-            style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
+            className="text-sm font-black text-white leading-tight"
+            style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.04em" }}
           >
-            {categoryLabel}
+            {categoryLabel} – Classic
+          </p>
+          <p
+            className="text-[10px] font-semibold uppercase tracking-[0.18em] text-white/40"
+          >
+            Higher or Lower
           </p>
         </div>
 
-        {/* Score + trophy button */}
-        <div className="pointer-events-auto flex items-center gap-2">
-          {/* Best score indicator */}
+        {/* Score + trophy */}
+        <div className="flex items-center gap-2">
           {highScore > 0 && (
-            <div className="text-right bg-black/30 border border-white/10 px-3 py-1.5 rounded-lg backdrop-blur-sm">
-              <p className="text-sm font-black text-[var(--brand-gold)] leading-none" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{highScore}</p>
-              <p className="text-[9px] text-white/30 uppercase tracking-widest leading-none mt-0.5">Best</p>
+            <div className="text-right">
+              <p className="text-base font-black text-[var(--brand-gold)] leading-none"
+                 style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+                {highScore}
+              </p>
+              <p className="text-[8px] text-white/30 uppercase tracking-widest">Best</p>
             </div>
           )}
-
-          {/* Current score */}
-          <div className="text-right bg-black/30 border border-white/10 px-4 py-1.5 rounded-lg backdrop-blur-sm">
-            <p className="text-xl font-black text-white leading-none" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{score}</p>
-            <p className="text-[9px] text-white/40 uppercase tracking-widest leading-none mt-0.5">Score</p>
+          <div className="text-right">
+            <p className="text-2xl font-black text-white leading-none"
+               style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+              {score}
+            </p>
+            <p className="text-[8px] text-white/40 uppercase tracking-widest">Score</p>
           </div>
-
-          {/* Trophy button */}
           <button
             onClick={() => setShowScores(true)}
             aria-label="View high scores"
-            className="w-9 h-9 rounded-lg bg-black/30 border border-white/10 backdrop-blur-sm
+            className="w-9 h-9 rounded-full bg-white/10 border border-white/10
                        flex items-center justify-center
-                       hover:border-[var(--brand-gold)]/40 hover:bg-[var(--brand-gold)]/10
-                       transition-colors cursor-pointer text-slate-400 hover:text-[var(--brand-gold)]"
+                       text-white/50 hover:text-[var(--brand-gold)] hover:border-[var(--brand-gold)]/30
+                       transition-colors cursor-pointer"
           >
             <Trophy size={15} strokeWidth={1.8} />
           </button>
         </div>
       </header>
 
-      {/* ── High Scores modal ───────────────────────────────────────────── */}
+      {/* ── High Scores modal ──────────────────────────────────────────── */}
       <HighScoresModal open={showScores} onClose={() => setShowScores(false)} />
 
-      {/* ── Correct / Incorrect flash banner ─────────────────────────── */}
+      {/* ── Correct / Incorrect flash banner ───────────────────────────── */}
       <div
         className={`
-          absolute top-16 inset-x-0 z-50 flex justify-center pointer-events-none
+          absolute top-[64px] inset-x-0 z-50 flex justify-center pointer-events-none
           transition-all duration-300
           ${lastCorrect !== null && phase === "revealing"
             ? "opacity-100 translate-y-0"
@@ -284,130 +293,128 @@ export default function ClassicGame({
             px-6 py-2 rounded-full text-sm font-black shadow-2xl tracking-wide
             ${lastCorrect ? "bg-emerald-500 text-white" : "bg-rose-500 text-white"}
           `}
+          style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.06em" }}
         >
-          {lastCorrect ? "✓ Correct!" : "✗ Wrong!"}
+          {lastCorrect ? "✓  Correct!" : "✗  Wrong!"}
         </span>
       </div>
 
-      {/* ── Split-screen game area ────────────────────────────────── */}
-      <main className="flex flex-col md:flex-row md:h-full">
+      {/* ── Split-screen game area ──────────────────────────────────────── */}
+      <main className="flex-1 flex flex-col md:flex-row overflow-hidden">
 
-        {/* LEFT / TOP — current item (value always visible) */}
-        <div className="min-h-[50dvh] md:min-h-0 md:flex-1 relative">
+        {/* TOP / LEFT — current item */}
+        <div className="flex-1 relative">
           <GameCard
             key={currentItem.id}
             item={currentItem}
             revealed
             side="current"
-            resultTint={null}
-            thumbnailAspect={categoryId === "country-populations" ? "landscape" : "portrait"}
+            resultTint={phase === "revealing" ? tint : null}
           />
         </div>
 
-        {/* RIGHT / BOTTOM — next item + action buttons */}
-        <div className="min-h-[50dvh] md:min-h-0 md:flex-1 relative">
+        {/* BOTTOM / RIGHT — next item + centered action buttons */}
+        <div className="flex-1 relative">
+          {/* Background card (name at bottom-left) */}
           <GameCard
             key={nextItem.id}
             item={nextItem}
-            revealed={phase === "revealing" || phase === "game-over"}
+            revealed={phase === "revealing"}
             side="next"
             resultTint={phase === "revealing" ? tint : null}
-            thumbnailAspect={categoryId === "country-populations" ? "landscape" : "portrait"}
-          >
-            {/* Higher / Lower buttons injected into the card's centered content */}
-            {phase !== "game-over" && (
-              <>
+          />
+
+          {/* Buttons — absolutely centered so they NEVER get clipped */}
+          {phase !== "game-over" && (
+            <div className="absolute inset-0 z-30 flex flex-col items-center justify-center gap-3 px-8 pointer-events-none">
+              <div className="flex flex-col gap-3 w-full max-w-[260px] pointer-events-auto">
                 <button
                   id="btn-higher"
                   onClick={() => handleGuess("higher")}
                   disabled={phase !== "playing"}
                   aria-label="Higher"
                   className={`
-                    w-full py-3 md:py-4 rounded-full text-lg md:text-xl font-black tracking-wide
-                    transition-transform duration-150
+                    w-full py-4 rounded-full font-black tracking-wide
+                    transition-all duration-150
                     ${phase === "playing"
-                      ? "bg-emerald-500 hover:bg-emerald-400 text-white shadow-lg shadow-emerald-500/30 hover:scale-105 active:scale-95 cursor-pointer"
-                      : "bg-white/10 text-white/30 cursor-not-allowed"
+                      ? "bg-emerald-500 hover:bg-emerald-400 text-white shadow-lg shadow-emerald-500/40 hover:scale-105 active:scale-95 cursor-pointer"
+                      : "bg-white/10 text-white/20 cursor-not-allowed"
                     }
                   `}
-                  style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.06em" }}
+                  style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.2rem", letterSpacing: "0.06em" }}
                 >
                   ↑ Higher
                 </button>
-
                 <button
                   id="btn-lower"
                   onClick={() => handleGuess("lower")}
                   disabled={phase !== "playing"}
                   aria-label="Lower"
                   className={`
-                    w-full py-3 md:py-4 rounded-full text-lg md:text-xl font-black tracking-wide
-                    transition-transform duration-150
+                    w-full py-4 rounded-full font-black tracking-wide
+                    transition-all duration-150
                     ${phase === "playing"
-                      ? "bg-rose-500 hover:bg-rose-400 text-white shadow-lg shadow-rose-500/30 hover:scale-105 active:scale-95 cursor-pointer"
-                      : "bg-white/10 text-white/30 cursor-not-allowed"
+                      ? "bg-rose-500 hover:bg-rose-400 text-white shadow-lg shadow-rose-500/40 hover:scale-105 active:scale-95 cursor-pointer"
+                      : "bg-white/10 text-white/20 cursor-not-allowed"
                     }
                   `}
-                  style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.06em" }}
+                  style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.2rem", letterSpacing: "0.06em" }}
                 >
                   ↓ Lower
                 </button>
-              </>
-            )}
-          </GameCard>
+              </div>
+            </div>
+          )}
         </div>
       </main>
 
-      {/* ── VS badge — pinned to dead centre of the full screen ──────── */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 pointer-events-none">
-        {/* Subtle dividing line */}
+      {/* ── OR badge — pinned to dead centre between the two halves ─────── */}
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-40 pointer-events-none"
+           style={{ marginTop: "24px" /* offset for header height */ }}>
+        {/* Dividing line */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:block w-px h-screen bg-white/10" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:hidden h-px w-screen bg-white/10" />
-
-        <div className="relative w-16 h-16 rounded-full bg-white text-slate-900 font-black flex items-center justify-center text-xl shadow-2xl border-4 border-slate-900 select-none">
-          VS
+        <div className="relative w-14 h-14 rounded-full bg-white text-slate-900 font-black flex items-center justify-center text-base shadow-2xl border-4 border-slate-900 select-none"
+             style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.04em" }}>
+          OR
         </div>
       </div>
 
-      {/* ── Game Over modal ───────────────────────────────────────────── */}
+      {/* ── Game Over modal ─────────────────────────────────────────────── */}
       {phase === "game-over" && (
         <div
           className="absolute inset-0 z-50 flex items-center justify-center p-4"
           style={{ background: "rgba(8, 11, 20, 0.88)", backdropFilter: "blur(16px)" }}
         >
           <div
-            className="glass rounded-3xl p-8 max-w-sm w-full text-center border border-white/10 shadow-2xl"
-            style={{ animation: "fadeInScale 0.3s ease both" }}
+            className="rounded-2xl p-7 max-w-sm w-full text-center border border-white/10 shadow-2xl"
+            style={{ background: "#111827", animation: "fadeInScale 0.3s ease both" }}
           >
-            <div className="text-5xl mb-3">💀</div>
-            <h2 className="text-2xl font-black text-white mb-1 font-[family-name:var(--font-display)]">
-              Game Over
-            </h2>
-            <p className="text-[var(--text-secondary)] text-sm mb-6">
-              {nextItem.name} was{" "}
-              <strong className="text-amber-400">{nextItem.displayValue}</strong>
+            <p className="text-4xl mb-3 font-black text-rose-400"
+               style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+              GAME OVER
+            </p>
+            <p className="text-slate-400 text-sm mb-5">
+              <span className="text-white font-semibold">{nextItem.name}</span> was{" "}
+              <span className="text-amber-400 font-black">{nextItem.displayValue}</span>
             </p>
 
-            {/* Scores */}
-            <div className="flex gap-4 mb-8">
-              <div className="flex-1 glass rounded-2xl py-4 border border-white/[0.07]">
-                <p className="text-3xl font-black text-gradient leading-none">{score}</p>
-                <p className="text-xs text-[var(--text-muted)] mt-1 uppercase tracking-wider">
-                  Score
-                </p>
+            {/* Score boxes */}
+            <div className="flex gap-3 mb-6">
+              <div className="flex-1 rounded-xl py-4 border border-white/[0.08]"
+                   style={{ background: "#1c2433" }}>
+                <p className="text-3xl font-black text-white leading-none"
+                   style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{score}</p>
+                <p className="text-[10px] text-slate-500 mt-1 uppercase tracking-wider">Score</p>
               </div>
-              <div className="flex-1 glass rounded-2xl py-4 border border-white/[0.07]">
-                <p
-                  className={`text-3xl font-black leading-none ${
-                    score >= highScore && score > 0
-                      ? "text-[var(--brand-gold)]"
-                      : "text-white"
-                  }`}
-                >
+              <div className="flex-1 rounded-xl py-4 border border-white/[0.08]"
+                   style={{ background: "#1c2433" }}>
+                <p className={`text-3xl font-black leading-none ${score >= highScore && score > 0 ? "text-[var(--brand-gold)]" : "text-white"}`}
+                   style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
                   {Math.max(score, highScore)}
                 </p>
-                <p className="text-xs text-[var(--text-muted)] mt-1 uppercase tracking-wider">
-                  {score >= highScore && score > 0 ? "🏆 New Best!" : "Best"}
+                <p className="text-[10px] text-slate-500 mt-1 uppercase tracking-wider">
+                  {score >= highScore && score > 0 ? "New Best!" : "Best"}
                 </p>
               </div>
             </div>
@@ -417,25 +424,28 @@ export default function ClassicGame({
               <button
                 id="btn-play-again"
                 onClick={handlePlayAgain}
-                className="btn-gold w-full py-3 rounded-xl text-sm font-bold"
+                className="btn-gold w-full py-3 rounded-xl font-black"
+                style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.1rem", letterSpacing: "0.06em" }}
               >
-                🔄 Play Again
+                PLAY AGAIN
               </button>
               <Link
                 href="/"
                 id="btn-back-to-menu"
-                className="block w-full py-3 rounded-xl text-sm font-semibold
-                           glass border border-white/[0.1] text-[var(--text-secondary)]
+                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold
+                           border border-white/[0.1] text-slate-400
                            hover:text-white hover:border-white/20 transition-colors"
+                style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.04em" }}
               >
-                ← Back to Menu
+                <ArrowLeft size={14} strokeWidth={2} />
+                BACK TO MENU
               </Link>
             </div>
           </div>
         </div>
       )}
 
-      {/* ── Inline keyframe for game-over modal entrance ─────────────── */}
+      {/* Keyframe */}
       <style>{`
         @keyframes fadeInScale {
           from { opacity: 0; transform: scale(0.93); }
@@ -445,3 +455,4 @@ export default function ClassicGame({
     </div>
   );
 }
+

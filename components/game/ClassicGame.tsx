@@ -62,9 +62,32 @@ function shuffle<T>(arr: T[]): T[] {
   return copy;
 }
 
-/** Build a clean, shuffled deck from the server pool */
+/**
+ * Scans a deck and ensures no two consecutive items share the same `value`.
+ * When a duplicate pair is found at position [i, i+1], it looks forward for
+ * the nearest item at j >= i+2 whose value differs and swaps [i+1] with [j].
+ * If no swap candidate exists the pair is left as-is (tiny edge case in small
+ * pools with many identical values).
+ */
+function dedupeAdjacentEquals(arr: GameItem[]): GameItem[] {
+  const out = [...arr];
+  for (let i = 0; i < out.length - 1; i++) {
+    if (out[i].value === out[i + 1].value) {
+      let j = i + 2;
+      while (j < out.length && out[j].value === out[i].value) j++;
+      if (j < out.length) {
+        [out[i + 1], out[j]] = [out[j], out[i + 1]];
+      }
+    }
+  }
+  return out;
+}
+
+/** Build a clean, shuffled, tie-free deck from the server pool */
 function buildDeck(pool: GameItem[]): GameItem[] {
-  return shuffle(pool.filter((item) => !!item.imageUrl && !!item.name));
+  return dedupeAdjacentEquals(
+    shuffle(pool.filter((item) => !!item.imageUrl && !!item.name)),
+  );
 }
 
 // ─── Component ────────────────────────────────────────────────────────────────
@@ -105,10 +128,13 @@ export default function ClassicGame({
     (direction: GuessDirection) => {
       if (phase !== "playing" || !nextItem) return;
 
+      // Strict comparison: equal values are treated as wrong for both directions.
+      // dedupeAdjacentEquals() prevents equal pairs from appearing, so this is
+      // a safety net for any edge case that slips through.
       const isCorrect =
         direction === "higher"
-          ? nextItem.value >= currentItem.value
-          : nextItem.value <= currentItem.value;
+          ? nextItem.value > currentItem.value
+          : nextItem.value < currentItem.value;
 
       setPhase("revealing");
       setTint(isCorrect ? "correct" : "incorrect");
@@ -126,7 +152,10 @@ export default function ClassicGame({
           const newSpent = [...spent, consumed];
 
           if (remaining.length < 2) {
-            setDeck([...remaining, ...shuffle(newSpent)]);
+            // Reshuffle spent items and append; run dedup across the junction
+            // so the last item in `remaining` and the first refill item are never equal.
+            const refill = shuffle(newSpent);
+            setDeck(dedupeAdjacentEquals([...remaining, ...refill]));
             setSpent([]);
           } else {
             setDeck(remaining);

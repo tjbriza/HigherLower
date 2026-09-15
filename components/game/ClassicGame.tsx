@@ -15,6 +15,7 @@
 
 import { useEffect, useCallback, useRef, useState } from "react";
 import Link from "next/link";
+import { ArrowLeft, Trophy } from "lucide-react";
 import { GameItem } from "@/types/api";
 import { CategoryId } from "@/types/game";
 import GameCard from "@/components/game/GameCard";
@@ -221,7 +222,8 @@ export default function ClassicGame({
           className="pointer-events-auto flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm font-semibold bg-black/30 border border-white/10 px-3 py-1.5 rounded-lg backdrop-blur-sm"
           style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.04em" }}
         >
-          ← MENU
+          <ArrowLeft size={14} strokeWidth={2} />
+          MENU
         </Link>
 
         <div className="text-center drop-shadow-lg">
@@ -254,11 +256,11 @@ export default function ClassicGame({
             onClick={() => setShowScores(true)}
             aria-label="View high scores"
             className="w-9 h-9 rounded-lg bg-black/30 border border-white/10 backdrop-blur-sm
-                       flex items-center justify-center text-base
+                       flex items-center justify-center
                        hover:border-[var(--brand-gold)]/40 hover:bg-[var(--brand-gold)]/10
-                       transition-colors cursor-pointer"
+                       transition-colors cursor-pointer text-slate-400 hover:text-[var(--brand-gold)]"
           >
-            🏆
+            <Trophy size={15} strokeWidth={1.8} />
           </button>
         </div>
       </header>

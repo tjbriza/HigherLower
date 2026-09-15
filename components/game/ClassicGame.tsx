@@ -18,6 +18,7 @@ import Link from "next/link";
 import { GameItem } from "@/types/api";
 import { CategoryId } from "@/types/game";
 import GameCard from "@/components/game/GameCard";
+import HighScoresModal from "@/components/HighScoresModal";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -84,6 +85,7 @@ export default function ClassicGame({
   const [highScore, setHighScore] = useState(0);
   const [tint, setTint] = useState<ResultTint>(null);
   const [lastCorrect, setLastCorrect] = useState<boolean | null>(null);
+  const [showScores, setShowScores] = useState(false);
 
   const revealTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -182,9 +184,9 @@ export default function ClassicGame({
   return (
     <div className="relative w-full h-full flex flex-col overflow-hidden">
 
-      {/* ── Floating score / nav bar ──────────────────────────────────── */}
+      {/* ── Floating score / nav bar ────────────────────────────────── */}
       <header className="absolute top-0 inset-x-0 z-40 flex items-center justify-between px-5 py-4 bg-gradient-to-b from-black/80 to-transparent pointer-events-none">
-        {/* Back link — re-enable pointer events just for this element */}
+        {/* Back link */}
         <Link
           href="/"
           className="pointer-events-auto flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm font-medium backdrop-blur-sm bg-white/5 border border-white/10 px-3 py-1.5 rounded-full"
@@ -198,14 +200,38 @@ export default function ClassicGame({
           </p>
         </div>
 
-        {/* Score pill */}
-        <div className="pointer-events-auto text-right backdrop-blur-sm bg-white/5 border border-white/10 px-4 py-1.5 rounded-full">
-          <p className="text-xl font-black text-white leading-none">{score}</p>
-          <p className="text-[9px] text-white/40 uppercase tracking-widest leading-none mt-0.5">
-            Score
-          </p>
+        {/* Score + trophy button */}
+        <div className="pointer-events-auto flex items-center gap-2">
+          {/* Best score indicator */}
+          {highScore > 0 && (
+            <div className="text-right backdrop-blur-sm bg-white/5 border border-white/10 px-3 py-1.5 rounded-full">
+              <p className="text-sm font-black text-[var(--brand-gold)] leading-none">{highScore}</p>
+              <p className="text-[9px] text-white/30 uppercase tracking-widest leading-none mt-0.5">Best</p>
+            </div>
+          )}
+
+          {/* Current score */}
+          <div className="text-right backdrop-blur-sm bg-white/5 border border-white/10 px-4 py-1.5 rounded-full">
+            <p className="text-xl font-black text-white leading-none">{score}</p>
+            <p className="text-[9px] text-white/40 uppercase tracking-widest leading-none mt-0.5">Score</p>
+          </div>
+
+          {/* Trophy button */}
+          <button
+            onClick={() => setShowScores(true)}
+            aria-label="View high scores"
+            className="w-9 h-9 rounded-full backdrop-blur-sm bg-white/5 border border-white/10
+                       flex items-center justify-center text-base
+                       hover:bg-[var(--brand-gold)]/10 hover:border-[var(--brand-gold)]/30
+                       transition-colors cursor-pointer"
+          >
+            🏆
+          </button>
         </div>
       </header>
+
+      {/* ── High Scores modal ───────────────────────────────────────────── */}
+      <HighScoresModal open={showScores} onClose={() => setShowScores(false)} />
 
       {/* ── Correct / Incorrect flash banner ─────────────────────────── */}
       <div

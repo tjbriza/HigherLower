@@ -4,12 +4,14 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import CategoryCard from "@/components/CategoryCard";
 import ModeButton from "@/components/ModeButton";
+import HighScoresModal from "@/components/HighScoresModal";
 import { CATEGORIES, GAME_MODES, type CategoryId, type GameModeId } from "@/types/game";
 
 export default function HomePage() {
   const router = useRouter();
   const [selectedCategory, setSelectedCategory] = useState<CategoryId | null>(null);
   const [selectedMode, setSelectedMode] = useState<GameModeId | null>(null);
+  const [showScores, setShowScores] = useState(false);
 
   const canPlay = selectedCategory !== null && selectedMode !== null;
 
@@ -36,9 +38,25 @@ export default function HomePage() {
 
       {/* ── Hero header ────────────────────────────────────────────────── */}
       <header className="relative z-10 text-center mb-12">
-        <div className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 mb-6 glass border border-white/10">
-          <span className="w-1.5 h-1.5 rounded-full bg-[var(--brand-teal)] animate-pulse" />
-          <span className="section-label text-[var(--brand-teal)]">Live &amp; Ready</span>
+        <div className="flex items-center justify-center gap-3 mb-6">
+          <div className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 glass border border-white/10">
+            <span className="w-1.5 h-1.5 rounded-full bg-[var(--brand-teal)] animate-pulse" />
+            <span className="section-label text-[var(--brand-teal)]">Live &amp; Ready</span>
+          </div>
+
+          {/* Trophy / High Scores button */}
+          <button
+            id="btn-high-scores"
+            onClick={() => setShowScores(true)}
+            aria-label="View high scores"
+            className="inline-flex items-center gap-1.5 rounded-full px-4 py-1.5
+                       glass border border-white/10 text-[var(--brand-gold)]
+                       hover:border-[var(--brand-gold)]/40 hover:bg-[var(--brand-gold)]/5
+                       transition-all duration-200 cursor-pointer"
+          >
+            <span className="text-base">🏆</span>
+            <span className="section-label text-[var(--brand-gold)]">Best Scores</span>
+          </button>
         </div>
 
         <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-none mb-4">
@@ -137,6 +155,9 @@ export default function HomePage() {
           Higher or Lower &copy; {new Date().getFullYear()} &middot; More categories coming soon
         </p>
       </footer>
+
+      {/* ── High Scores modal ───────────────────────────────────────────── */}
+      <HighScoresModal open={showScores} onClose={() => setShowScores(false)} />
     </main>
   );
 }

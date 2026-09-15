@@ -21,7 +21,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="relative flex-1 flex flex-col items-center justify-start min-h-dvh px-4 py-12 sm:py-16 overflow-hidden">
+    <main className="relative flex-1 flex flex-col items-center justify-start min-h-dvh px-4 py-12 sm:py-16 overflow-x-hidden">
       {/* ── Ambient orbs ───────────────────────────────────────────────── */}
       <div
         className="orb w-[500px] h-[500px] bg-[var(--brand-primary)] opacity-[0.08] -top-32 -left-32"

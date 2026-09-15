@@ -28,7 +28,7 @@ interface TmdbResponse {
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const BASE_URL = "https://api.themoviedb.org/3";
-const IMAGE_BASE = "https://image.tmdb.org/t/p/w500";
+const IMAGE_BASE = "https://image.tmdb.org/t/p/w780"; // 780px wide — high quality
 /**
  * Number of pages to fetch from TMDB so we have a rich pool of cards.
  * Each page returns up to 20 results; 5 pages ≈ 100 candidates.

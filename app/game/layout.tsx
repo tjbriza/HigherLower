@@ -11,7 +11,7 @@ export const metadata: Metadata = {
  */
 export default function GameLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="relative flex-1 flex flex-col min-h-dvh overflow-hidden">
+    <div className="relative h-full flex flex-col overflow-hidden">
       {children}
     </div>
   );

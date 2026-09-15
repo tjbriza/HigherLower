@@ -5,12 +5,13 @@ import { GameItem } from "@/types/api";
 
 interface GameCardProps {
   item: GameItem;
-  /** When true the value is revealed with an animated fade-in */
   revealed: boolean;
-  /** Visual label: "current" card always shows value; "next" card hides until revealed */
   side: "current" | "next";
-  /** Overlay tint applied on correct/incorrect reveal */
   resultTint?: "correct" | "incorrect" | null;
+  /** "portrait" (2:3) for game covers / movie posters, "landscape" (3:2) for flags */
+  thumbnailAspect?: "portrait" | "landscape";
+  /** Optional slot — rendered inside the centered content (used for action buttons) */
+  children?: React.ReactNode;
 }
 
 export default function GameCard({
@@ -18,83 +19,116 @@ export default function GameCard({
   revealed,
   side,
   resultTint,
+  thumbnailAspect = "portrait",
+  children,
 }: GameCardProps) {
-  const [imgError, setImgError] = useState(false);
+  const [bgError, setBgError] = useState(false);
+  const [thumbError, setThumbError] = useState(false);
   const showValue = side === "current" || revealed;
 
-  const tintClass =
-    resultTint === "correct"
-      ? "bg-emerald-500/30"
-      : resultTint === "incorrect"
-        ? "bg-rose-500/30"
-        : "bg-black/40";
+  const hasImage = !!item.imageUrl && !bgError;
 
   return (
-    <div className="relative w-full h-full min-h-[320px] overflow-hidden rounded-2xl group">
+    <div className="relative w-full h-full overflow-hidden">
 
-      {/* ── Background: real image OR graceful gradient fallback ─────── */}
-      {!imgError && item.imageUrl ? (
+      {/* ── Layer 1: Blurred full-background image ───────────────────── */}
+      {hasImage ? (
         /* eslint-disable-next-line @next/next/no-img-element */
         <img
           src={item.imageUrl}
-          alt={item.name}
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover scale-110 blur-xl z-0"
           loading="eager"
-          onError={() => setImgError(true)}
+          onError={() => setBgError(true)}
         />
       ) : (
-        /* Styled dark gradient fallback — never a black/blank screen */
-        <div className="absolute inset-0 bg-gradient-to-br from-[var(--bg-elevated)] via-[#1a1f35] to-[#0d1020] flex items-center justify-center">
-          <span className="text-7xl opacity-30 select-none">
-            {side === "current" ? "🎯" : "❓"}
-          </span>
-        </div>
+        /* Fallback gradient when no image */
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1a1f35] via-[#111828] to-[#080b14] z-0" />
       )}
 
-      {/* ── Gradient overlay ─────────────────────────────────────────── */}
-      <div
-        className={`absolute inset-0 transition-colors duration-500 ${tintClass}`}
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+      {/* ── Layer 2: Dark scrim so content is always readable ────────── */}
+      <div className="absolute inset-0 bg-black/55 z-10" />
 
-      {/* ── Content ──────────────────────────────────────────────────── */}
-      <div className="absolute inset-0 flex flex-col justify-end p-6 gap-2">
+      {/* ── Layer 3: Result colour wash (correct/incorrect) ──────────── */}
+      {resultTint && (
+        <div
+          className={`absolute inset-0 z-10 transition-colors duration-300 ${
+            resultTint === "correct" ? "bg-emerald-500/20" : "bg-rose-500/20"
+          }`}
+        />
+      )}
+
+      {/* ── Layer 4: Centered content ─────────────────────────────────── */}
+      <div className="relative z-20 w-full h-full flex flex-col items-center justify-center text-center px-6 pt-20 pb-6 gap-3">
+
         {/* Side label */}
-        <span className="section-label text-white/50 mb-1">
-          {side === "current" ? "Current" : "Next"}
+        <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-white/40">
+          {side === "current" ? "Current" : "Next Up"}
         </span>
 
-        {/* Title */}
-        <h2 className="text-xl sm:text-2xl font-bold text-white leading-tight drop-shadow-lg line-clamp-2 font-[family-name:var(--font-display)]">
+        {/* ── Crisp thumbnail card (the focused image in the window) ── */}
+        <div
+          className="relative rounded-xl overflow-hidden shadow-2xl ring-2 ring-white/10"
+          style={{
+            width: thumbnailAspect === "landscape" ? "clamp(180px, 45%, 280px)" : "clamp(110px, 28%, 170px)",
+            aspectRatio: thumbnailAspect === "landscape" ? "3/2" : "2/3",
+          }}
+        >
+          {!thumbError && item.imageUrl ? (
+            /* eslint-disable-next-line @next/next/no-img-element */
+            <img
+              src={item.imageUrl}
+              alt={item.name}
+              className="w-full h-full object-cover"
+              loading="eager"
+              onError={() => setThumbError(true)}
+            />
+          ) : (
+            <div className="w-full h-full bg-gradient-to-br from-[#2a2f50] to-[#1a1f35] flex items-center justify-center">
+              <span className="text-4xl opacity-30 select-none">
+                {side === "current" ? "🎯" : "❓"}
+              </span>
+            </div>
+          )}
+        </div>
+
+        {/* Name */}
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-lg leading-tight max-w-xs mt-1">
           {item.name}
         </h2>
 
-        {/* Value */}
+        {/* Value (visible on current, animated reveal on next) */}
         <div
           className={`transition-all duration-500 ${
-            showValue ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+            showValue ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"
           }`}
         >
-          <p className="text-3xl sm:text-4xl font-black text-gradient leading-none mt-1">
+          <p className="text-4xl sm:text-5xl md:text-6xl font-black text-amber-400 drop-shadow-lg leading-none my-1">
             {item.displayValue}
           </p>
         </div>
 
-        {/* Hidden hint */}
+        {/* "Higher or Lower?" hint shown only on unrevealed next card */}
         {!showValue && (
-          <p className="text-sm text-white/50 italic animate-pulse">
+          <p className="text-sm text-white/40 italic animate-pulse">
             Higher or Lower?
           </p>
         )}
+
+        {/* Slot for buttons (next card injects Higher / Lower here) */}
+        {children && (
+          <div className="mt-4 flex flex-col items-center gap-3 w-64">
+            {children}
+          </div>
+        )}
       </div>
 
-      {/* ── Result flash ring ────────────────────────────────────────── */}
+      {/* ── Layer 5: Result flash border ring ───────────────────────── */}
       {resultTint && (
         <div
-          className={`absolute inset-0 rounded-2xl border-4 transition-opacity duration-300 ${
-            resultTint === "correct"
-              ? "border-emerald-400"
-              : "border-rose-500"
+          className={`absolute inset-0 z-30 border-[5px] pointer-events-none transition-opacity duration-300 ${
+            resultTint === "correct" ? "border-emerald-400" : "border-rose-500"
           }`}
         />
       )}

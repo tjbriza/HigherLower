@@ -37,6 +37,10 @@ type SteamSpyResponse = Record<string, SteamSpyGame>;
 const STEAMSPY_URL = "https://steamspy.com/api.php?request=top100forever";
 const STEAM_CDN = "https://cdn.akamai.steamstatic.com/steam/apps";
 
+function steamImageUrl(appid: number): string {
+  return `${STEAM_CDN}/${appid}/library_600x900.jpg`;
+}
+
 /** Min total reviews to trust the score (avoids 1 positive = 100%) */
 const MIN_REVIEWS = 500;
 
@@ -61,9 +65,10 @@ export async function fetchGameRatings(): Promise<GameItem[]> {
 
   return games
     .filter((g) => {
-      if (!g.appid || !g.name) return false;
+      if (!g.appid || !g.name?.trim()) return false;
+      if (g.name.length > 60) return false;     // drop DLC/bundles
       const total = g.positive + g.negative;
-      if (total < MIN_REVIEWS) return false; // not enough reviews to be meaningful
+      if (total < MIN_REVIEWS) return false;
       return true;
     })
     .map<GameItem>((g) => {
@@ -72,8 +77,7 @@ export async function fetchGameRatings(): Promise<GameItem[]> {
       return {
         id: g.appid,
         name: g.name,
-        // Steam CDN header images are always at this path — same CDN as Playerbase
-        imageUrl: `${STEAM_CDN}/${g.appid}/header.jpg`,
+        imageUrl: steamImageUrl(g.appid),
         value: score,
         displayValue: `${score}% positive`,
       };

@@ -36,6 +36,15 @@ type SteamSpyResponse = Record<string, SteamSpyGame>;
 const STEAM_CDN = "https://cdn.akamai.steamstatic.com/steam/apps";
 const STEAMSPY_URL = "https://steamspy.com/api.php?request=top100in2weeks";
 
+/**
+ * Steam CDN paths for game images.
+ * library_600x900.jpg = portrait cover art (600×900 px) — high quality, always available
+ * for titles on the Steam store. Falls back to header.jpg if needed.
+ */
+function steamImageUrl(appid: number): string {
+  return `${STEAM_CDN}/${appid}/library_600x900.jpg`;
+}
+
 /** Formats a number as a localised string with a "players" suffix */
 function formatPlayerCount(n: number): string {
   if (n >= 1_000_000) {
@@ -71,15 +80,15 @@ export async function fetchGamePlayerbase(): Promise<GameItem[]> {
   return games
     .filter(
       (g) =>
-        g.ccu > 0 && // skip games with zero concurrent users
-        g.name &&    // must have a name
-        g.appid,     // must have a Steam App ID for the CDN image
+        g.ccu > 0 &&           // skip games with zero concurrent users
+        g.name?.trim() &&      // must have a name
+        g.name.length <= 60 && // skip very long DLC/bundle titles
+        g.appid,               // must have a Steam App ID for the CDN image
     )
     .map<GameItem>((g) => ({
       id: g.appid,
       name: g.name,
-      // Steam CDN serves header images for every app
-      imageUrl: `${STEAM_CDN}/${g.appid}/header.jpg`,
+      imageUrl: steamImageUrl(g.appid),
       value: g.ccu,
       displayValue: formatPlayerCount(g.ccu),
     }))

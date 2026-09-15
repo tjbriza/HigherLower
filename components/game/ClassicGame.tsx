@@ -26,7 +26,6 @@ type GuessDirection = "higher" | "lower";
 type ResultTint = "correct" | "incorrect" | null;
 
 interface ClassicGameProps {
-  /** Full shuffled pool fetched server-side */
   initialPool: GameItem[];
   categoryId: CategoryId;
   categoryLabel: string;
@@ -52,7 +51,7 @@ function saveHighScore(categoryId: string, score: number): void {
   }
 }
 
-/** Fisher-Yates shuffle — returns a NEW array, never mutates in place */
+/** Fisher-Yates shuffle — returns a NEW array */
 function shuffle<T>(arr: T[]): T[] {
   const copy = [...arr];
   for (let i = copy.length - 1; i > 0; i--) {
@@ -62,10 +61,7 @@ function shuffle<T>(arr: T[]): T[] {
   return copy;
 }
 
-/**
- * Build initial deck from the server-fetched pool.
- * Filters items with missing imageUrl before play begins.
- */
+/** Build a clean, shuffled deck from the server pool */
 function buildDeck(pool: GameItem[]): GameItem[] {
   return shuffle(pool.filter((item) => !!item.imageUrl && !!item.name));
 }
@@ -77,19 +73,12 @@ export default function ClassicGame({
   categoryId,
   categoryLabel,
 }: ClassicGameProps) {
-  /**
-   * `deck` is the ordered queue of upcoming items.
-   * deck[0] = currentItem, deck[1] = nextItem.
-   * When the player guesses correctly we shift deck[0] off and continue.
-   * `spent` accumulates consumed items so we can reshuffle them back in.
-   */
   const [deck, setDeck] = useState<GameItem[]>(() => buildDeck(initialPool));
   const [spent, setSpent] = useState<GameItem[]>([]);
 
   const currentItem = deck[0];
   const nextItem = deck[1];
 
-  // UI state
   const [phase, setPhase] = useState<GamePhase>("playing");
   const [score, setScore] = useState(0);
   const [highScore, setHighScore] = useState(0);
@@ -98,12 +87,10 @@ export default function ClassicGame({
 
   const revealTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Load high score from localStorage once mounted
   useEffect(() => {
     setHighScore(getHighScore(categoryId));
   }, [categoryId]);
 
-  // Cleanup timer on unmount
   useEffect(() => {
     return () => {
       if (revealTimerRef.current) clearTimeout(revealTimerRef.current);
@@ -132,17 +119,12 @@ export default function ClassicGame({
           const newScore = score + 1;
           setScore(newScore);
 
-          // currentItem is now "spent" — remove it from the front of the deck
           const consumed = deck[0];
-          const remaining = deck.slice(1); // deck[1] becomes new currentItem
+          const remaining = deck.slice(1);
+          const newSpent = [...spent, consumed];
 
-          let newSpent = [...spent, consumed];
-
-          // If we'd have fewer than 2 items in remaining, fold spent back in.
-          // Exclude the new currentItem (remaining[0]) to avoid an instant repeat.
           if (remaining.length < 2) {
-            const refill = shuffle(newSpent);
-            setDeck([...remaining, ...refill]);
+            setDeck([...remaining, ...shuffle(newSpent)]);
             setSpent([]);
           } else {
             setDeck(remaining);
@@ -152,14 +134,13 @@ export default function ClassicGame({
           setPhase("playing");
           setLastCorrect(null);
         } else {
-          // Game over
           if (score > highScore) {
             setHighScore(score);
             saveHighScore(categoryId, score);
           }
           setPhase("game-over");
         }
-      }, 1400);
+      }, 1500);
     },
     [phase, nextItem, currentItem, score, highScore, deck, spent, categoryId],
   );
@@ -186,7 +167,7 @@ export default function ClassicGame({
     setLastCorrect(null);
   }
 
-  // ── Guard: pool too small ──────────────────────────────────────────────────
+  // ── Guard ──────────────────────────────────────────────────────────────────
 
   if (!currentItem || !nextItem) {
     return (
@@ -199,44 +180,47 @@ export default function ClassicGame({
   // ─────────────────────────────────────────────────────────────────────────
 
   return (
-    <div className="relative flex-1 flex flex-col min-h-dvh">
+    <div className="relative w-full h-full flex flex-col overflow-hidden">
 
-      {/* ── Score bar ──────────────────────────────────────────────────── */}
-      <header className="relative z-20 flex items-center justify-between px-5 py-3 glass border-b border-white/[0.07]">
+      {/* ── Floating score / nav bar ──────────────────────────────────── */}
+      <header className="absolute top-0 inset-x-0 z-40 flex items-center justify-between px-5 py-4 bg-gradient-to-b from-black/80 to-transparent pointer-events-none">
+        {/* Back link — re-enable pointer events just for this element */}
         <Link
           href="/"
-          className="flex items-center gap-2 text-[var(--text-secondary)] hover:text-white transition-colors text-sm"
+          className="pointer-events-auto flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm font-medium backdrop-blur-sm bg-white/5 border border-white/10 px-3 py-1.5 rounded-full"
         >
-          <span className="text-lg">←</span>
-          <span className="hidden sm:inline">Menu</span>
+          ← Menu
         </Link>
 
-        <div className="text-center">
-          <p className="section-label">{categoryLabel} — Classic</p>
-          <p className="text-xs text-[var(--text-muted)] mt-0.5">
-            ↑ Higher &nbsp;·&nbsp; ↓ Lower
+        <div className="text-center drop-shadow-lg">
+          <p className="text-xs font-bold uppercase tracking-[0.15em] text-white/50">
+            {categoryLabel}
           </p>
         </div>
 
-        <div className="text-right">
-          <p className="text-2xl font-black text-white leading-none">{score}</p>
-          <p className="text-[10px] text-[var(--text-muted)] uppercase tracking-wider">
+        {/* Score pill */}
+        <div className="pointer-events-auto text-right backdrop-blur-sm bg-white/5 border border-white/10 px-4 py-1.5 rounded-full">
+          <p className="text-xl font-black text-white leading-none">{score}</p>
+          <p className="text-[9px] text-white/40 uppercase tracking-widest leading-none mt-0.5">
             Score
           </p>
         </div>
       </header>
 
-      {/* ── Correct / incorrect flash banner ──────────────────────────── */}
+      {/* ── Correct / Incorrect flash banner ─────────────────────────── */}
       <div
         className={`
-          absolute top-14 inset-x-0 z-30 flex justify-center pointer-events-none
+          absolute top-16 inset-x-0 z-50 flex justify-center pointer-events-none
           transition-all duration-300
-          ${lastCorrect !== null && phase === "revealing" ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"}
+          ${lastCorrect !== null && phase === "revealing"
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 -translate-y-3"
+          }
         `}
       >
         <span
           className={`
-            px-5 py-2 rounded-full text-sm font-bold shadow-lg
+            px-6 py-2 rounded-full text-sm font-black shadow-2xl tracking-wide
             ${lastCorrect ? "bg-emerald-500 text-white" : "bg-rose-500 text-white"}
           `}
         >
@@ -244,108 +228,104 @@ export default function ClassicGame({
         </span>
       </div>
 
-      {/* ── Split-screen game area ─────────────────────────────────────── */}
-      <main className="flex-1 flex flex-col md:flex-row">
+      {/* ── Split-screen game area ────────────────────────────────────── */}
+      <main className="h-full flex flex-col md:flex-row">
 
-        {/* LEFT / TOP — current item (revealed) */}
-        <div className="flex-1 p-4 pb-2 md:pb-4 md:pr-2">
+        {/* LEFT / TOP — current item (value always visible) */}
+        <div className="flex-1 relative">
           <GameCard
+            key={currentItem.id}
             item={currentItem}
             revealed
             side="current"
             resultTint={null}
+            thumbnailAspect={categoryId === "country-populations" ? "landscape" : "portrait"}
           />
         </div>
 
-        {/* VS badge */}
-        <div className="relative flex-shrink-0 flex items-center justify-center z-10
-                        h-10 md:h-auto md:w-20">
-          {/* Horizontal line on mobile, vertical on desktop */}
-          <div className="absolute md:hidden inset-x-0 top-1/2 h-px bg-white/10" />
-          <div className="absolute hidden md:block top-0 bottom-0 left-1/2 w-px bg-white/10" />
+        {/* RIGHT / BOTTOM — next item + action buttons */}
+        <div className="flex-1 relative">
+          <GameCard
+            key={nextItem.id}
+            item={nextItem}
+            revealed={phase === "revealing" || phase === "game-over"}
+            side="next"
+            resultTint={phase === "revealing" ? tint : null}
+            thumbnailAspect={categoryId === "country-populations" ? "landscape" : "portrait"}
+          >
+            {/* Higher / Lower buttons injected into the card's centered content */}
+            {phase !== "game-over" && (
+              <>
+                <button
+                  id="btn-higher"
+                  onClick={() => handleGuess("higher")}
+                  disabled={phase !== "playing"}
+                  aria-label="Higher"
+                  className={`
+                    w-full py-4 rounded-full text-xl font-black tracking-wide
+                    transition-transform duration-150
+                    ${phase === "playing"
+                      ? "bg-emerald-500 hover:bg-emerald-400 text-white shadow-lg shadow-emerald-500/30 hover:scale-105 active:scale-95 cursor-pointer"
+                      : "bg-white/10 text-white/30 cursor-not-allowed"
+                    }
+                  `}
+                >
+                  ↑ Higher
+                </button>
 
-          <div className="relative flex items-center justify-center
-                          w-14 h-14 rounded-full z-10
-                          bg-[var(--bg-elevated)] border border-white/15
-                          shadow-[0_0_30px_rgba(108,99,255,0.4)]">
-            <span className="text-xs font-black text-gradient tracking-widest">VS</span>
-          </div>
-        </div>
-
-        {/* RIGHT / BOTTOM — next item (hidden value) + action buttons */}
-        <div className="flex-1 p-4 pt-2 md:pt-4 md:pl-2 flex flex-col gap-3">
-          <div className="flex-1">
-            <GameCard
-              item={nextItem}
-              revealed={phase === "revealing" || phase === "game-over"}
-              side="next"
-              resultTint={phase === "revealing" ? tint : null}
-            />
-          </div>
-
-          {/* Higher / Lower buttons */}
-          <div className="grid grid-cols-2 gap-3">
-            <button
-              id="btn-higher"
-              onClick={() => handleGuess("higher")}
-              disabled={phase !== "playing"}
-              aria-label="Higher"
-              className={`
-                flex flex-col items-center justify-center gap-1.5
-                py-4 rounded-2xl font-bold text-sm
-                transition-all duration-200
-                ${
-                  phase === "playing"
-                    ? "bg-gradient-to-br from-emerald-500 to-teal-600 text-white shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
-                    : "bg-[var(--bg-elevated)] text-[var(--text-muted)] cursor-not-allowed"
-                }
-              `}
-            >
-              <span className="text-2xl">↑</span>
-              <span>Higher</span>
-            </button>
-
-            <button
-              id="btn-lower"
-              onClick={() => handleGuess("lower")}
-              disabled={phase !== "playing"}
-              aria-label="Lower"
-              className={`
-                flex flex-col items-center justify-center gap-1.5
-                py-4 rounded-2xl font-bold text-sm
-                transition-all duration-200
-                ${
-                  phase === "playing"
-                    ? "bg-gradient-to-br from-rose-500 to-orange-600 text-white shadow-lg shadow-rose-500/20 hover:shadow-rose-500/40 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
-                    : "bg-[var(--bg-elevated)] text-[var(--text-muted)] cursor-not-allowed"
-                }
-              `}
-            >
-              <span className="text-2xl">↓</span>
-              <span>Lower</span>
-            </button>
-          </div>
+                <button
+                  id="btn-lower"
+                  onClick={() => handleGuess("lower")}
+                  disabled={phase !== "playing"}
+                  aria-label="Lower"
+                  className={`
+                    w-full py-4 rounded-full text-xl font-black tracking-wide
+                    transition-transform duration-150
+                    ${phase === "playing"
+                      ? "bg-rose-500 hover:bg-rose-400 text-white shadow-lg shadow-rose-500/30 hover:scale-105 active:scale-95 cursor-pointer"
+                      : "bg-white/10 text-white/30 cursor-not-allowed"
+                    }
+                  `}
+                >
+                  ↓ Lower
+                </button>
+              </>
+            )}
+          </GameCard>
         </div>
       </main>
 
-      {/* ── Game Over Modal ────────────────────────────────────────────── */}
+      {/* ── VS badge — pinned to dead centre of the full screen ──────── */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 pointer-events-none">
+        {/* Subtle dividing line */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:block w-px h-screen bg-white/10" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:hidden h-px w-screen bg-white/10" />
+
+        <div className="relative w-16 h-16 rounded-full bg-white text-slate-900 font-black flex items-center justify-center text-xl shadow-2xl border-4 border-slate-900 select-none">
+          VS
+        </div>
+      </div>
+
+      {/* ── Game Over modal ───────────────────────────────────────────── */}
       {phase === "game-over" && (
         <div
-          className="absolute inset-0 z-40 flex items-center justify-center p-4"
-          style={{ background: "rgba(8, 11, 20, 0.85)", backdropFilter: "blur(12px)" }}
+          className="absolute inset-0 z-50 flex items-center justify-center p-4"
+          style={{ background: "rgba(8, 11, 20, 0.88)", backdropFilter: "blur(16px)" }}
         >
-          <div className="glass rounded-3xl p-8 max-w-sm w-full text-center border border-white/10 shadow-2xl animate-in fade-in zoom-in-95 duration-300">
-            {/* Title */}
-            <div className="text-5xl mb-4">💀</div>
+          <div
+            className="glass rounded-3xl p-8 max-w-sm w-full text-center border border-white/10 shadow-2xl"
+            style={{ animation: "fadeInScale 0.3s ease both" }}
+          >
+            <div className="text-5xl mb-3">💀</div>
             <h2 className="text-2xl font-black text-white mb-1 font-[family-name:var(--font-display)]">
               Game Over
             </h2>
             <p className="text-[var(--text-secondary)] text-sm mb-6">
               {nextItem.name} was{" "}
-              <strong className="text-white">{nextItem.displayValue}</strong>
+              <strong className="text-amber-400">{nextItem.displayValue}</strong>
             </p>
 
-            {/* Score display */}
+            {/* Scores */}
             <div className="flex gap-4 mb-8">
               <div className="flex-1 glass rounded-2xl py-4 border border-white/[0.07]">
                 <p className="text-3xl font-black text-gradient leading-none">{score}</p>
@@ -356,7 +336,9 @@ export default function ClassicGame({
               <div className="flex-1 glass rounded-2xl py-4 border border-white/[0.07]">
                 <p
                   className={`text-3xl font-black leading-none ${
-                    score >= highScore && score > 0 ? "text-[var(--brand-gold)]" : "text-white"
+                    score >= highScore && score > 0
+                      ? "text-[var(--brand-gold)]"
+                      : "text-white"
                   }`}
                 >
                   {Math.max(score, highScore)}
@@ -389,6 +371,14 @@ export default function ClassicGame({
           </div>
         </div>
       )}
+
+      {/* ── Inline keyframe for game-over modal entrance ─────────────── */}
+      <style>{`
+        @keyframes fadeInScale {
+          from { opacity: 0; transform: scale(0.93); }
+          to   { opacity: 1; transform: scale(1); }
+        }
+      `}</style>
     </div>
   );
 }

@@ -60,7 +60,7 @@ export default function GameCard({
       )}
 
       {/* ── Layer 4: Centered content ─────────────────────────────────── */}
-      <div className="relative z-20 w-full h-full flex flex-col items-center justify-center text-center px-6 pt-20 pb-6 gap-3">
+      <div className="relative z-20 w-full h-full flex flex-col items-center justify-center text-center px-4 pt-16 md:pt-20 pb-4 md:pb-6 gap-2 md:gap-3">
 
         {/* Side label */}
         <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-white/40">
@@ -94,7 +94,7 @@ export default function GameCard({
         </div>
 
         {/* Name */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-lg leading-tight max-w-xs mt-1">
+        <h2 className="text-xl sm:text-2xl md:text-4xl font-black text-white drop-shadow-lg leading-tight max-w-xs mt-1">
           {item.name}
         </h2>
 
@@ -104,7 +104,7 @@ export default function GameCard({
             showValue ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"
           }`}
         >
-          <p className="text-4xl sm:text-5xl md:text-6xl font-black text-amber-400 drop-shadow-lg leading-none my-1">
+          <p className="text-3xl sm:text-4xl md:text-5xl font-black text-amber-400 drop-shadow-lg leading-none my-1">
             {item.displayValue}
           </p>
         </div>
@@ -118,7 +118,7 @@ export default function GameCard({
 
         {/* Slot for buttons (next card injects Higher / Lower here) */}
         {children && (
-          <div className="mt-4 flex flex-col items-center gap-3 w-64">
+          <div className="mt-2 md:mt-4 flex flex-col items-center gap-2 md:gap-3 w-56 md:w-64">
             {children}
           </div>
         )}

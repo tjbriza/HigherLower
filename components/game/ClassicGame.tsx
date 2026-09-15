@@ -212,7 +212,7 @@ export default function ClassicGame({
   // ─────────────────────────────────────────────────────────────────────────
 
   return (
-    <div className="relative w-full h-full flex flex-col overflow-hidden">
+    <div className="relative w-full min-h-dvh flex flex-col md:h-full md:overflow-hidden">
 
       {/* ── Floating score / nav bar ────────────────────────────────── */}
       <header className="absolute top-0 inset-x-0 z-40 flex items-center justify-between px-5 py-4 bg-gradient-to-b from-black/85 to-transparent pointer-events-none">
@@ -289,11 +289,11 @@ export default function ClassicGame({
         </span>
       </div>
 
-      {/* ── Split-screen game area ────────────────────────────────────── */}
-      <main className="h-full flex flex-col md:flex-row">
+      {/* ── Split-screen game area ────────────────────────────────── */}
+      <main className="flex flex-col md:flex-row md:h-full">
 
         {/* LEFT / TOP — current item (value always visible) */}
-        <div className="flex-1 relative">
+        <div className="min-h-[50dvh] md:min-h-0 md:flex-1 relative">
           <GameCard
             key={currentItem.id}
             item={currentItem}
@@ -305,7 +305,7 @@ export default function ClassicGame({
         </div>
 
         {/* RIGHT / BOTTOM — next item + action buttons */}
-        <div className="flex-1 relative">
+        <div className="min-h-[50dvh] md:min-h-0 md:flex-1 relative">
           <GameCard
             key={nextItem.id}
             item={nextItem}
@@ -323,13 +323,14 @@ export default function ClassicGame({
                   disabled={phase !== "playing"}
                   aria-label="Higher"
                   className={`
-                    w-full py-4 rounded-full text-xl font-black tracking-wide
+                    w-full py-3 md:py-4 rounded-full text-lg md:text-xl font-black tracking-wide
                     transition-transform duration-150
                     ${phase === "playing"
                       ? "bg-emerald-500 hover:bg-emerald-400 text-white shadow-lg shadow-emerald-500/30 hover:scale-105 active:scale-95 cursor-pointer"
                       : "bg-white/10 text-white/30 cursor-not-allowed"
                     }
                   `}
+                  style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.06em" }}
                 >
                   ↑ Higher
                 </button>
@@ -340,13 +341,14 @@ export default function ClassicGame({
                   disabled={phase !== "playing"}
                   aria-label="Lower"
                   className={`
-                    w-full py-4 rounded-full text-xl font-black tracking-wide
+                    w-full py-3 md:py-4 rounded-full text-lg md:text-xl font-black tracking-wide
                     transition-transform duration-150
                     ${phase === "playing"
                       ? "bg-rose-500 hover:bg-rose-400 text-white shadow-lg shadow-rose-500/30 hover:scale-105 active:scale-95 cursor-pointer"
                       : "bg-white/10 text-white/30 cursor-not-allowed"
                     }
                   `}
+                  style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.06em" }}
                 >
                   ↓ Lower
                 </button>

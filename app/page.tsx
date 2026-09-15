@@ -21,142 +21,187 @@ export default function HomePage() {
   }
 
   return (
-    <main className="relative flex-1 flex flex-col items-center justify-start min-h-dvh px-4 py-12 sm:py-16 overflow-x-hidden">
-      {/* ── Ambient orbs ───────────────────────────────────────────────── */}
-      <div
-        className="orb w-[500px] h-[500px] bg-[var(--brand-primary)] opacity-[0.08] -top-32 -left-32"
-        style={{ animationDelay: "0s" }}
-      />
-      <div
-        className="orb w-[400px] h-[400px] bg-[var(--brand-secondary)] opacity-[0.07] top-1/2 -right-40"
-        style={{ animationDelay: "-6s" }}
-      />
-      <div
-        className="orb w-[300px] h-[300px] bg-[var(--brand-teal)] opacity-[0.06] bottom-10 left-1/4"
-        style={{ animationDelay: "-12s" }}
-      />
+    <main className="relative flex-1 flex flex-col min-h-dvh overflow-x-hidden">
 
-      {/* ── Hero header ────────────────────────────────────────────────── */}
-      <header className="relative z-10 text-center mb-12">
-        <div className="flex items-center justify-center gap-3 mb-6">
-          <div className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 glass border border-white/10">
-            <span className="w-1.5 h-1.5 rounded-full bg-[var(--brand-teal)] animate-pulse" />
-            <span className="section-label text-[var(--brand-teal)]">Live &amp; Ready</span>
+      {/* ── Top nav bar ─────────────────────────────────────────────────── */}
+      <nav className="relative z-20 flex items-center justify-between px-6 sm:px-10 py-5 border-b border-white/[0.06]">
+        {/* Wordmark */}
+        <div className="flex items-center gap-3">
+          <span
+            className="text-xl font-black tracking-tight text-white"
+            style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.02em" }}
+          >
+            HIGHER<span className="text-[var(--brand-primary)]">/</span>LOWER
+          </span>
+        </div>
+
+        {/* Nav right */}
+        <div className="flex items-center gap-3">
+          {/* Live badge */}
+          <div className="hidden sm:flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-muted)]">
+            <span className="w-1.5 h-1.5 rounded-full bg-[var(--brand-primary)] animate-pulse" />
+            Live
           </div>
 
-          {/* Trophy / High Scores button */}
+          {/* High Scores */}
           <button
             id="btn-high-scores"
             onClick={() => setShowScores(true)}
-            aria-label="View high scores"
-            className="inline-flex items-center gap-1.5 rounded-full px-4 py-1.5
-                       glass border border-white/10 text-[var(--brand-gold)]
-                       hover:border-[var(--brand-gold)]/40 hover:bg-[var(--brand-gold)]/5
+            aria-label="View best scores"
+            className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold
+                       border border-[var(--border-mid)] text-[var(--text-secondary)]
+                       hover:border-[var(--brand-gold)] hover:text-[var(--brand-gold)]
                        transition-all duration-200 cursor-pointer"
           >
-            <span className="text-base">🏆</span>
-            <span className="section-label text-[var(--brand-gold)]">Best Scores</span>
+            <span>🏆</span>
+            <span className="hidden sm:inline">Best Scores</span>
           </button>
         </div>
+      </nav>
 
-        <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-none mb-4">
-          <span className="block text-[var(--text-primary)]">Higher</span>
-          <span className="block text-gradient">or Lower</span>
-        </h1>
+      {/* ── Hero section ────────────────────────────────────────────────── */}
+      <section className="relative z-10 flex-1 flex flex-col lg:flex-row">
 
-        <p className="mt-4 max-w-md mx-auto text-base sm:text-lg text-[var(--text-secondary)] leading-relaxed">
-          Pick a category. Choose your mode. Guess whether the next card is{" "}
-          <strong className="text-[var(--text-primary)] font-semibold">higher</strong> or{" "}
-          <strong className="text-[var(--text-primary)] font-semibold">lower</strong> — and see how
-          far you can go.
-        </p>
-      </header>
+        {/* LEFT — title + description */}
+        <div className="relative flex flex-col justify-center px-6 sm:px-10 lg:px-16 py-14 lg:py-0 lg:w-[52%]">
 
-      {/* ── Setup panel ────────────────────────────────────────────────── */}
-      <section className="relative z-10 w-full max-w-2xl space-y-8">
+          {/* Decorative stripe behind the headline */}
+          <div
+            className="absolute inset-y-0 right-0 w-1/2 stripe-accent opacity-50 pointer-events-none hidden lg:block"
+          />
 
-        {/* Category selection */}
-        <div>
-          <p className="section-label mb-4">① Pick a Category</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {CATEGORIES.map((cat) => (
-              <CategoryCard
-                key={cat.id}
-                category={cat}
-                selected={selectedCategory === cat.id}
-                onClick={() =>
-                  setSelectedCategory((prev) => (prev === cat.id ? null : cat.id))
-                }
-              />
-            ))}
-          </div>
-        </div>
+          {/* Category badge */}
+          <p className="section-label mb-5">The Comparison Game</p>
 
-        {/* Mode selection */}
-        <div>
-          <p className="section-label mb-4">② Choose a Mode</p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            {GAME_MODES.map((mode) => (
-              <ModeButton
-                key={mode.id}
-                mode={mode}
-                selected={selectedMode === mode.id}
-                onClick={() =>
-                  setSelectedMode((prev) => (prev === mode.id ? null : mode.id))
-                }
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* Play CTA */}
-        <div className="pt-2">
-          <button
-            id="play-button"
-            onClick={handlePlay}
-            disabled={!canPlay}
-            aria-label="Start the game"
-            className={`
-              w-full py-4 rounded-2xl text-base font-bold tracking-wide
-              transition-all duration-300
-              ${
-                canPlay
-                  ? "btn-gold shadow-[0_0_40px_rgba(245,200,66,0.25)] hover:shadow-[0_0_60px_rgba(245,200,66,0.4)]"
-                  : "bg-[var(--bg-elevated)] text-[var(--text-muted)] cursor-not-allowed border border-white/[0.06]"
-              }
-            `}
+          {/* Main headline */}
+          <h1
+            className="leading-none font-black tracking-tight text-white mb-6"
+            style={{
+              fontFamily: "'Barlow Condensed', sans-serif",
+              fontSize: "clamp(3.5rem, 8vw, 6.5rem)",
+              lineHeight: 0.92,
+            }}
           >
-            {canPlay ? (
-              <span className="flex items-center justify-center gap-2">
-                <span>Let&apos;s Play</span>
-                <span className="text-lg">🚀</span>
-              </span>
-            ) : (
-                "Select a category & mode to begin"
-            )}
-          </button>
+            IS IT<br />
+            <span className="text-gradient">HIGHER</span><br />
+            <span className="text-white/20">———</span><br />
+            OR<br />
+            <span className="text-gradient">LOWER?</span>
+          </h1>
 
-          {/* Hint text */}
-          {!canPlay && (
-            <p className="mt-3 text-center text-xs text-[var(--text-muted)]">
-              {!selectedCategory && !selectedMode
-                ? "Choose a category and a game mode above"
-                : !selectedCategory
-                ? "Now pick a category ↑"
-                : "Now pick a game mode ↑"}
-            </p>
-          )}
+          <p
+            className="text-base sm:text-lg text-[var(--text-secondary)] max-w-md leading-relaxed mb-8"
+            style={{ fontWeight: 400 }}
+          >
+            Pick a category. Pick a mode. Guess whether the next card ranks{" "}
+            <strong className="text-white font-semibold">higher</strong> or{" "}
+            <strong className="text-white font-semibold">lower</strong> — and see how
+            far you can go without a single wrong answer.
+          </p>
+
+          {/* Stats strip */}
+          <div className="flex items-center gap-6">
+            {[
+              { value: "4", label: "Categories" },
+              { value: "∞", label: "Cards" },
+              { value: "0", label: "Cost" },
+            ].map(({ value, label }) => (
+              <div key={label} className="text-center">
+                <p
+                  className="text-3xl font-black text-white leading-none"
+                  style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
+                >
+                  {value}
+                </p>
+                <p className="text-[10px] font-semibold uppercase tracking-widest text-[var(--text-muted)] mt-0.5">
+                  {label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* RIGHT — game setup panel */}
+        <div className="flex flex-col justify-center px-6 sm:px-10 lg:px-12 py-10 lg:py-12 lg:w-[48%] bg-[var(--bg-surface)] border-t lg:border-t-0 lg:border-l border-white/[0.06]">
+
+          {/* ①  Category */}
+          <div className="mb-7">
+            <p className="section-label mb-4">① Pick a Category</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {CATEGORIES.map((cat) => (
+                <CategoryCard
+                  key={cat.id}
+                  category={cat}
+                  selected={selectedCategory === cat.id}
+                  onClick={() =>
+                    setSelectedCategory((prev) => (prev === cat.id ? null : cat.id))
+                  }
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* ②  Mode */}
+          <div className="mb-7">
+            <p className="section-label mb-4">② Choose a Mode</p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              {GAME_MODES.map((mode) => (
+                <ModeButton
+                  key={mode.id}
+                  mode={mode}
+                  selected={selectedMode === mode.id}
+                  onClick={() =>
+                    setSelectedMode((prev) => (prev === mode.id ? null : mode.id))
+                  }
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* ③  Play */}
+          <div>
+            <button
+              id="play-button"
+              onClick={handlePlay}
+              disabled={!canPlay}
+              aria-label="Start the game"
+              className={`
+                w-full py-4 rounded-xl font-black tracking-wide transition-all duration-200
+                text-lg
+                ${canPlay
+                  ? "btn-gold hover:scale-[1.02] active:scale-100"
+                  : "bg-[var(--bg-elevated)] text-[var(--text-muted)] cursor-not-allowed border border-white/[0.06]"
+                }
+              `}
+              style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.25rem" }}
+            >
+              {canPlay ? "▶  LET'S PLAY" : "SELECT A CATEGORY & MODE"}
+            </button>
+
+            {!canPlay && (
+              <p className="mt-2.5 text-center text-xs text-[var(--text-muted)]">
+                {!selectedCategory && !selectedMode
+                  ? "Choose both a category and a game mode above"
+                  : !selectedCategory
+                  ? "Now pick a category ↑"
+                  : "Now pick a game mode ↑"}
+              </p>
+            )}
+          </div>
         </div>
       </section>
 
-      {/* ── Footer ─────────────────────────────────────────────────────── */}
-      <footer className="relative z-10 mt-16 text-center">
+      {/* ── Footer ──────────────────────────────────────────────────────── */}
+      <footer className="relative z-10 px-6 sm:px-10 py-5 border-t border-white/[0.06] flex items-center justify-between">
         <p className="text-xs text-[var(--text-muted)]">
-          Higher or Lower &copy; {new Date().getFullYear()} &middot; More categories coming soon
+          © {new Date().getFullYear()} Higher or Lower
+        </p>
+        <p className="text-xs text-[var(--text-muted)]">
+          More categories coming soon
         </p>
       </footer>
 
-      {/* ── High Scores modal ───────────────────────────────────────────── */}
+      {/* ── High Scores modal ────────────────────────────────────────────── */}
       <HighScoresModal open={showScores} onClose={() => setShowScores(false)} />
     </main>
   );

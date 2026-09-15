@@ -8,44 +8,41 @@ interface CategoryCardProps {
   onClick: () => void;
 }
 
-export default function CategoryCard({
-  category,
-  selected,
-  onClick,
-}: CategoryCardProps) {
+export default function CategoryCard({ category, selected, onClick }: CategoryCardProps) {
   return (
     <button
       id={`category-${category.id}`}
       onClick={onClick}
       aria-pressed={selected}
       className={`
-        relative w-full text-left rounded-2xl p-5 glass glass-hover
-        transition-all duration-250
-        ${selected ? "card-selected" : "border border-white/[0.06]"}
+        relative w-full text-left rounded-xl p-4
+        border transition-all duration-200
         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand-primary)]
+        ${selected
+          ? "bg-[var(--bg-card)] border-[var(--brand-primary)] shadow-[0_0_0_1px_var(--brand-primary),var(--glow-green)]"
+          : "bg-[var(--bg-card)] border-[var(--border-subtle)] hover:border-white/20 hover:bg-[var(--bg-elevated)]"
+        }
       `}
     >
-      {/* Gradient tint */}
-      <div
-        className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${category.gradient} opacity-60 pointer-events-none`}
-      />
-
-      {/* Selected indicator dot */}
+      {/* Selected tick */}
       {selected && (
-        <span className="absolute top-3 right-3 w-2.5 h-2.5 rounded-full bg-[var(--brand-primary)]">
-          <span className="absolute inset-0 rounded-full bg-[var(--brand-primary)] pulse-ring" />
+        <span className="absolute top-3 right-3 w-5 h-5 rounded-full bg-[var(--brand-primary)] flex items-center justify-center text-[10px] text-white font-black">
+          ✓
         </span>
       )}
 
-      <div className="relative z-10 flex items-start gap-4">
+      <div className="flex items-start gap-3">
         {/* Icon */}
-        <span className="text-3xl leading-none select-none">{category.icon}</span>
+        <span className="text-2xl leading-none select-none mt-0.5">{category.icon}</span>
 
         <div className="min-w-0">
-          <p className="font-semibold text-[var(--text-primary)] text-sm leading-snug font-[family-name:var(--font-display)]">
+          <p
+            className="font-black text-[var(--text-primary)] text-sm leading-snug"
+            style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1rem", letterSpacing: "0.01em" }}
+          >
             {category.label}
           </p>
-          <p className="mt-1 text-xs text-[var(--text-secondary)] leading-relaxed">
+          <p className="mt-0.5 text-xs text-[var(--text-muted)] leading-relaxed">
             {category.description}
           </p>
         </div>

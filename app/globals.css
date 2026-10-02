@@ -208,3 +208,31 @@ body {
   animation: orb-float 22s ease-in-out infinite;
   pointer-events: none;
 }
+
+/* ─── Time Attack — wrong-answer shake ──────────────────────────────────── */
+@keyframes shake {
+  0%   { transform: translateX(0); }
+  15%  { transform: translateX(-10px); }
+  30%  { transform: translateX(10px); }
+  45%  { transform: translateX(-8px); }
+  60%  { transform: translateX(8px); }
+  75%  { transform: translateX(-4px); }
+  90%  { transform: translateX(4px); }
+  100% { transform: translateX(0); }
+}
+.shake { animation: shake 0.45s ease both; }
+
+/* ─── Time Attack — urgent timer pulse (<10 s) ───────────────────────────── */
+@keyframes timer-urgent {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.65; transform: scale(1.08); }
+}
+.timer-urgent { animation: timer-urgent 0.6s ease-in-out infinite; }
+
+/* ─── Time Attack — bonus/penalty floating label ────────────────────────── */
+@keyframes floatUp {
+  0%   { opacity: 1; transform: translateY(0)   scale(1); }
+  100% { opacity: 0; transform: translateY(-40px) scale(0.9); }
+}
+.float-up { animation: floatUp 0.9s ease forwards; }
+

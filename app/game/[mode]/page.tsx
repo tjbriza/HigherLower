@@ -18,6 +18,9 @@ export default async function GameModePage(
   if (mode === "classic") {
     redirect(`/game/classic${category ? `?category=${category}` : ""}`);
   }
+  if (mode === "time-attack") {
+    redirect(`/game/time-attack${category ? `?category=${category}` : ""}`);
+  }
 
   // ── Placeholder for future modes ──────────────────────────────────────────
   return (

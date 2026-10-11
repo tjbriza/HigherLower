@@ -1,0 +1,23 @@
+{
+  "package": "HigherLower design-reference",
+  "basis": [
+    "Supplied Figma screenshots",
+    "Supplied full Figma CSS export",
+    "Visual extraction performed in conversation"
+  ],
+  "screens": [
+    "home",
+    "gameplay/classic",
+    "gameplay/time-attack",
+    "gameplay/co-op"
+  ],
+  "responsive_design_supplied": false,
+  "runtime_implementation": false,
+  "missing_source_files": [],
+  "design_screenshot_count": 38,
+  "raw_figma_css_bundled": false,
+  "raw_figma_css_note": "Full CSS was supplied as pasted chat text; preserve the original export separately for verbatim provenance.",
+  "excluded_non_design_images": [
+    "Earlier repository/.roo rules screenshot"
+  ]
+}

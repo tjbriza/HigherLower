@@ -1,82 +1,56 @@
 "use client";
 
-import {
-  Film,
-  Gamepad2,
-  Star,
-  Globe,
-} from "lucide-react";
-import { Category } from "@/types/game";
-
-// Map category IDs to Lucide icons
-const CATEGORY_ICONS: Record<string, React.ComponentType<{ size?: number; strokeWidth?: number; className?: string }>> = {
-  "movie-ratings":      Film,
-  "game-playerbase":    Gamepad2,
-  "game-ratings":       Star,
-  "country-populations": Globe,
-};
-
-// Per-category accent colour for the icon
-const CATEGORY_ACCENTS: Record<string, string> = {
-  "movie-ratings":       "text-rose-400",
-  "game-playerbase":     "text-violet-400",
-  "game-ratings":        "text-amber-400",
-  "country-populations": "text-emerald-400",
-};
+import type { PublicProductionCategory } from "@/lib/catalog/availability";
 
 interface CategoryCardProps {
-  category: Category;
+  category: PublicProductionCategory;
   selected: boolean;
   onClick: () => void;
 }
 
-export default function CategoryCard({ category, selected, onClick }: CategoryCardProps) {
-  const Icon = CATEGORY_ICONS[category.id] ?? Film;
-  const accent = CATEGORY_ACCENTS[category.id] ?? "text-slate-400";
+export default function CategoryCard({
+  category,
+  selected,
+  onClick,
+}: CategoryCardProps) {
+  const unavailable = !category.playable;
 
   return (
-    <button
-      id={`category-${category.id}`}
-      onClick={onClick}
-      aria-pressed={selected}
-      className={`
-        relative w-full text-left rounded-xl p-4
-        border transition-all duration-200
-        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand-primary)]
-        ${selected
-          ? "bg-[#1e2d1e] border-[var(--brand-primary)] shadow-[0_0_0_1px_var(--brand-primary),0_0_20px_rgba(22,163,74,0.25)]"
-          : "bg-[#1c2433] border-[rgba(255,255,255,0.1)] hover:border-[rgba(255,255,255,0.22)] hover:bg-[#222e40]"
-        }
-        cursor-pointer
-      `}
+    <label
+      className={`grid min-h-[4.5rem] w-full grid-cols-[1.25rem_minmax(0,1fr)] items-center gap-x-4 py-4 text-left focus-within:outline focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-[var(--focus-ring)] ${unavailable ? "cursor-not-allowed opacity-55" : "cursor-pointer"}`}
     >
-      {/* Selected checkmark */}
-      {selected && (
-        <span className="absolute top-3 right-3 w-5 h-5 rounded-full bg-[var(--brand-primary)] flex items-center justify-center">
-          <svg width="10" height="8" viewBox="0 0 10 8" fill="none">
-            <path d="M1 4L3.5 6.5L9 1" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
+      <input
+        type="radio"
+        name="semantic-category"
+        value={category.id}
+        checked={!unavailable && selected}
+        disabled={unavailable}
+        onChange={onClick}
+        className="peer sr-only"
+      />
+      <span
+        aria-hidden="true"
+        className={`relative flex size-4 items-center justify-center rounded-full border-2 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-4 peer-focus-visible:outline-[var(--focus-ring)] ${selected && !unavailable ? "border-[var(--accent-time-attack)] bg-transparent" : "border-white bg-transparent"}`}
+      >
+        {selected && !unavailable && (
+          <span className="size-2 rounded-full bg-[var(--accent-time-attack)]" />
+        )}
+      </span>
+      <span className="grid gap-1 sm:grid-cols-[minmax(15rem,1fr)_minmax(12rem,0.7fr)] sm:items-center sm:gap-10">
+        <span
+          className={`font-bold text-2xl leading-tight sm:text-4xl ${selected && !unavailable ? "text-white [text-shadow:2px_2px_0_var(--accent-time-attack)]" : "text-white"}`}
+        >
+          {category.label}
+          {unavailable && (
+            <span className="ml-2 align-middle text-[0.65rem] uppercase tracking-wide text-[var(--text-secondary)]">
+              Unavailable
+            </span>
+          )}
         </span>
-      )}
-
-      <div className="flex items-start gap-3">
-        {/* Icon */}
-        <div className={`mt-0.5 flex-shrink-0 ${accent}`}>
-          <Icon size={20} strokeWidth={1.8} />
-        </div>
-
-        <div className="min-w-0">
-          <p
-            className="font-bold text-white leading-snug"
-            style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1rem", letterSpacing: "0.02em" }}
-          >
-            {category.label}
-          </p>
-          <p className="mt-1 text-xs text-slate-400 leading-relaxed">
-            {category.description}
-          </p>
-        </div>
-      </div>
-    </button>
+        <span className="text-sm leading-relaxed text-[var(--foreground-muted)] sm:text-base">
+          {category.description}
+        </span>
+      </span>
+    </label>
   );
 }

@@ -9,9 +9,13 @@ export const metadata: Metadata = {
  * Shared layout wrapping all /game/* routes.
  * Keeps the dark canvas without repeating the landing-page hero chrome.
  */
-export default function GameLayout({ children }: { children: React.ReactNode }) {
+export default function GameLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div className="relative h-dvh flex flex-col overflow-hidden">
+    <div className="relative min-h-dvh flex flex-col overflow-x-hidden bg-grid bg-[var(--surface-background)]">
       {children}
     </div>
   );

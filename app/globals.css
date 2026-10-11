@@ -1,54 +1,95 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
-/* ─── Design tokens ─────────────────────────────────────────────────────── */
+/* ─── Semantic redesign tokens ─────────────────────────────────────────── */
 :root {
-  /* Base — deep slate, not space-black */
-  --bg-base:     #0a0f1a;
-  --bg-surface:  #111827;
-  --bg-elevated: #1a2235;
-  --bg-card:     #1f2d42;
+  color-scheme: dark;
 
-  /* Brand — competitive green + gold, no AI purples */
-  --brand-primary:   #16a34a;   /* confident green */
-  --brand-primary-h: #15803d;   /* hover */
-  --brand-gold:      #d97706;   /* amber/gold — wins & highlights */
-  --brand-gold-lt:   #f59e0b;   /* light gold */
-  --brand-red:       #dc2626;   /* wrong answer */
-  --brand-red-lt:    #ef4444;
+  /* Target palette: dark navy, white outlines, lavender supporting copy. */
+  --bg-base: #15122b;
+  --bg-surface: #15122b;
+  --bg-elevated: #211d3a;
+  --bg-card: #15122b;
+  --text-primary: #ffffff;
+  --text-secondary: #d4ceff;
+  --text-muted: #aaa3d5;
+  /* Dark foreground used on light/outlined surfaces (hero wordmark fill,
+     selected domain labels). Resolves to the Figma #15122B surface value. */
+  --text-inverse: #15122b;
+  --border-subtle: rgba(255, 255, 255, 0.19);
+  --border-mid: rgba(255, 255, 255, 0.72);
 
-  /* Text */
-  --text-primary:   #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted:     #475569;
+  /* Semantic color roles; aliases below retain compatibility during migration. */
+  --surface-background: var(--bg-base);
+  --surface-raised: var(--bg-elevated);
+  --foreground-primary: var(--text-primary);
+  --foreground-muted: var(--text-secondary);
+  --foreground-inverse: var(--text-inverse);
+  --border-strong: #ffffff;
+  --focus-ring: #22d3ee;
+  --status-success: #1da216;
+  --status-error: #f05ac7;
+  --accent-classic: #6355cb;
+  --accent-time-attack: #d93fd0;
+  --accent-action-higher: #22d3ee;
+  --accent-action-lower: #d93fd0;
+  --accent-highlight: #ffcc00;
+  --grid-line: rgba(162, 168, 237, 0.09);
+  --divider-line: #8e8e8e;
+  --elevation-card: 0 9px 0 var(--accent-classic);
 
-  /* Borders */
-  --border-subtle: rgba(255,255,255,0.06);
-  --border-mid:    rgba(255,255,255,0.12);
-  --border-green:  rgba(22,163,74,0.45);
-  --border-gold:   rgba(217,119,6,0.45);
+  /* Hero wordmark offset layers. Crisp, non-blurred offsets that extend the
+     colored separation further than the previous 3px treatment while staying
+     readable. Per-word accent colors are applied at the component level. */
+  --hero-shadow-offset: 6px;
 
-  /* Glows */
-  --glow-green: 0 0 32px rgba(22,163,74,0.3);
-  --glow-gold:  0 0 28px rgba(217,119,6,0.35);
-  --glow-red:   0 0 28px rgba(220,38,38,0.3);
+  /* Compatibility aliases, to be removed when the old surfaces are migrated. */
+  --brand-primary: #d93fd0;
+  --brand-primary-h: #c82fc0;
+  --brand-gold: #ffcc00;
+  --brand-gold-lt: #ffe066;
+  --brand-red: #c92b82;
+  --brand-red-lt: #f05ac7;
+  --border-green: rgba(34, 211, 238, 0.45);
+  --border-gold: rgba(255, 204, 0, 0.45);
+  --glow-green: 0 0 32px rgba(34, 211, 238, 0.22);
+  --glow-gold: 0 0 28px rgba(255, 204, 0, 0.24);
+  --glow-red: 0 0 28px rgba(240, 90, 199, 0.25);
+
+  /* Implementation-defined spacing, radius, and focus tokens. */
+  --space-page: clamp(1rem, 4vw, 3.5rem);
+  /* Major section rhythm. Derived from the Figma reference frame
+     (hero → setup ≈ 518px, subsequent major sections ≈ 252px at 1440px)
+     and expressed as a viewport-relative clamp so the proportions hold
+     across sizes rather than hard-coding the reference pixels. */
+  --space-section: clamp(4rem, 17.5vw, 15.75rem);
+  --space-section-tight: clamp(2.5rem, 8vw, 7rem);
+  --radius-control: 0.25rem;
+  --radius-card: 2.25rem;
+  --focus-outline: 3px solid var(--focus-ring);
+  --focus-outline-offset: 4px;
 }
 
 @theme inline {
   --color-background: var(--bg-base);
   --color-foreground: var(--text-primary);
-  --font-sans:    "Barlow", system-ui, sans-serif;
-  --font-display: "Barlow Condensed", system-ui, sans-serif;
+  --font-sans: var(--font-space-mono), ui-monospace, monospace;
+  --font-display: var(--font-space-mono), ui-monospace, monospace;
 }
 
 /* ─── Reset ──────────────────────────────────────────────────────────────── */
-*, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: var(--bg-base);
   color: var(--text-primary);
-  font-family: "Barlow", system-ui, sans-serif;
+  font-family: var(--font-space-mono), ui-monospace, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100dvh;
@@ -56,14 +97,39 @@ body {
 }
 
 /* ─── Scrollbar ──────────────────────────────────────────────────────────── */
-::-webkit-scrollbar { width: 5px; }
-::-webkit-scrollbar-track { background: var(--bg-base); }
-::-webkit-scrollbar-thumb { background: var(--brand-primary); border-radius: 3px; }
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}
 
 /* ─── Subtle dot-grid background ─────────────────────────────────────────── */
 .bg-grid {
-  background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
-  background-size: 28px 28px;
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 3.375rem 3.375rem;
+}
+
+:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 /* ─── Noise grain overlay ────────────────────────────────────────────────── */
@@ -78,17 +144,20 @@ body {
 
 /* ─── Card surface ───────────────────────────────────────────────────────── */
 .glass {
-  background: rgba(17,24,39,0.7);
+  background: rgba(17, 24, 39, 0.7);
   backdrop-filter: blur(12px) saturate(140%);
   -webkit-backdrop-filter: blur(12px) saturate(140%);
   border: 1px solid var(--border-subtle);
 }
 
 .glass-hover {
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.18s ease;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.18s ease;
 }
 .glass-hover:hover {
-  border-color: rgba(22,163,74,0.35);
+  border-color: rgba(22, 163, 74, 0.35);
   box-shadow: var(--glow-green);
   transform: translateY(-3px);
 }
@@ -104,38 +173,48 @@ body {
 /* ─── Card selected state ────────────────────────────────────────────────── */
 .card-selected {
   border-color: var(--brand-primary) !important;
-  box-shadow: 0 0 0 1px var(--brand-primary), var(--glow-green);
+  box-shadow:
+    0 0 0 1px var(--brand-primary),
+    var(--glow-green);
 }
 
 /* ─── Buttons ────────────────────────────────────────────────────────────── */
 .btn-primary {
   background: var(--brand-primary);
-  color: #fff;
-  font-family: "Barlow Condensed", system-ui, sans-serif;
+  color: var(--bg-base);
+  font-family: var(--font-space-mono), ui-monospace, monospace;
   font-weight: 700;
   letter-spacing: 0.04em;
   border-radius: 8px;
   padding: 14px 32px;
-  transition: background 0.18s, transform 0.15s, box-shadow 0.18s;
-  box-shadow: 0 4px 18px rgba(22,163,74,0.3);
+  transition:
+    background 0.18s,
+    transform 0.15s,
+    box-shadow 0.18s;
+  box-shadow: 0 4px 18px rgba(22, 163, 74, 0.3);
   cursor: pointer;
 }
 .btn-primary:hover {
   background: var(--brand-primary-h);
   transform: translateY(-1px);
-  box-shadow: 0 6px 24px rgba(22,163,74,0.45);
+  box-shadow: 0 6px 24px rgba(22, 163, 74, 0.45);
 }
-.btn-primary:active { transform: translateY(0); }
+.btn-primary:active {
+  transform: translateY(0);
+}
 
 .btn-gold {
   background: var(--brand-gold);
-  color: #0a0f1a;
-  font-family: "Barlow Condensed", system-ui, sans-serif;
+  color: #121212;
+  font-family: var(--font-space-mono), ui-monospace, monospace;
   font-weight: 800;
   letter-spacing: 0.05em;
   border-radius: 8px;
   padding: 14px 32px;
-  transition: background 0.18s, transform 0.15s, box-shadow 0.18s;
+  transition:
+    background 0.18s,
+    transform 0.15s,
+    box-shadow 0.18s;
   box-shadow: var(--glow-gold);
   cursor: pointer;
 }
@@ -146,7 +225,7 @@ body {
 
 /* ─── Section label ──────────────────────────────────────────────────────── */
 .section-label {
-  font-family: "Barlow Condensed", system-ui, sans-serif;
+  font-family: var(--font-space-mono), ui-monospace, monospace;
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -156,18 +235,35 @@ body {
 
 /* ─── Pulse ring ─────────────────────────────────────────────────────────── */
 @keyframes pulse-ring {
-  0%   { transform: scale(1); opacity: 0.6; }
-  100% { transform: scale(2); opacity: 0; }
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
 }
-.pulse-ring { animation: pulse-ring 1.8s ease-out infinite; }
+.pulse-ring {
+  animation: pulse-ring 1.8s ease-out infinite;
+}
 
 /* ─── Score shimmer ──────────────────────────────────────────────────────── */
 @keyframes shimmer {
-  0%   { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 .shimmer {
-  background: linear-gradient(90deg, var(--bg-elevated) 25%, rgba(22,163,74,0.1) 50%, var(--bg-elevated) 75%);
+  background: linear-gradient(
+    90deg,
+    var(--bg-elevated) 25%,
+    rgba(22, 163, 74, 0.1) 50%,
+    var(--bg-elevated) 75%
+  );
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
 }
@@ -178,28 +274,49 @@ body {
     -55deg,
     transparent,
     transparent 8px,
-    rgba(22,163,74,0.06) 8px,
-    rgba(22,163,74,0.06) 16px
+    rgba(22, 163, 74, 0.06) 8px,
+    rgba(22, 163, 74, 0.06) 16px
   );
 }
 
 /* ─── Number reveal animation ───────────────────────────────────────────── */
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(12px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.fade-in-up { animation: fadeInUp 0.35s ease both; }
+.fade-in-up {
+  animation: fadeInUp 0.35s ease both;
+}
 
 @keyframes fadeInScale {
-  from { opacity: 0; transform: scale(0.94); }
-  to   { opacity: 1; transform: scale(1); }
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
-.fade-in-scale { animation: fadeInScale 0.25s ease both; }
+.fade-in-scale {
+  animation: fadeInScale 0.25s ease both;
+}
 
 /* ─── Orb (kept for compatibility but much more subtle) ─────────────────── */
 @keyframes orb-float {
-  0%, 100% { transform: translate(0,0) scale(1); }
-  50%       { transform: translate(20px,-12px) scale(1.03); }
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(20px, -12px) scale(1.03);
+  }
 }
 .orb {
   position: absolute;
@@ -211,28 +328,62 @@ body {
 
 /* ─── Time Attack — wrong-answer shake ──────────────────────────────────── */
 @keyframes shake {
-  0%   { transform: translateX(0); }
-  15%  { transform: translateX(-10px); }
-  30%  { transform: translateX(10px); }
-  45%  { transform: translateX(-8px); }
-  60%  { transform: translateX(8px); }
-  75%  { transform: translateX(-4px); }
-  90%  { transform: translateX(4px); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  15% {
+    transform: translateX(-10px);
+  }
+  30% {
+    transform: translateX(10px);
+  }
+  45% {
+    transform: translateX(-8px);
+  }
+  60% {
+    transform: translateX(8px);
+  }
+  75% {
+    transform: translateX(-4px);
+  }
+  90% {
+    transform: translateX(4px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-.shake { animation: shake 0.45s ease both; }
+.shake {
+  animation: shake 0.45s ease both;
+}
 
 /* ─── Time Attack — urgent timer pulse (<10 s) ───────────────────────────── */
 @keyframes timer-urgent {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50%       { opacity: 0.65; transform: scale(1.08); }
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.08);
+  }
 }
-.timer-urgent { animation: timer-urgent 0.6s ease-in-out infinite; }
+.timer-urgent {
+  animation: timer-urgent 0.6s ease-in-out infinite;
+}
 
 /* ─── Time Attack — bonus/penalty floating label ────────────────────────── */
 @keyframes floatUp {
-  0%   { opacity: 1; transform: translateY(0)   scale(1); }
-  100% { opacity: 0; transform: translateY(-40px) scale(0.9); }
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-40px) scale(0.9);
+  }
 }
-.float-up { animation: floatUp 0.9s ease forwards; }
-
+.float-up {
+  animation: floatUp 0.9s ease forwards;
+}

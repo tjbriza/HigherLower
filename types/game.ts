@@ -1,10 +1,10 @@
 // ─── Category ────────────────────────────────────────────────────────────────
 
+/** Provider-independent category IDs used by the redesigned gameplay routes. */
+export type { SemanticCategoryId } from "@/lib/catalog/semanticCatalog";
+
 export type CategoryId =
-  | "movie-ratings"
-  | "game-playerbase"
-  | "game-ratings"
-  | "country-populations";
+  "movie-ratings" | "game-playerbase" | "game-ratings" | "country-populations";
 
 export interface Category {
   /** Stable URL-safe identifier */

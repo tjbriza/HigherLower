@@ -1,82 +1,76 @@
 "use client";
 
-import { Infinity, Timer, Users } from "lucide-react";
-import { GameMode } from "@/types/game";
+import type { PlayableModeId } from "@/lib/catalog/semanticCatalog";
 
-interface ModeButtonProps {
-  mode: GameMode;
-  selected: boolean;
-  onClick: () => void;
+export interface SelectableMode {
+  readonly id: PlayableModeId | "pvp";
+  readonly label: string;
+  readonly description: string;
+  readonly comingSoon?: boolean;
 }
 
-const MODE_META: Record<string, {
-  Icon: React.ComponentType<{ size?: number; strokeWidth?: number; className?: string }>;
-  accent: string;
-}> = {
-  "classic":     { Icon: Infinity, accent: "text-sky-400" },
-  "time-attack": { Icon: Timer,    accent: "text-orange-400" },
-  "co-op":       { Icon: Users,    accent: "text-slate-500" },
-};
+interface ModeButtonProps {
+  mode: SelectableMode;
+  selected: boolean;
+  disabled?: boolean;
+  onSelect: () => void;
+}
 
-export default function ModeButton({ mode, selected, onClick }: ModeButtonProps) {
-  const isDisabled = mode.comingSoon;
-  const meta = MODE_META[mode.id] ?? { Icon: Infinity, accent: "text-slate-400" };
-  const { Icon, accent } = meta;
+const MODE_CONTENT = {
+  classic: {
+    description: "Survive as long as you can. No clock, just skill.",
+  },
+  "time-attack": {
+    description: "Race the clock. Every right answer buys more time.",
+  },
+  pvp: {
+    description: "Player-versus-player mode is not available yet.",
+  },
+} as const;
+
+export default function ModeButton({
+  mode,
+  selected,
+  disabled = false,
+  onSelect,
+}: ModeButtonProps) {
+  const unavailable = disabled || Boolean(mode.comingSoon);
+  const { description } = MODE_CONTENT[mode.id];
 
   return (
-    <button
-      id={`mode-${mode.id}`}
-      onClick={isDisabled ? undefined : onClick}
-      aria-pressed={!isDisabled && selected}
-      aria-disabled={isDisabled}
-      disabled={isDisabled}
-      className={`
-        relative w-full rounded-xl p-4 text-left
-        border transition-all duration-200
-        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand-primary)]
-        ${isDisabled
-          ? "opacity-40 cursor-not-allowed bg-[#1c2433] border-[rgba(255,255,255,0.07)]"
-          : selected
-          ? "bg-[#1e2d1e] border-[var(--brand-primary)] shadow-[0_0_0_1px_var(--brand-primary),0_0_20px_rgba(22,163,74,0.25)] cursor-pointer"
-          : "bg-[#1c2433] border-[rgba(255,255,255,0.1)] hover:border-[rgba(255,255,255,0.22)] hover:bg-[#222e40] cursor-pointer"
-        }
-      `}
+    <label
+      className={`relative grid min-h-28 w-full grid-cols-[auto_1fr] items-start gap-x-3 gap-y-2 p-3 text-left focus-within:outline focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-[var(--focus-ring)] sm:min-h-32 sm:p-4 ${unavailable ? "cursor-not-allowed opacity-55" : "cursor-pointer"}`}
     >
-      {/* Coming soon badge */}
-      {isDisabled && (
-        <span
-          className="absolute top-2.5 right-2.5 px-1.5 py-0.5 rounded text-[9px] font-bold tracking-widest text-slate-500 border border-[rgba(255,255,255,0.08)] uppercase bg-[#111827]"
-          style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
-        >
-          Soon
-        </span>
-      )}
-
-      {/* Selected checkmark */}
-      {selected && !isDisabled && (
-        <span className="absolute top-2.5 right-2.5 w-4 h-4 rounded-full bg-[var(--brand-primary)] flex items-center justify-center">
-          <svg width="8" height="6" viewBox="0 0 8 6" fill="none">
-            <path d="M1 3L3 5L7 1" stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </span>
-      )}
-
-      <div className="flex flex-col gap-2">
-        {/* Icon */}
-        <div className={`${isDisabled ? "text-slate-600" : accent}`}>
-          <Icon size={20} strokeWidth={1.8} />
-        </div>
-
-        <p
-          className={`font-bold leading-snug ${isDisabled ? "text-slate-600" : "text-white"}`}
-          style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "0.95rem", letterSpacing: "0.02em" }}
-        >
-          {mode.label}
-        </p>
-        <p className={`text-[11px] leading-relaxed ${isDisabled ? "text-slate-700" : "text-slate-400"}`}>
-          {mode.description}
-        </p>
-      </div>
-    </button>
+      <input
+        type="radio"
+        name="playable-mode"
+        value={mode.id}
+        checked={!unavailable && selected}
+        disabled={unavailable}
+        onChange={onSelect}
+        className="peer sr-only"
+      />
+      <span
+        aria-hidden="true"
+        className={`col-start-1 row-start-1 flex size-4 shrink-0 items-center justify-center self-center rounded-full border-2 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-4 peer-focus-visible:outline-[var(--focus-ring)] ${selected && !unavailable ? "border-[var(--accent-time-attack)] bg-transparent" : "border-white bg-transparent"}`}
+      >
+        {selected && !unavailable && (
+          <span className="size-2 rounded-full bg-[var(--accent-time-attack)]" />
+        )}
+      </span>
+      <span
+        className={`col-start-2 row-start-1 text-2xl font-bold leading-tight sm:text-4xl ${selected && !unavailable ? "text-white [text-shadow:2px_2px_0_var(--accent-time-attack)]" : "text-white"}`}
+      >
+        {mode.label}
+        {unavailable && (
+          <span className="ml-2 align-middle text-[0.65rem] uppercase tracking-wide text-[var(--text-secondary)]">
+            Coming Soon
+          </span>
+        )}
+      </span>
+      <span className="col-start-2 row-start-2 text-sm leading-relaxed text-[var(--foreground-muted)] sm:text-base">
+        {description}
+      </span>
+    </label>
   );
 }

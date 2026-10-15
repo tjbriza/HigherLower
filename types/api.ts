@@ -14,6 +14,13 @@ export interface GameItem {
   value: number;
   /** Formatted string shown to the player after the reveal */
   displayValue: string;
+  /**
+   * Optional image credit line, shown when the image's license requires
+   * attribution (e.g. Wikimedia Commons CC BY / CC BY-SA files). Absent for
+   * images that are public domain / CC0 or whose source requires no credit.
+   * This is a truthful licensing surface, not a gameplay metric.
+   */
+  attribution?: string;
 }
 
 // ─── Typed fetch error ───────────────────────────────────────────────────────

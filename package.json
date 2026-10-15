@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "snapshot:album-release-date": "node scripts/generate-album-release-date-snapshot.mjs",
+    "snapshot:artist-album-counts": "node scripts/generate-artist-album-counts-snapshot.mjs",
+    "catalog:youtube-channels": "node scripts/generate-youtube-channel-catalog.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

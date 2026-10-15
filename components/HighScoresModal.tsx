@@ -173,6 +173,39 @@ export default function HighScoresModal({
           className="mt-7 grid grid-cols-2 border-b-2 border-white"
           role="tablist"
           aria-label="High Score mode"
+          onKeyDown={(event) => {
+            const tabs = Array.from(
+              event.currentTarget.querySelectorAll<HTMLButtonElement>(
+                '[role="tab"]',
+              ),
+            );
+            const currentIndex = tabs.indexOf(
+              event.target as HTMLButtonElement,
+            );
+            if (currentIndex === -1) return;
+
+            let nextIndex: number | undefined;
+            switch (event.key) {
+              case "ArrowRight":
+                nextIndex = (currentIndex + 1) % tabs.length;
+                break;
+              case "ArrowLeft":
+                nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+                break;
+              case "Home":
+                nextIndex = 0;
+                break;
+              case "End":
+                nextIndex = tabs.length - 1;
+                break;
+              default:
+                return;
+            }
+
+            event.preventDefault();
+            tabs[nextIndex].focus();
+            setMode(MODES[nextIndex].id);
+          }}
         >
           {MODES.map((option) => (
             <button
@@ -181,6 +214,7 @@ export default function HighScoresModal({
               type="button"
               role="tab"
               aria-selected={mode === option.id}
+              tabIndex={mode === option.id ? 0 : -1}
               aria-controls="high-scores-panel"
               onClick={() => setMode(option.id)}
               className={`min-h-12 border-x-2 border-t-2 border-white px-3 py-2 text-xs font-bold uppercase tracking-[0.12em] transition-colors sm:text-sm ${mode === option.id ? "bg-[var(--accent-classic)] text-white" : "text-[var(--foreground-muted)] hover:bg-white/10"}`}

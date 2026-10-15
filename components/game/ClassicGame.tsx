@@ -46,6 +46,21 @@ type GamePhase = "playing" | "revealing" | "game-over";
 type GuessDirection = "higher" | "lower";
 type ResultTint = "correct" | "incorrect" | null;
 
+function shouldIgnoreShortcut(e: KeyboardEvent) {
+  if (document.querySelector('[role="dialog"], dialog[open], [aria-modal="true"]')) {
+    return true;
+  }
+
+  const target = e.target;
+  if (!(target instanceof Element)) return false;
+
+  return Boolean(
+    target.closest(
+      'input, textarea, select, [contenteditable], button, a[href], summary, [role="button"], [role="link"], [role="checkbox"], [role="radio"], [role="switch"], [role="tab"], [role="menuitem"], [role="combobox"]',
+    ),
+  );
+}
+
 interface ClassicGameProps {
   initialPool: GameItem[];
   categoryId: SemanticCategoryId;
@@ -72,6 +87,10 @@ export default function ClassicGame({
   const [lastCorrect, setLastCorrect] = useState<boolean | null>(null);
 
   const revealTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const gameOverActionRef = useRef<HTMLButtonElement>(null);
+  const gameOverDialogRef = useRef<HTMLDivElement>(null);
+  const gameOverOriginRef = useRef<HTMLElement | null>(null);
+  const previousPhaseRef = useRef<GamePhase>(phase);
 
   const getHighScoreSnapshot = useCallback(
     () => readHighScore({ mode: "classic", categoryId }),
@@ -89,11 +108,36 @@ export default function ClassicGame({
     };
   }, []);
 
+  useEffect(() => {
+    if (phase === "game-over") {
+      const focusTimer = requestAnimationFrame(() => {
+        gameOverActionRef.current?.focus();
+      });
+      return () => cancelAnimationFrame(focusTimer);
+    } else if (previousPhaseRef.current === "game-over" && phase === "playing") {
+      const origin = gameOverOriginRef.current;
+      const nextAction = document.querySelector<HTMLButtonElement>(
+        '[aria-label="Higher"]',
+      );
+      if (origin?.isConnected) origin.focus();
+      else nextAction?.focus();
+      gameOverOriginRef.current = null;
+    }
+    previousPhaseRef.current = phase;
+  }, [phase]);
+
   // ── Guess handler ──────────────────────────────────────────────────────────
 
   const handleGuess = useCallback(
     (direction: GuessDirection) => {
       if (phase !== "playing" || !nextItem) return;
+      const activeElement = document.activeElement;
+      gameOverOriginRef.current =
+        activeElement instanceof HTMLElement &&
+        activeElement !== document.body &&
+        activeElement !== document.documentElement
+          ? activeElement
+          : null;
 
       // Strict comparison: equal values are treated as wrong for both directions.
       // dedupeAdjacentEquals() prevents equal pairs from appearing, so this is
@@ -158,6 +202,7 @@ export default function ClassicGame({
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
+      if (shouldIgnoreShortcut(e)) return;
       if (e.key === "ArrowUp" || e.key === "h") handleGuess("higher");
       if (e.key === "ArrowDown" || e.key === "l") handleGuess("lower");
     }
@@ -244,9 +289,26 @@ export default function ClassicGame({
       {/* ── Game Over modal ─────────────────────────────────────────────── */}
       {phase === "game-over" && (
         <div
+          ref={gameOverDialogRef}
           role="dialog"
           aria-modal="true"
           aria-labelledby="classic-game-over-title"
+          onKeyDown={(event) => {
+            if (event.key !== "Tab") return;
+            const actions = gameOverDialogRef.current?.querySelectorAll<HTMLElement>(
+              'button:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])',
+            );
+            if (!actions?.length) return;
+            const first = actions[0];
+            const last = actions[actions.length - 1];
+            if (event.shiftKey && (document.activeElement === first || !gameOverDialogRef.current?.contains(document.activeElement))) {
+              event.preventDefault();
+              last.focus();
+            } else if (!event.shiftKey && (document.activeElement === last || !gameOverDialogRef.current?.contains(document.activeElement))) {
+              event.preventDefault();
+              first.focus();
+            }
+          }}
           className="absolute inset-0 z-50 flex items-center justify-center bg-[#15122b]/90 p-4 backdrop-blur-sm"
         >
           <div className="w-full max-w-md border-2 border-white bg-[var(--surface-raised)] p-7 text-center shadow-[8px_8px_0_var(--accent-classic)]">
@@ -273,6 +335,7 @@ export default function ClassicGame({
 
             <div className="flex flex-col gap-3">
               <button
+                ref={gameOverActionRef}
                 id="btn-play-again"
                 onClick={handlePlayAgain}
                 className="min-h-12 border-2 border-white bg-[var(--accent-highlight)] px-5 py-3 font-bold uppercase text-[#15122b] shadow-[5px_5px_0_#ffffff] transition-transform hover:-translate-y-1"

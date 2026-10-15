@@ -68,6 +68,21 @@ interface TimeAttackGameProps {
 // Pad a number to 2 digits
 const pad2 = (n: number) => String(Math.max(0, Math.floor(n))).padStart(2, "0");
 
+function shouldIgnoreShortcut(e: KeyboardEvent) {
+  if (document.querySelector('[role="dialog"], dialog[open], [aria-modal="true"]')) {
+    return true;
+  }
+
+  const target = e.target;
+  if (!(target instanceof Element)) return false;
+
+  return Boolean(
+    target.closest(
+      'input, textarea, select, [contenteditable], button, a[href], summary, [role="button"], [role="link"], [role="checkbox"], [role="radio"], [role="switch"], [role="tab"], [role="menuitem"], [role="combobox"]',
+    ),
+  );
+}
+
 // ─── Component ────────────────────────────────────────────────────────────────
 
 export default function TimeAttackGame({
@@ -88,6 +103,10 @@ export default function TimeAttackGame({
   const [score, setScore] = useState(0);
   const [tint, setTint] = useState<ResultTint>(null);
   const [shaking, setShaking] = useState(false);
+  const gameOverActionRef = useRef<HTMLButtonElement>(null);
+  const gameOverDialogRef = useRef<HTMLDivElement>(null);
+  const gameOverOriginRef = useRef<HTMLElement | null>(null);
+  const previousPhaseRef = useRef<GamePhase>(phase);
 
   // ── Timer (ref = source of truth; state = display) ─────────────────────────
   const timerRef = useRef(INITIAL_TIME);
@@ -150,6 +169,21 @@ export default function TimeAttackGame({
     phaseRef.current = phase;
   }, [phase]);
 
+  useEffect(() => {
+    if (phase === "game-over") {
+      gameOverActionRef.current?.focus();
+    } else if (previousPhaseRef.current === "game-over" && phase === "playing") {
+      const origin = gameOverOriginRef.current;
+      const nextAction = document.querySelector<HTMLButtonElement>(
+        '[aria-label="Higher"]',
+      );
+      if (origin?.isConnected) origin.focus();
+      else nextAction?.focus();
+      gameOverOriginRef.current = null;
+    }
+    previousPhaseRef.current = phase;
+  }, [phase]);
+
   // Persist the completed run's score exactly once, after the transition into
   // game-over. Writing here (an effect boundary) keeps the high-score store's
   // synchronous subscriber notification out of the render phase.
@@ -176,6 +210,13 @@ export default function TimeAttackGame({
     (direction: "higher" | "lower") => {
       if (guessLocked.current || phaseRef.current !== "playing" || !nextItem)
         return;
+      const activeElement = document.activeElement;
+      gameOverOriginRef.current =
+        activeElement instanceof HTMLElement &&
+        activeElement !== document.body &&
+        activeElement !== document.documentElement
+          ? activeElement
+          : null;
       guessLocked.current = true;
 
       const isCorrect =
@@ -249,6 +290,7 @@ export default function TimeAttackGame({
   // ── Keyboard ───────────────────────────────────────────────────────────────
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
+      if (shouldIgnoreShortcut(e)) return;
       if (e.key === "ArrowUp" || e.key === "h") handleGuess("higher");
       if (e.key === "ArrowDown" || e.key === "l") handleGuess("lower");
     }
@@ -390,9 +432,26 @@ export default function TimeAttackGame({
 
       {phase === "game-over" && (
         <div
+          ref={gameOverDialogRef}
           role="dialog"
           aria-modal="true"
           aria-labelledby="time-attack-game-over-title"
+          onKeyDown={(event) => {
+            if (event.key !== "Tab") return;
+            const actions = gameOverDialogRef.current?.querySelectorAll<HTMLElement>(
+              'button:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])',
+            );
+            if (!actions?.length) return;
+            const first = actions[0];
+            const last = actions[actions.length - 1];
+            if (event.shiftKey && (document.activeElement === first || !gameOverDialogRef.current?.contains(document.activeElement))) {
+              event.preventDefault();
+              last.focus();
+            } else if (!event.shiftKey && (document.activeElement === last || !gameOverDialogRef.current?.contains(document.activeElement))) {
+              event.preventDefault();
+              first.focus();
+            }
+          }}
           className="absolute inset-0 z-50 flex items-center justify-center bg-[#15122b]/90 p-4 backdrop-blur-sm"
         >
           <div className="w-full max-w-md border-2 border-white bg-[var(--surface-raised)] p-7 text-center shadow-[8px_8px_0_var(--accent-time-attack)]">
@@ -419,6 +478,7 @@ export default function TimeAttackGame({
 
             <div className="flex flex-col gap-3">
               <button
+                ref={gameOverActionRef}
                 id="btn-play-again"
                 onClick={handlePlayAgain}
                 className="min-h-12 border-2 border-white bg-[var(--accent-highlight)] px-5 py-3 font-bold uppercase text-[#15122b] shadow-[5px_5px_0_#ffffff] transition-transform hover:-translate-y-1"

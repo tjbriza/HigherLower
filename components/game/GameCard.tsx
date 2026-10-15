@@ -105,6 +105,12 @@ export default function GameCard({
             </p>
           )}
         </div>
+        {/* Image credit — shown only when the image's license requires it. */}
+        {item.attribution && (
+          <p className="mt-2 max-w-full break-words text-[0.65rem] leading-snug text-[var(--text-secondary)]">
+            Image: {item.attribution}
+          </p>
+        )}
         {children && (
           <div className="mt-5 hidden w-full max-w-xs flex-col gap-3 md:flex">
             {children}

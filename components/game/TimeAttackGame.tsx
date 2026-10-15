@@ -7,6 +7,14 @@
  *   - Wrong guess   → −5 s penalty (clamped ≥ 0), 400 ms shake+flash then
  *     advance immediately (game does NOT end on wrong answers).
  *   - Timer hits 0  → game over modal ("Time's Up!").
+ *
+ * Deck system (remaining-pool model):
+ *   - `deck` is the ordered queue of items not yet shown this session.
+ *   - `seenIds` persists for the entire timed run: an item ID cannot repeat
+ *     during the same session.
+ *   - If the entire available pool is genuinely exhausted before the timer
+ *     reaches zero, the run ends cleanly via the existing game-over path.
+ *     Items are never recycled merely to keep the timer running.
  */
 
 "use client";
@@ -34,6 +42,7 @@ import {
   subscribeHighScores,
   writeHighScore,
 } from "@/lib/highScores/storage";
+import { buildDeck, shuffleDeck } from "@/lib/game/deck";
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -56,46 +65,6 @@ interface TimeAttackGameProps {
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
-function shuffle<T>(arr: T[]): T[] {
-  const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-function dedupeAdjacentEquals(arr: GameItem[]): GameItem[] {
-  const out = [...arr];
-  for (let i = 0; i < out.length - 1; i++) {
-    if (out[i].value === out[i + 1].value) {
-      let j = i + 2;
-      while (j < out.length && out[j].value === out[i].value) j++;
-      if (j < out.length) [out[i + 1], out[j]] = [out[j], out[i + 1]];
-    }
-  }
-  return out;
-}
-
-/**
- * Build a clean, tie-free deck from the server pool. The server already
- * shuffles the pool per request, so the initial deck preserves that order to
- * keep server and client render identical (avoids a hydration mismatch).
- * `shuffleDeck` is used for explicit re-shuffles such as "Play again".
- */
-function buildDeck(pool: GameItem[]): GameItem[] {
-  return dedupeAdjacentEquals(
-    pool.filter((item) => !!item.imageUrl && !!item.name),
-  );
-}
-
-/** Shuffle a pool into a fresh deck (used for explicit restarts). */
-function shuffleDeck(pool: GameItem[]): GameItem[] {
-  return dedupeAdjacentEquals(
-    shuffle(pool.filter((item) => !!item.imageUrl && !!item.name)),
-  );
-}
-
 // Pad a number to 2 digits
 const pad2 = (n: number) => String(Math.max(0, Math.floor(n))).padStart(2, "0");
 
@@ -108,7 +77,8 @@ export default function TimeAttackGame({
 }: TimeAttackGameProps) {
   // ── Deck ───────────────────────────────────────────────────────────────────
   const [deck, setDeck] = useState<GameItem[]>(() => buildDeck(initialPool));
-  const [spent, setSpent] = useState<GameItem[]>([]);
+  // IDs consumed during this session. Persists for the whole timed run.
+  const [seenIds, setSeenIds] = useState<Set<string | number>>(() => new Set());
 
   const currentItem = deck[0];
   const nextItem = deck[1];
@@ -193,13 +163,13 @@ export default function TimeAttackGame({
 
   // ── Deck ref (mirrors deck state — avoids stale closure in setTimeout) ────
   const deckRef = useRef(deck);
-  const spentRef = useRef(spent);
+  const seenIdsRef = useRef(seenIds);
   useEffect(() => {
     deckRef.current = deck;
   }, [deck]);
   useEffect(() => {
-    spentRef.current = spent;
-  }, [spent]);
+    seenIdsRef.current = seenIds;
+  }, [seenIds]);
 
   // ── Guess handler ──────────────────────────────────────────────────────────
   const handleGuess = useCallback(
@@ -246,20 +216,25 @@ export default function TimeAttackGame({
 
         // Advance deck using refs (no stale closure)
         const prevDeck = deckRef.current;
-        const prevSpent = spentRef.current;
         const consumed = prevDeck[0];
         const remaining = prevDeck.slice(1);
-        const newSpent = [...prevSpent, consumed];
+        const newSeen = new Set(seenIdsRef.current);
+        newSeen.add(consumed.id);
 
         if (remaining.length < 2) {
-          const refill = shuffle(newSpent);
-          const newDeck = dedupeAdjacentEquals([...remaining, ...refill]);
-          setDeck(newDeck);
-          setSpent([]);
-        } else {
-          setDeck(remaining);
-          setSpent(newSpent);
+          // The available pool is genuinely exhausted for this session.
+          // End the run cleanly via the existing game-over path; never
+          // recycle already-seen items to keep the timer running.
+          setSeenIds(newSeen);
+          phaseRef.current = "game-over";
+          guessLocked.current = true;
+          setPhase("game-over");
+          setTint(null);
+          return;
         }
+
+        setDeck(remaining);
+        setSeenIds(newSeen);
 
         if (phaseRef.current !== "game-over") {
           phaseRef.current = "playing";
@@ -287,7 +262,7 @@ export default function TimeAttackGame({
     scoreWrittenRef.current = false;
     const newDeck = shuffleDeck(initialPool);
     setDeck(newDeck);
-    setSpent([]);
+    setSeenIds(new Set());
     setScore(0);
     timerRef.current = INITIAL_TIME;
     setDisplayTime(INITIAL_TIME);

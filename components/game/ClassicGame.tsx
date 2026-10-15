@@ -1,14 +1,16 @@
 /**
  * ClassicGame — client-side game logic for Classic Mode.
  *
- * Deck system:
- *   - `deck` is the ordered queue of items not yet shown this round.
+ * Deck system (remaining-pool model):
+ *   - `deck` is the ordered queue of items not yet shown this cycle.
  *   - `currentItem` and `nextItem` are always the first two from the deck.
- *   - On a correct guess the deck pointer advances by 1 (currentItem consumed).
- *   - When the deck has only 1 item left (no nextItem possible), the spent
- *     items are reshuffled and appended so the game never runs out of cards.
- *   - An item NEVER appears twice in the same uninterrupted stretch because we
- *     only reshuffle the spent items, not the active pair.
+ *   - On a correct guess the deck pointer advances by 1 (currentItem consumed)
+ *     and the consumed item's ID is recorded in `seenIds`.
+ *   - An item ID cannot repeat until the whole available pool has been
+ *     consumed. When fewer than 2 items remain, a new shuffled cycle is built
+ *     from the full original pool, excluding the currently displayed item so
+ *     it cannot immediately reappear across the cycle boundary.
+ *   - Classic never ends because the pool was completed; it is endless.
  */
 
 "use client";
@@ -36,6 +38,7 @@ import {
   subscribeHighScores,
   writeHighScore,
 } from "@/lib/highScores/storage";
+import { buildDeck, buildNextCycle, shuffleDeck } from "@/lib/game/deck";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -49,58 +52,6 @@ interface ClassicGameProps {
   categoryLabel: string;
 }
 
-// ─── Helpers ──────────────────────────────────────────────────────────────────
-
-/** Fisher-Yates shuffle — returns a NEW array */
-function shuffle<T>(arr: T[]): T[] {
-  const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-/**
- * Scans a deck and ensures no two consecutive items share the same `value`.
- * When a duplicate pair is found at position [i, i+1], it looks forward for
- * the nearest item at j >= i+2 whose value differs and swaps [i+1] with [j].
- * If no swap candidate exists the pair is left as-is (tiny edge case in small
- * pools with many identical values).
- */
-function dedupeAdjacentEquals(arr: GameItem[]): GameItem[] {
-  const out = [...arr];
-  for (let i = 0; i < out.length - 1; i++) {
-    if (out[i].value === out[i + 1].value) {
-      let j = i + 2;
-      while (j < out.length && out[j].value === out[i].value) j++;
-      if (j < out.length) {
-        [out[i + 1], out[j]] = [out[j], out[i + 1]];
-      }
-    }
-  }
-  return out;
-}
-
-/**
- * Build a clean, tie-free deck from the server pool. The server already
- * shuffles the pool per request, so the initial deck preserves that order to
- * keep server and client render identical (avoids a hydration mismatch).
- * `shuffleDeck` is used for explicit re-shuffles such as "Play again".
- */
-function buildDeck(pool: GameItem[]): GameItem[] {
-  return dedupeAdjacentEquals(
-    pool.filter((item) => !!item.imageUrl && !!item.name),
-  );
-}
-
-/** Shuffle a pool into a fresh deck (used for explicit restarts). */
-function shuffleDeck(pool: GameItem[]): GameItem[] {
-  return dedupeAdjacentEquals(
-    shuffle(pool.filter((item) => !!item.imageUrl && !!item.name)),
-  );
-}
-
 // ─── Component ────────────────────────────────────────────────────────────────
 
 export default function ClassicGame({
@@ -109,7 +60,8 @@ export default function ClassicGame({
   categoryLabel,
 }: ClassicGameProps) {
   const [deck, setDeck] = useState<GameItem[]>(() => buildDeck(initialPool));
-  const [spent, setSpent] = useState<GameItem[]>([]);
+  // IDs consumed during the current cycle. Reset when a new cycle begins.
+  const [seenIds, setSeenIds] = useState<Set<string | number>>(() => new Set());
 
   const currentItem = deck[0];
   const nextItem = deck[1];
@@ -164,17 +116,19 @@ export default function ClassicGame({
 
           const consumed = deck[0];
           const remaining = deck.slice(1);
-          const newSpent = [...spent, consumed];
+          const newSeen = new Set(seenIds);
+          newSeen.add(consumed.id);
 
           if (remaining.length < 2) {
-            // Reshuffle spent items and append; run dedup across the junction
-            // so the last item in `remaining` and the first refill item are never equal.
-            const refill = shuffle(newSpent);
-            setDeck(dedupeAdjacentEquals([...remaining, ...refill]));
-            setSpent([]);
+            // Cycle nearly exhausted: carry the unshown tail (0 or 1 items)
+            // into a fresh shuffled cycle so no item is skipped and the
+            // currently displayed item cannot immediately reappear at the
+            // boundary. `seenIds` resets for the new cycle.
+            setDeck(buildNextCycle(initialPool, remaining, consumed.id));
+            setSeenIds(new Set());
           } else {
             setDeck(remaining);
-            setSpent(newSpent);
+            setSeenIds(newSeen);
           }
 
           setPhase("playing");
@@ -187,7 +141,17 @@ export default function ClassicGame({
         }
       }, 1500);
     },
-    [phase, nextItem, currentItem, score, highScore, deck, spent, categoryId],
+    [
+      phase,
+      nextItem,
+      currentItem,
+      score,
+      highScore,
+      deck,
+      seenIds,
+      categoryId,
+      initialPool,
+    ],
   );
 
   // ── Keyboard support ───────────────────────────────────────────────────────
@@ -205,7 +169,7 @@ export default function ClassicGame({
 
   function handlePlayAgain() {
     setDeck(shuffleDeck(initialPool));
-    setSpent([]);
+    setSeenIds(new Set());
     setScore(0);
     setPhase("playing");
     setTint(null);

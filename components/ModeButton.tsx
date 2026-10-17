@@ -39,7 +39,7 @@ export default function ModeButton({
 
   return (
     <label
-      className={`relative grid min-h-28 w-full grid-cols-[auto_1fr] items-start gap-x-3 gap-y-2 p-3 text-left focus-within:outline focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-[var(--focus-ring)] sm:min-h-32 sm:p-4 ${unavailable ? "cursor-not-allowed opacity-55" : "cursor-pointer"}`}
+      className={`group relative grid min-h-28 w-full grid-cols-[auto_1fr] items-start gap-x-3 gap-y-2 p-3 text-left transition-transform duration-150 ease-out focus-within:outline focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-[var(--focus-ring)] sm:min-h-32 sm:p-4 ${unavailable ? "cursor-not-allowed opacity-55" : `cursor-pointer ${selected ? "" : "hover:-translate-y-0.5"}`}`}
     >
       <input
         type="radio"
@@ -52,14 +52,14 @@ export default function ModeButton({
       />
       <span
         aria-hidden="true"
-        className={`col-start-1 row-start-1 flex size-4 shrink-0 items-center justify-center self-center rounded-full border-2 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-4 peer-focus-visible:outline-[var(--focus-ring)] ${selected && !unavailable ? "border-[var(--accent-time-attack)] bg-transparent" : "border-white bg-transparent"}`}
+        className={`col-start-1 row-start-1 flex size-4 shrink-0 items-center justify-center self-center rounded-full border-2 transition-colors duration-150 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-4 peer-focus-visible:outline-[var(--focus-ring)] ${selected && !unavailable ? "border-[var(--accent-time-attack)] bg-transparent" : `border-white bg-transparent ${!unavailable ? "group-hover:border-[var(--accent-classic)]" : ""}`}`}
       >
         {selected && !unavailable && (
           <span className="size-2 rounded-full bg-[var(--accent-time-attack)]" />
         )}
       </span>
       <span
-        className={`col-start-2 row-start-1 text-2xl font-bold leading-tight sm:text-4xl ${selected && !unavailable ? "text-white [text-shadow:2px_2px_0_var(--accent-time-attack)]" : "text-white"}`}
+        className={`col-start-2 row-start-1 text-2xl font-bold leading-tight sm:text-4xl transition-[text-shadow,color] duration-150 ${selected && !unavailable ? "text-white [text-shadow:2px_2px_0_var(--accent-time-attack)]" : !unavailable ? "text-white group-hover:[text-shadow:3px_3px_0_var(--accent-classic)] group-focus-within:[text-shadow:2px_2px_0_var(--accent-classic)]" : "text-white"}`}
       >
         {mode.label}
         {unavailable && (

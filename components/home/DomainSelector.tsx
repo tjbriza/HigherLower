@@ -59,7 +59,7 @@ export default function DomainSelector({
           return (
             <label
               key={domain.id}
-              className="group inline-flex min-h-11 cursor-pointer items-center gap-2 text-left focus-within:outline focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-[var(--focus-ring)]"
+              className={`group inline-flex min-h-11 cursor-pointer items-center gap-2 text-left transition-transform duration-150 ease-out focus-within:outline focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-[var(--focus-ring)] ${selected ? "" : "hover:-translate-y-0.5"}`}
             >
               <input
                 type="radio"
@@ -71,14 +71,14 @@ export default function DomainSelector({
               />
               <span
                 aria-hidden="true"
-                className={`relative flex size-4 shrink-0 items-center justify-center rounded-full border-2 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-4 peer-focus-visible:outline-[var(--focus-ring)] ${selected ? "border-[var(--accent-time-attack)] bg-transparent" : "border-white bg-transparent"}`}
+                className={`relative flex size-4 shrink-0 items-center justify-center rounded-full border-2 transition-colors duration-150 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-4 peer-focus-visible:outline-[var(--focus-ring)] ${selected ? "border-[var(--accent-time-attack)] bg-transparent" : "border-white bg-transparent group-hover:border-[var(--accent-classic)]"}`}
               >
                 {selected && (
                   <span className="size-2 rounded-full bg-[var(--accent-time-attack)]" />
                 )}
               </span>
               <span
-                className={`text-2xl sm:text-4xl font-bold leading-tight text-[var(--foreground-inverse)] transition-[text-shadow,color] [-webkit-text-stroke:1px_var(--border-strong)] ${selected ? "[text-shadow:2px_2px_0_var(--accent-time-attack)]" : "group-hover:[text-shadow:2px_2px_0_var(--accent-classic)]"}`}
+                className={`text-2xl sm:text-4xl font-bold leading-tight text-[var(--foreground-inverse)] transition-[text-shadow,color] duration-150 [-webkit-text-stroke:1px_var(--border-strong)] ${selected ? "[text-shadow:2px_2px_0_var(--accent-time-attack)]" : "group-hover:[text-shadow:3px_3px_0_var(--accent-classic)] group-focus-within:[text-shadow:2px_2px_0_var(--accent-classic)]"}`}
               >
                 {domain.label}
               </span>

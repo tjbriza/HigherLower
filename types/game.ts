@@ -13,7 +13,9 @@ export type CategoryId =
   | "artist-album-counts"
   | "album-release-dates"
   | "youtube-subscribers"
-  | "game-release-dates";
+  | "game-release-dates"
+  | "monthly-listeners"
+  | "twitch-followers";
 
 export interface Category {
   /** Stable URL-safe identifier */

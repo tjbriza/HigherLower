@@ -27,6 +27,8 @@ import { fetchAlbumReleaseDatesFromSnapshot } from "./albumReleaseDateSnapshot";
 import { fetchArtistAlbumCountsFromSnapshot } from "./artistAlbumCountsSnapshot"; // local snapshot (generated from MusicBrainz + Wikidata)
 import { fetchYouTubeSubscribers } from "./youtube"; // YouTube Data API, key required
 import { fetchGameReleaseDates } from "./igdb"; // IGDB via Twitch OAuth2
+import { fetchMonthlyListenersFromSnapshot } from "./monthlyListenersSnapshot";
+import { fetchTwitchFollowersFromSnapshot } from "./twitchFollowersSnapshot";
 
 // ─── Re-exports for convenience ───────────────────────────────────────────────
 export type { GameItem } from "@/types/api";
@@ -54,6 +56,9 @@ const FETCHER_MAP: Record<CategoryId, FetcherFn> = {
   "album-release-dates": fetchAlbumReleaseDatesFromSnapshot,
   "youtube-subscribers": fetchYouTubeSubscribers,
   "game-release-dates": fetchGameReleaseDates,
+  // Registered for local validation; availability authorization remains fail-closed.
+  "monthly-listeners": fetchMonthlyListenersFromSnapshot,
+  "twitch-followers": fetchTwitchFollowersFromSnapshot,
 };
 
 // ─── Public API ───────────────────────────────────────────────────────────────

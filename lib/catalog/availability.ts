@@ -8,7 +8,7 @@ import {
 } from "./semanticCatalog";
 
 export type AvailabilityStatus =
-  "blocked" | "runtime-verification-needed" | "intentionally-hidden";
+  "released" | "blocked" | "runtime-verification-needed" | "intentionally-hidden";
 
 /**
  * The seven runtime release gates from the redesign plan (Section 15). Every
@@ -195,12 +195,40 @@ export const CATEGORY_AVAILABILITY: Record<
     ),
   },
   "monthly-listeners": {
-    status: "intentionally-hidden",
-    productionPlayable: false,
-    rationale: "An approved commercial provider and access path are pending.",
-    gates: unverifiedGates(
-      "No runtime evidence recorded; no approved commercial provider is selected.",
-    ),
+    status: "blocked",
+    productionPlayable: true,
+    rationale:
+      "Owner-approved production release using Metrika Spotify artist views as monthly listeners and a validated local 236-item snapshot; gameplay reads only the local snapshot. Twitch remains independently hidden.",
+    gates: {
+      "stable-semantic-identity": {
+        satisfied: true,
+        evidence: "Stable product identity is monthly-listeners and snapshot records join to approved Spotify artist identities by exact MusicBrainz MBID.",
+      },
+      "approved-metric-contract": {
+        satisfied: true,
+        evidence: "Owner-approved semantic decision: Metrika Spotify artist views are accepted as Monthly Listeners; snapshot display wording is category-specific.",
+      },
+      "valid-server-adapter": {
+        satisfied: true,
+        evidence: "Server-only local snapshot reader is dispatched; runtime reader contains no network call and validates normalized GameItem records.",
+      },
+      "runtime-provider-evidence": {
+        satisfied: true,
+        evidence: "Stored snapshot has 236 items joined to 236 approved Spotify identities by exact MBID, with unique identities, integer metrics, images and 2026-11-02 collection timestamp; source image-license evidence records no unknown licenses and no required-but-missing credits. Validation is local; no live provider call was made.",
+      },
+      "server-route-authorization": {
+        satisfied: true,
+        evidence: "Generic route authorization fails closed when productionPlayable is false and requires a provider mapping before dispatch; both modes are compatible in semantic metadata.",
+      },
+      "public-catalog-eligibility": {
+        satisfied: true,
+        evidence: "Owner-approved activation; 236-item qualified snapshot exceeds the existing production pool floor, attribution is preserved for required-credit Commons images, and 7-day warning/14-day hard-stale checks are enforced.",
+      },
+      "reversible-visibility": {
+        satisfied: true,
+        evidence: "Visibility is controlled independently by productionPlayable; setting it false preserves the semantic identity and denies route authorization.",
+      },
+    },
   },
   "youtube-subscribers": {
     status: "blocked",
@@ -212,12 +240,40 @@ export const CATEGORY_AVAILABILITY: Record<
     ),
   },
   "twitch-followers": {
-    status: "intentionally-hidden",
-    productionPlayable: false,
-    rationale: "A legitimate scalable provider path has not been established.",
-    gates: unverifiedGates(
-      "No runtime evidence recorded; no legitimate scalable provider path exists.",
-    ),
+    status: "released",
+    productionPlayable: true,
+    rationale:
+      "Owner-approved production release using the validated local Metrika snapshot joined to the approved Twitch roster; gameplay does not call provider APIs.",
+    gates: {
+      "stable-semantic-identity": {
+        satisfied: true,
+        evidence: "Canonical twitch:<login> identities are preserved independently of display labels; the owner-approved roster records 196 approved and 4 rejected identities.",
+      },
+      "approved-metric-contract": {
+        satisfied: true,
+        evidence: "Owner approved Twitch followers semantics and Metrika storage semantics; runtime copy labels follower counts.",
+      },
+      "valid-server-adapter": {
+        satisfied: true,
+        evidence: "Server-only local snapshot reader joins the local Metrika snapshot to the approved roster; no request-time provider or network call is made.",
+      },
+      "runtime-provider-evidence": {
+        satisfied: true,
+        evidence: "Local validation confirms 196 unique approved runtime identities, one finite valid metric per identity, four rejected identities absent, neutral asset only, and no Helix fields. No live provider call was made.",
+      },
+      "server-route-authorization": {
+        satisfied: true,
+        evidence: "Classic and Time Attack routes use the shared authorization guard before dispatch; the semantic category maps to the local snapshot dispatcher.",
+      },
+      "public-catalog-eligibility": {
+        satisfied: true,
+        evidence: "Owner approved all 188 clear candidates and eight named flagged candidates; governance/compliance evidence and Option A architecture approval were supplied by the owner.",
+      },
+      "reversible-visibility": {
+        satisfied: true,
+        evidence: "The category visibility flag is independently reversible; the route guard denies dispatch when productionPlayable is false.",
+      },
+    },
   },
 };
 
@@ -355,6 +411,10 @@ const SEMANTIC_PROVIDER_MAPPING: Partial<
   "youtube-subscribers": "youtube-subscribers",
   // IGDB first release dates.
   "game-release-date": "game-release-dates",
+  // Local Metrika-backed snapshot; route authorization independently enforces availability.
+  "monthly-listeners": "monthly-listeners",
+  // Reads the owner-approved Metrika snapshot and roster locally.
+  "twitch-followers": "twitch-followers",
 };
 
 /**

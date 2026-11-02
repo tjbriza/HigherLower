@@ -1,0 +1,12 @@
+{
+  "requests": 20,
+  "submitted": 200,
+  "returned": 200,
+  "statusCounts": {
+    "available": 200
+  },
+  "validFollowerMetrics": 200,
+  "invalidOrUnavailable": 0,
+  "collectionTimeOldest": "2026-11-02T12:21:28.000Z",
+  "collectionTimeNewest": "2026-11-02T12:37:34.000Z"
+}

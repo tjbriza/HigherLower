@@ -1,0 +1,1406 @@
+{
+  "version": 1,
+  "sourceOrigin": "helix-discovery-review-seed",
+  "items": [
+    {
+      "id": "twitch:strogo",
+      "login": "strogo",
+      "displayLabel": "StRoGo",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:eslcs",
+      "login": "eslcs",
+      "displayLabel": "ESLCS",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:indegnasen0706",
+      "login": "indegnasen0706",
+      "displayLabel": "布団ちゃんと申します",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:fps_shaka",
+      "login": "fps_shaka",
+      "displayLabel": "fps_shaka",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:montanablack88",
+      "login": "montanablack88",
+      "displayLabel": "MontanaBlack88",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:lacy",
+      "login": "lacy",
+      "displayLabel": "Lacy",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:bysl4m",
+      "login": "bysl4m",
+      "displayLabel": "bySL4M",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:k4sen",
+      "login": "k4sen",
+      "displayLabel": "k4sen",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:yuyuta0702",
+      "login": "yuyuta0702",
+      "displayLabel": "ゆゆうた押忍",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:kopsteep",
+      "login": "kopsteep",
+      "displayLabel": "kopsteep",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:xrohat",
+      "login": "xrohat",
+      "displayLabel": "xRohat",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:skywhywalker",
+      "login": "skywhywalker",
+      "displayLabel": "skywhywalker",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:clemovitch",
+      "login": "clemovitch",
+      "displayLabel": "Clemovitch",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:nooreax",
+      "login": "nooreax",
+      "displayLabel": "nooreax",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:cs2_maincast",
+      "login": "cs2_maincast",
+      "displayLabel": "cs2_maincast",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "rejected"
+    },
+    {
+      "id": "twitch:ironmouse",
+      "login": "ironmouse",
+      "displayLabel": "ironmouse",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:cs2_paragon_ru",
+      "login": "cs2_paragon_ru",
+      "displayLabel": "cs2_paragon_ru",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "rejected"
+    },
+    {
+      "id": "twitch:meiy_vl",
+      "login": "meiy_vl",
+      "displayLabel": "Meiy_vl",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:stray228",
+      "login": "stray228",
+      "displayLabel": "Stray228",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:yaritaiji",
+      "login": "yaritaiji",
+      "displayLabel": "たいじ_たいちゃんねる",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:steel",
+      "login": "steel",
+      "displayLabel": "steel",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:batora324",
+      "login": "batora324",
+      "displayLabel": "バトラ",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:yukiofps14",
+      "login": "yukiofps14",
+      "displayLabel": "ゆきお2",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:dmitry_lixxx",
+      "login": "dmitry_lixxx",
+      "displayLabel": "Dmitry_Lixxx",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:pelaajatcom",
+      "login": "pelaajatcom",
+      "displayLabel": "pelaajatcom",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:yutapongo",
+      "login": "yutapongo",
+      "displayLabel": "yutapongo",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:gocchanmikey",
+      "login": "gocchanmikey",
+      "displayLabel": "ごっちゃんマイキー",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:jasper7se",
+      "login": "jasper7se",
+      "displayLabel": "Jasper7se",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:jinnytty",
+      "login": "jinnytty",
+      "displayLabel": "Jinnytty",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:maximilian_dood",
+      "login": "maximilian_dood",
+      "displayLabel": "Maximilian_DOOD",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:glorious_e",
+      "login": "glorious_e",
+      "displayLabel": "Glorious_E",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:ow_uruca",
+      "login": "ow_uruca",
+      "displayLabel": "ow_uruca",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:crystalst",
+      "login": "crystalst",
+      "displayLabel": "Crystalst",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:hiiragitsurugi",
+      "login": "hiiragitsurugi",
+      "displayLabel": "柊ツルギ",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:gerardromero",
+      "login": "gerardromero",
+      "displayLabel": "gerardromero",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:assarisyoko1",
+      "login": "assarisyoko1",
+      "displayLabel": "あっさりしょこー",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:shlorox",
+      "login": "shlorox",
+      "displayLabel": "Shlorox",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:kr1stw",
+      "login": "kr1stw",
+      "displayLabel": "西南69",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:lazvell",
+      "login": "lazvell",
+      "displayLabel": "Lazvell",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:melharucos",
+      "login": "melharucos",
+      "displayLabel": "melharucos",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:takayaspecial",
+      "login": "takayaspecial",
+      "displayLabel": "たかやスペシャル",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:japabigodin",
+      "login": "japabigodin",
+      "displayLabel": "japabigodin",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:ceros127",
+      "login": "ceros127",
+      "displayLabel": "ceros127",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:fl0m",
+      "login": "fl0m",
+      "displayLabel": "fl0m",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:zerost_s",
+      "login": "zerost_s",
+      "displayLabel": "Zerost_s",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:watchfultv",
+      "login": "watchfultv",
+      "displayLabel": "watchfulTV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:lolthek4sen",
+      "login": "lolthek4sen",
+      "displayLabel": "lolthek4sen",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:dracon",
+      "login": "dracon",
+      "displayLabel": "Dracon",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:koma",
+      "login": "koma",
+      "displayLabel": "Koma",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:lenapena2006",
+      "login": "lenapena2006",
+      "displayLabel": "lenapena2006",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:coachlim",
+      "login": "coachlim",
+      "displayLabel": "coachlim",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:croissantstrike",
+      "login": "croissantstrike",
+      "displayLabel": "CroissantStrike",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:izakooo",
+      "login": "izakooo",
+      "displayLabel": "IzakOOO",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:manyochill",
+      "login": "manyochill",
+      "displayLabel": "まにょちる",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:vovapain",
+      "login": "vovapain",
+      "displayLabel": "Vovapain",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:tototmix",
+      "login": "tototmix",
+      "displayLabel": "ととみっくす",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:arky",
+      "login": "arky",
+      "displayLabel": "Arky",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:tpabomah",
+      "login": "tpabomah",
+      "displayLabel": "TpaBoMaH",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:broxah",
+      "login": "broxah",
+      "displayLabel": "Broxah",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:letshugotv",
+      "login": "letshugotv",
+      "displayLabel": "LetsHugoTV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:jingggxd",
+      "login": "jingggxd",
+      "displayLabel": "jingggxd",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:fanfan",
+      "login": "fanfan",
+      "displayLabel": "fanfan",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:maxim",
+      "login": "maxim",
+      "displayLabel": "maxim",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:hitomi_teraz",
+      "login": "hitomi_teraz",
+      "displayLabel": "実ひとみ_序境",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:shinjifromjapanxd",
+      "login": "shinjifromjapanxd",
+      "displayLabel": "しんじさん",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:guanweiboy",
+      "login": "guanweiboy",
+      "displayLabel": "冠緯",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:greentea",
+      "login": "greentea",
+      "displayLabel": "綠茶",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:alois_nl",
+      "login": "alois_nl",
+      "displayLabel": "Alois_NL",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:dafran",
+      "login": "dafran",
+      "displayLabel": "dafran",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:failverde",
+      "login": "failverde",
+      "displayLabel": "懶貓",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:sterzik",
+      "login": "sterzik",
+      "displayLabel": "Sterzik",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:yuhilolz",
+      "login": "yuhilolz",
+      "displayLabel": "ゆーひ1",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:theburntpeanut_247",
+      "login": "theburntpeanut_247",
+      "displayLabel": "TheBurntPeanut_247",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:iceicell",
+      "login": "iceicell",
+      "displayLabel": "iceicell",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:nacho_dayo",
+      "login": "nacho_dayo",
+      "displayLabel": "nacho_dayo",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:anarabdullaev_29947",
+      "login": "anarabdullaev_29947",
+      "displayLabel": "anarabdullaev_29947",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:naru0419045",
+      "login": "naru0419045",
+      "displayLabel": "なるお_",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:clutch_fii",
+      "login": "clutch_fii",
+      "displayLabel": "clutch_fii",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:rumathra",
+      "login": "rumathra",
+      "displayLabel": "Rumathra",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:p1lepe1el1",
+      "login": "p1lepe1el1",
+      "displayLabel": "珮蕾",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:chodie",
+      "login": "chodie",
+      "displayLabel": "Chodie",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:deepins02_13613",
+      "login": "deepins02_13613",
+      "displayLabel": "deepins02_13613",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:stokes",
+      "login": "stokes",
+      "displayLabel": "Stokes",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:kungentv",
+      "login": "kungentv",
+      "displayLabel": "KungenTV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:gtimetv",
+      "login": "gtimetv",
+      "displayLabel": "GTimeTV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:loeya",
+      "login": "loeya",
+      "displayLabel": "Loeya",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:entych",
+      "login": "entych",
+      "displayLabel": "えんてぃ",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:phantasm__",
+      "login": "phantasm__",
+      "displayLabel": "Phantasm__",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:washidai_",
+      "login": "washidai_",
+      "displayLabel": "わしだい",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:vovohzera",
+      "login": "vovohzera",
+      "displayLabel": "Vovohzera",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:hera",
+      "login": "hera",
+      "displayLabel": "Hera",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:pch3lk1n",
+      "login": "pch3lk1n",
+      "displayLabel": "PCH3LK1N",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:peter",
+      "login": "peter",
+      "displayLabel": "Peter",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:midbeast",
+      "login": "midbeast",
+      "displayLabel": "midbeast",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:amakipururu",
+      "login": "amakipururu",
+      "displayLabel": "天鬼ぷるる",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:admiralbulldog",
+      "login": "admiralbulldog",
+      "displayLabel": "AdmiralBulldog",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:wingo",
+      "login": "wingo",
+      "displayLabel": "Wingo",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:iseedeadp3ople",
+      "login": "iseedeadp3ople",
+      "displayLabel": "iseedeadp3ople",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:superjj",
+      "login": "superjj",
+      "displayLabel": "SuperJJ",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:m0xyy",
+      "login": "m0xyy",
+      "displayLabel": "m0xyy",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:nykchazza",
+      "login": "nykchazza",
+      "displayLabel": "NYKchazza",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:ilame",
+      "login": "ilame",
+      "displayLabel": "iLame",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:sovietwomble",
+      "login": "sovietwomble",
+      "displayLabel": "SovietWomble",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:mitsuki_mitsuu",
+      "login": "mitsuki_mitsuu",
+      "displayLabel": "みつきさんです",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:nisqyy",
+      "login": "nisqyy",
+      "displayLabel": "Nisqyy",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:yugi",
+      "login": "yugi",
+      "displayLabel": "Yugi",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:mikaels1",
+      "login": "mikaels1",
+      "displayLabel": "MikaelS1",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:wendolynortizz",
+      "login": "wendolynortizz",
+      "displayLabel": "wendolynortizz",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:meltonff",
+      "login": "meltonff",
+      "displayLabel": "メルトンめるとん",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:just_ns",
+      "login": "just_ns",
+      "displayLabel": "just_ns",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:gobgg",
+      "login": "gobgg",
+      "displayLabel": "GoBGG",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:lewisaoe",
+      "login": "lewisaoe",
+      "displayLabel": "lewisaoe",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:elbokeron",
+      "login": "elbokeron",
+      "displayLabel": "elBokeron",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:yuuechka",
+      "login": "yuuechka",
+      "displayLabel": "yuuechka",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:sunglitters",
+      "login": "sunglitters",
+      "displayLabel": "sunglitters",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:limmy",
+      "login": "limmy",
+      "displayLabel": "Limmy",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:lens_doto",
+      "login": "lens_doto",
+      "displayLabel": "LenS_Doto",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:formixyouknow",
+      "login": "formixyouknow",
+      "displayLabel": "formixyouknow",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:bbbb87",
+      "login": "bbbb87",
+      "displayLabel": "世誠",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:krapycoco",
+      "login": "krapycoco",
+      "displayLabel": "虧皮",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:wtf_winds123",
+      "login": "wtf_winds123",
+      "displayLabel": "大丸",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:commanderx",
+      "login": "commanderx",
+      "displayLabel": "CommanderX",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:olofmeister",
+      "login": "olofmeister",
+      "displayLabel": "olofmeister",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:dakillzor",
+      "login": "dakillzor",
+      "displayLabel": "Dakillzor",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:shaunz",
+      "login": "shaunz",
+      "displayLabel": "Shaunz",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:areslps",
+      "login": "areslps",
+      "displayLabel": "AresLPs",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:asmongold247",
+      "login": "asmongold247",
+      "displayLabel": "Asmongold247",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:rtparenacs",
+      "login": "rtparenacs",
+      "displayLabel": "RTPArenaCS",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:skyrroztv",
+      "login": "skyrroztv",
+      "displayLabel": "SkyrrozTV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:blindzonexgod",
+      "login": "blindzonexgod",
+      "displayLabel": "blindzonexgod",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:akarindao",
+      "login": "akarindao",
+      "displayLabel": "夢野あかり",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:ev913",
+      "login": "ev913",
+      "displayLabel": "Ev913",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:kuchentv",
+      "login": "kuchentv",
+      "displayLabel": "KuchenTV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:shuteye_orange",
+      "login": "shuteye_orange",
+      "displayLabel": "蝦愛橘子",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:swagg",
+      "login": "swagg",
+      "displayLabel": "Swagg",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:whityyy",
+      "login": "whityyy",
+      "displayLabel": "whityyy",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:fruktozka",
+      "login": "fruktozka",
+      "displayLabel": "Fruktozka",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:berticuss",
+      "login": "berticuss",
+      "displayLabel": "Berticuss",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:jezu_lol",
+      "login": "jezu_lol",
+      "displayLabel": "jezu_lol",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:evelynomadera",
+      "login": "evelynomadera",
+      "displayLabel": "evelynomadera",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:joshuaschmidtygo",
+      "login": "joshuaschmidtygo",
+      "displayLabel": "JoshuaSchmidtYGO",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:clioaite",
+      "login": "clioaite",
+      "displayLabel": "ClioAite",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:slayproxx",
+      "login": "slayproxx",
+      "displayLabel": "Slayproxx",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:x9nium",
+      "login": "x9nium",
+      "displayLabel": "x9nium",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:itsassitv",
+      "login": "itsassitv",
+      "displayLabel": "itsAssiTV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:kunshikitty",
+      "login": "kunshikitty",
+      "displayLabel": "Kunshikitty",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:neineimeme",
+      "login": "neineimeme",
+      "displayLabel": "捏捏寧寧",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:ache",
+      "login": "ache",
+      "displayLabel": "Ache",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:tonakaito_hendy",
+      "login": "tonakaito_hendy",
+      "displayLabel": "ヘンディー",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:nein1203",
+      "login": "nein1203",
+      "displayLabel": "小舞",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:liquidhasuobs",
+      "login": "liquidhasuobs",
+      "displayLabel": "LiquidHasuObs",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:minoru04160",
+      "login": "minoru04160",
+      "displayLabel": "軍師ミノル",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:kanegon1",
+      "login": "kanegon1",
+      "displayLabel": "ごんかね",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:psp1g",
+      "login": "psp1g",
+      "displayLabel": "PSP1G",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:rdulive",
+      "login": "rdulive",
+      "displayLabel": "RduLIVE",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:dmitry_bale",
+      "login": "dmitry_bale",
+      "displayLabel": "DMITRY_BALE",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:kiruma_ch",
+      "login": "kiruma_ch",
+      "displayLabel": "切嘛",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:epicvoyages",
+      "login": "epicvoyages",
+      "displayLabel": "EpicVoyages",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:vau0307",
+      "login": "vau0307",
+      "displayLabel": "ばぁう",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:alveussanctuary",
+      "login": "alveussanctuary",
+      "displayLabel": "AlveusSanctuary",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:juice",
+      "login": "juice",
+      "displayLabel": "Juice",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:hitch",
+      "login": "hitch",
+      "displayLabel": "Hitch",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:luzu_tv",
+      "login": "luzu_tv",
+      "displayLabel": "LUZU_TV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "rejected"
+    },
+    {
+      "id": "twitch:misolo3",
+      "login": "misolo3",
+      "displayLabel": "misolo3",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:olyashaa",
+      "login": "olyashaa",
+      "displayLabel": "olyashaa",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:velja_lol",
+      "login": "velja_lol",
+      "displayLabel": "velja_lol",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:mmgeneral",
+      "login": "mmgeneral",
+      "displayLabel": "斗艾",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:titiseadmin",
+      "login": "titiseadmin",
+      "displayLabel": "あどみん",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:strawberrytabby",
+      "login": "strawberrytabby",
+      "displayLabel": "StrawberryTabby",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:shinyatheninja",
+      "login": "shinyatheninja",
+      "displayLabel": "ShinyaTheNinja",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:dingding248",
+      "login": "dingding248",
+      "displayLabel": "丁義",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:tru3ta1ent",
+      "login": "tru3ta1ent",
+      "displayLabel": "TrU3Ta1ent",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:pizamizu",
+      "login": "pizamizu",
+      "displayLabel": "ぴざみず",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:gronkhtv",
+      "login": "gronkhtv",
+      "displayLabel": "GronkhTV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "rejected"
+    },
+    {
+      "id": "twitch:kasanofff",
+      "login": "kasanofff",
+      "displayLabel": "KASANOFFF",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:jenazad",
+      "login": "jenazad",
+      "displayLabel": "Jenazad",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:daikai4104",
+      "login": "daikai4104",
+      "displayLabel": "大楷",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:jeanmassiet",
+      "login": "jeanmassiet",
+      "displayLabel": "JeanMassiet",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:mashtakof",
+      "login": "mashtakof",
+      "displayLabel": "MashtakOF",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:mayj0501",
+      "login": "mayj0501",
+      "displayLabel": "梅婕",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:doctorul_",
+      "login": "doctorul_",
+      "displayLabel": "Doctorul_",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:pablogaming13",
+      "login": "pablogaming13",
+      "displayLabel": "pablogaming13",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:x2twins",
+      "login": "x2twins",
+      "displayLabel": "x2Twins",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:tortedelini",
+      "login": "tortedelini",
+      "displayLabel": "tortedelini",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:sumitaninasi",
+      "login": "sumitaninasi",
+      "displayLabel": "墨谷",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:voll",
+      "login": "voll",
+      "displayLabel": "Voll",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:kenbogard",
+      "login": "kenbogard",
+      "displayLabel": "kenbogard",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:dheylo",
+      "login": "dheylo",
+      "displayLabel": "Dheylo",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:katarsisgg",
+      "login": "katarsisgg",
+      "displayLabel": "katarsisgg",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:itsjxin",
+      "login": "itsjxin",
+      "displayLabel": "ItsJXin",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:ajak0n",
+      "login": "ajak0n",
+      "displayLabel": "ajak0n",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:sakanatl",
+      "login": "sakanatl",
+      "displayLabel": "sakanaTL",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:nagibatorleon",
+      "login": "nagibatorleon",
+      "displayLabel": "nagibatorleon",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:solaryhs",
+      "login": "solaryhs",
+      "displayLabel": "SolaryHS",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:manhuntaufderflucht",
+      "login": "manhuntaufderflucht",
+      "displayLabel": "Manhuntaufderflucht",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:seoi1016",
+      "login": "seoi1016",
+      "displayLabel": "정서이_",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:bobross",
+      "login": "bobross",
+      "displayLabel": "BobRoss",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:theboxlily",
+      "login": "theboxlily",
+      "displayLabel": "森森鈴蘭",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:kinapoppo",
+      "login": "kinapoppo",
+      "displayLabel": "kinapoppo",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    },
+    {
+      "id": "twitch:alohadancetv",
+      "login": "alohadancetv",
+      "displayLabel": "ALOHADANCETV",
+      "sourceOrigin": "helix-discovery-review-seed",
+      "status": "ownerApproved"
+    }
+  ]
+}

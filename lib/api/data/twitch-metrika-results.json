@@ -1,0 +1,1605 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "login": "ache",
+      "userId": "193032346",
+      "status": "available",
+      "value": 533929,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.838Z"
+    },
+    {
+      "login": "admiralbulldog",
+      "userId": "30816637",
+      "status": "available",
+      "value": 777864,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.589Z"
+    },
+    {
+      "login": "ajak0n",
+      "userId": "644963197",
+      "status": "available",
+      "value": 109817,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.300Z"
+    },
+    {
+      "login": "akarindao",
+      "userId": "584184005",
+      "status": "available",
+      "value": 600499,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.084Z"
+    },
+    {
+      "login": "alohadancetv",
+      "userId": "46571894",
+      "status": "available",
+      "value": 939259,
+      "collectedAt": "2026-11-02T12:37:34.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.375Z"
+    },
+    {
+      "login": "alois_nl",
+      "userId": "122799408",
+      "status": "available",
+      "value": 396826,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.109Z"
+    },
+    {
+      "login": "alveussanctuary",
+      "userId": "636587384",
+      "status": "available",
+      "value": 489464,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.571Z"
+    },
+    {
+      "login": "amakipururu",
+      "userId": "741229569",
+      "status": "available",
+      "value": 229370,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.577Z"
+    },
+    {
+      "login": "anarabdullaev_29947",
+      "userId": "1552575568",
+      "status": "available",
+      "value": 33,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.889Z"
+    },
+    {
+      "login": "areslps",
+      "userId": "48245475",
+      "status": "available",
+      "value": 143256,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.442Z"
+    },
+    {
+      "login": "arky",
+      "userId": "100869214",
+      "status": "available",
+      "value": 592123,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.390Z"
+    },
+    {
+      "login": "asmongold247",
+      "userId": "1312862940",
+      "status": "available",
+      "value": 242309,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.449Z"
+    },
+    {
+      "login": "assarisyoko1",
+      "userId": "792691462",
+      "status": "available",
+      "value": 133101,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.975Z"
+    },
+    {
+      "login": "batora324",
+      "userId": "93828097",
+      "status": "available",
+      "value": 224482,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.256Z"
+    },
+    {
+      "login": "bbbb87",
+      "userId": "128222917",
+      "status": "available",
+      "value": 180110,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.838Z"
+    },
+    {
+      "login": "berticuss",
+      "userId": "179896802",
+      "status": "available",
+      "value": 374238,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.138Z"
+    },
+    {
+      "login": "blindzonexgod",
+      "userId": "613410561",
+      "status": "available",
+      "value": 71916,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.470Z"
+    },
+    {
+      "login": "bobross",
+      "userId": "105458682",
+      "status": "available",
+      "value": 2176768,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.350Z"
+    },
+    {
+      "login": "broxah",
+      "userId": "43539324",
+      "status": "available",
+      "value": 579544,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.405Z"
+    },
+    {
+      "login": "bysl4m",
+      "userId": "38759871",
+      "status": "available",
+      "value": 562490,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.164Z"
+    },
+    {
+      "login": "ceros127",
+      "userId": "40211539",
+      "status": "available",
+      "value": 62660,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.687Z"
+    },
+    {
+      "login": "chodie",
+      "userId": "77840050",
+      "status": "available",
+      "value": 70665,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.471Z"
+    },
+    {
+      "login": "clemovitch",
+      "userId": "132501030",
+      "status": "available",
+      "value": 233921,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.539Z"
+    },
+    {
+      "login": "clioaite",
+      "userId": "693883340",
+      "status": "available",
+      "value": 78112,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.790Z"
+    },
+    {
+      "login": "clutch_fii",
+      "userId": "169539617",
+      "status": "available",
+      "value": 287714,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.906Z"
+    },
+    {
+      "login": "coachlim",
+      "userId": "51653974",
+      "status": "available",
+      "value": 270825,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.348Z"
+    },
+    {
+      "login": "commanderx",
+      "userId": "27689704",
+      "status": "available",
+      "value": 43136,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.412Z"
+    },
+    {
+      "login": "croissantstrike",
+      "userId": "168116110",
+      "status": "available",
+      "value": 245018,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.355Z"
+    },
+    {
+      "login": "crystalst",
+      "userId": "115983024",
+      "status": "available",
+      "value": 260245,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.954Z"
+    },
+    {
+      "login": "cs2_maincast",
+      "userId": "657644821",
+      "status": "available",
+      "value": 294884,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.553Z"
+    },
+    {
+      "login": "cs2_paragon_ru",
+      "userId": "884930411",
+      "status": "available",
+      "value": 299183,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.563Z"
+    },
+    {
+      "login": "dafran",
+      "userId": "41314239",
+      "status": "available",
+      "value": 908413,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.116Z"
+    },
+    {
+      "login": "daikai4104",
+      "userId": "30324190",
+      "status": "available",
+      "value": 81823,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.947Z"
+    },
+    {
+      "login": "dakillzor",
+      "userId": "25722719",
+      "status": "available",
+      "value": 347593,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.428Z"
+    },
+    {
+      "login": "deepins02_13613",
+      "userId": "1557169133",
+      "status": "available",
+      "value": 6,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.485Z"
+    },
+    {
+      "login": "dheylo",
+      "userId": "29530640",
+      "status": "available",
+      "value": 253295,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.675Z"
+    },
+    {
+      "login": "dingding248",
+      "userId": "66548548",
+      "status": "available",
+      "value": 44445,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.902Z"
+    },
+    {
+      "login": "dmitry_bale",
+      "userId": "130313947",
+      "status": "available",
+      "value": 216210,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.534Z"
+    },
+    {
+      "login": "dmitry_lixxx",
+      "userId": "188890121",
+      "status": "available",
+      "value": 1922532,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.269Z"
+    },
+    {
+      "login": "doctorul_",
+      "userId": "272573477",
+      "status": "available",
+      "value": 36581,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.620Z"
+    },
+    {
+      "login": "dracon",
+      "userId": "38770961",
+      "status": "available",
+      "value": 93267,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.723Z"
+    },
+    {
+      "login": "elbokeron",
+      "userId": "74547642",
+      "status": "available",
+      "value": 590480,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.792Z"
+    },
+    {
+      "login": "entych",
+      "userId": "69600926",
+      "status": "available",
+      "value": 49021,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.539Z"
+    },
+    {
+      "login": "epicvoyages",
+      "userId": "140043801",
+      "status": "available",
+      "value": 42673,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.553Z"
+    },
+    {
+      "login": "eslcs",
+      "userId": "31239503",
+      "status": "available",
+      "value": 6819328,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.103Z"
+    },
+    {
+      "login": "ev913",
+      "userId": "718820856",
+      "status": "available",
+      "value": 41025,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.092Z"
+    },
+    {
+      "login": "evelynomadera",
+      "userId": "446246227",
+      "status": "available",
+      "value": 718680,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.157Z"
+    },
+    {
+      "login": "failverde",
+      "userId": "23852822",
+      "status": "available",
+      "value": 298753,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.122Z"
+    },
+    {
+      "login": "fanfan",
+      "userId": "596031520",
+      "status": "available",
+      "value": 457822,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.068Z"
+    },
+    {
+      "login": "fl0m",
+      "userId": "25093116",
+      "status": "available",
+      "value": 987964,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.694Z"
+    },
+    {
+      "login": "formixyouknow",
+      "userId": "1242180809",
+      "status": "available",
+      "value": 135102,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.831Z"
+    },
+    {
+      "login": "fps_shaka",
+      "userId": "49207184",
+      "status": "available",
+      "value": 1702761,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.142Z"
+    },
+    {
+      "login": "fruktozka",
+      "userId": "91465245",
+      "status": "available",
+      "value": 453632,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.130Z"
+    },
+    {
+      "login": "gerardromero",
+      "userId": "605221125",
+      "status": "available",
+      "value": 759467,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.969Z"
+    },
+    {
+      "login": "glorious_e",
+      "userId": "63304572",
+      "status": "available",
+      "value": 461680,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.941Z"
+    },
+    {
+      "login": "gobgg",
+      "userId": "40760591",
+      "status": "available",
+      "value": 299524,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.776Z"
+    },
+    {
+      "login": "gocchanmikey",
+      "userId": "818506560",
+      "status": "available",
+      "value": 229889,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.287Z"
+    },
+    {
+      "login": "greentea",
+      "userId": "29528480",
+      "status": "available",
+      "value": 186113,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.102Z"
+    },
+    {
+      "login": "gronkhtv",
+      "userId": "106159308",
+      "status": "available",
+      "value": 647893,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.924Z"
+    },
+    {
+      "login": "gtimetv",
+      "userId": "60160906",
+      "status": "available",
+      "value": 1098023,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.522Z"
+    },
+    {
+      "login": "guanweiboy",
+      "userId": "150989534",
+      "status": "available",
+      "value": 156654,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.096Z"
+    },
+    {
+      "login": "hera",
+      "userId": "91402599",
+      "status": "available",
+      "value": 251020,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.528Z"
+    },
+    {
+      "login": "hiiragitsurugi",
+      "userId": "952340772",
+      "status": "available",
+      "value": 480977,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.961Z"
+    },
+    {
+      "login": "hitch",
+      "userId": "200186636",
+      "status": "available",
+      "value": 156955,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.192Z"
+    },
+    {
+      "login": "hitomi_teraz",
+      "userId": "1348099501",
+      "status": "available",
+      "value": 43972,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.082Z"
+    },
+    {
+      "login": "iceicell",
+      "userId": "434276417",
+      "status": "available",
+      "value": 339702,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.874Z"
+    },
+    {
+      "login": "ilame",
+      "userId": "87791915",
+      "status": "available",
+      "value": 447362,
+      "collectedAt": "2026-11-02T12:37:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.003Z"
+    },
+    {
+      "login": "indegnasen0706",
+      "userId": "813704147",
+      "status": "available",
+      "value": 340008,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.135Z"
+    },
+    {
+      "login": "ironmouse",
+      "userId": "175831187",
+      "status": "available",
+      "value": 2561281,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.559Z"
+    },
+    {
+      "login": "iseedeadp3ople",
+      "userId": "170671692",
+      "status": "available",
+      "value": 71041,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.608Z"
+    },
+    {
+      "login": "itsassitv",
+      "userId": "406995218",
+      "status": "available",
+      "value": 234147,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.814Z"
+    },
+    {
+      "login": "itsjxin",
+      "userId": "676652575",
+      "status": "available",
+      "value": 11749,
+      "collectedAt": "2026-11-02T12:37:34.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.689Z"
+    },
+    {
+      "login": "izakooo",
+      "userId": "36717908",
+      "status": "available",
+      "value": 2014160,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.362Z"
+    },
+    {
+      "login": "japabigodin",
+      "userId": "231014663",
+      "status": "available",
+      "value": 16136,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.680Z"
+    },
+    {
+      "login": "jasper7se",
+      "userId": "77415295",
+      "status": "available",
+      "value": 671261,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.292Z"
+    },
+    {
+      "login": "jeanmassiet",
+      "userId": "117011503",
+      "status": "available",
+      "value": 265606,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.955Z"
+    },
+    {
+      "login": "jenazad",
+      "userId": "32133240",
+      "status": "available",
+      "value": 66212,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.939Z"
+    },
+    {
+      "login": "jezu_lol",
+      "userId": "234456766",
+      "status": "available",
+      "value": 70437,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.145Z"
+    },
+    {
+      "login": "jingggxd",
+      "userId": "136397315",
+      "status": "available",
+      "value": 773823,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.059Z"
+    },
+    {
+      "login": "jinnytty",
+      "userId": "159498717",
+      "status": "available",
+      "value": 1133591,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.298Z"
+    },
+    {
+      "login": "joshuaschmidtygo",
+      "userId": "410810480",
+      "status": "available",
+      "value": 69422,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.782Z"
+    },
+    {
+      "login": "juice",
+      "userId": "65411398",
+      "status": "available",
+      "value": 167155,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.181Z"
+    },
+    {
+      "login": "just_ns",
+      "userId": "42316376",
+      "status": "available",
+      "value": 790621,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.064Z"
+    },
+    {
+      "login": "k4sen",
+      "userId": "44525650",
+      "status": "available",
+      "value": 1043824,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.171Z"
+    },
+    {
+      "login": "kanegon1",
+      "userId": "73569767",
+      "status": "available",
+      "value": 48459,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.504Z"
+    },
+    {
+      "login": "kasanofff",
+      "userId": "1021870531",
+      "status": "available",
+      "value": 108609,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.932Z"
+    },
+    {
+      "login": "katarsisgg",
+      "userId": "426865642",
+      "status": "available",
+      "value": 21933,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.682Z"
+    },
+    {
+      "login": "kenbogard",
+      "userId": "37523739",
+      "status": "available",
+      "value": 107754,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.669Z"
+    },
+    {
+      "login": "kinapoppo",
+      "userId": "587350743",
+      "status": "available",
+      "value": 161952,
+      "collectedAt": "2026-11-02T12:37:34.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.367Z"
+    },
+    {
+      "login": "kiruma_ch",
+      "userId": "777241187",
+      "status": "available",
+      "value": 125490,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.544Z"
+    },
+    {
+      "login": "koma",
+      "userId": "457428542",
+      "status": "available",
+      "value": 312232,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.731Z"
+    },
+    {
+      "login": "kopsteep",
+      "userId": "89886468",
+      "status": "available",
+      "value": 212144,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.185Z"
+    },
+    {
+      "login": "kr1stw",
+      "userId": "170869845",
+      "status": "available",
+      "value": 87919,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.987Z"
+    },
+    {
+      "login": "krapycoco",
+      "userId": "37106068",
+      "status": "available",
+      "value": 156109,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.846Z"
+    },
+    {
+      "login": "kuchentv",
+      "userId": "36810911",
+      "status": "available",
+      "value": 392702,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.099Z"
+    },
+    {
+      "login": "kungentv",
+      "userId": "30383713",
+      "status": "available",
+      "value": 317309,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.511Z"
+    },
+    {
+      "login": "kunshikitty",
+      "userId": "111787808",
+      "status": "available",
+      "value": 233621,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.822Z"
+    },
+    {
+      "login": "lacy",
+      "userId": "494543675",
+      "status": "available",
+      "value": 3515049,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.157Z"
+    },
+    {
+      "login": "lazvell",
+      "userId": "48677263",
+      "status": "available",
+      "value": 575378,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.993Z"
+    },
+    {
+      "login": "lenapena2006",
+      "userId": "883429620",
+      "status": "available",
+      "value": 52721,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.738Z"
+    },
+    {
+      "login": "lens_doto",
+      "userId": "265525984",
+      "status": "available",
+      "value": 198526,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.824Z"
+    },
+    {
+      "login": "letshugotv",
+      "userId": "117385099",
+      "status": "available",
+      "value": 1242583,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.413Z"
+    },
+    {
+      "login": "lewisaoe",
+      "userId": "698851364",
+      "status": "available",
+      "value": 16478,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.784Z"
+    },
+    {
+      "login": "limmy",
+      "userId": "10386664",
+      "status": "available",
+      "value": 495047,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.817Z"
+    },
+    {
+      "login": "liquidhasuobs",
+      "userId": "30209220",
+      "status": "available",
+      "value": 38965,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.483Z"
+    },
+    {
+      "login": "loeya",
+      "userId": "166279350",
+      "status": "available",
+      "value": 1665586,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.531Z"
+    },
+    {
+      "login": "lolthek4sen",
+      "userId": "1323501012",
+      "status": "available",
+      "value": 44344,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.715Z"
+    },
+    {
+      "login": "luzu_tv",
+      "userId": "601665123",
+      "status": "available",
+      "value": 512122,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.206Z"
+    },
+    {
+      "login": "m0xyy",
+      "userId": "69012069",
+      "status": "available",
+      "value": 686763,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.623Z"
+    },
+    {
+      "login": "manhuntaufderflucht",
+      "userId": "1048971170",
+      "status": "available",
+      "value": 11442,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.333Z"
+    },
+    {
+      "login": "manyochill",
+      "userId": "778227078",
+      "status": "available",
+      "value": 14049,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.369Z"
+    },
+    {
+      "login": "mashtakof",
+      "userId": "540612615",
+      "status": "available",
+      "value": 45739,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.961Z"
+    },
+    {
+      "login": "maxim",
+      "userId": "172376071",
+      "status": "available",
+      "value": 517893,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.075Z"
+    },
+    {
+      "login": "maximilian_dood",
+      "userId": "30104304",
+      "status": "available",
+      "value": 1368562,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.302Z"
+    },
+    {
+      "login": "mayj0501",
+      "userId": "1047145019",
+      "status": "available",
+      "value": 24620,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.968Z"
+    },
+    {
+      "login": "meiy_vl",
+      "userId": "473688875",
+      "status": "available",
+      "value": 341939,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.569Z"
+    },
+    {
+      "login": "melharucos",
+      "userId": "26819117",
+      "status": "available",
+      "value": 472510,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.999Z"
+    },
+    {
+      "login": "meltonff",
+      "userId": "806179236",
+      "status": "available",
+      "value": 99559,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.056Z"
+    },
+    {
+      "login": "midbeast",
+      "userId": "92113890",
+      "status": "available",
+      "value": 860190,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.564Z"
+    },
+    {
+      "login": "mikaels1",
+      "userId": "170431874",
+      "status": "available",
+      "value": 88867,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.042Z"
+    },
+    {
+      "login": "minoru04160",
+      "userId": "214737896",
+      "status": "available",
+      "value": 39701,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.495Z"
+    },
+    {
+      "login": "misolo3",
+      "userId": "246624681",
+      "status": "available",
+      "value": 144562,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.219Z"
+    },
+    {
+      "login": "mitsuki_mitsuu",
+      "userId": "689257502",
+      "status": "available",
+      "value": 42208,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.020Z"
+    },
+    {
+      "login": "mmgeneral",
+      "userId": "70857747",
+      "status": "available",
+      "value": 38189,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.254Z"
+    },
+    {
+      "login": "montanablack88",
+      "userId": "45044816",
+      "status": "available",
+      "value": 5781582,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.149Z"
+    },
+    {
+      "login": "nacho_dayo",
+      "userId": "190110029",
+      "status": "available",
+      "value": 477237,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.882Z"
+    },
+    {
+      "login": "nagibatorleon",
+      "userId": "570971897",
+      "status": "available",
+      "value": 18613,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.316Z"
+    },
+    {
+      "login": "naru0419045",
+      "userId": "805456112",
+      "status": "available",
+      "value": 134738,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.898Z"
+    },
+    {
+      "login": "nein1203",
+      "userId": "64855800",
+      "status": "available",
+      "value": 93705,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.853Z"
+    },
+    {
+      "login": "neineimeme",
+      "userId": "554813506",
+      "status": "available",
+      "value": 88313,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.830Z"
+    },
+    {
+      "login": "nisqyy",
+      "userId": "84539108",
+      "status": "available",
+      "value": 437799,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.028Z"
+    },
+    {
+      "login": "nooreax",
+      "userId": "172312401",
+      "status": "available",
+      "value": 725137,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.546Z"
+    },
+    {
+      "login": "nykchazza",
+      "userId": "622580525",
+      "status": "available",
+      "value": 371057,
+      "collectedAt": "2026-11-02T12:37:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.996Z"
+    },
+    {
+      "login": "olofmeister",
+      "userId": "46717011",
+      "status": "available",
+      "value": 947317,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.420Z"
+    },
+    {
+      "login": "olyashaa",
+      "userId": "104717035",
+      "status": "available",
+      "value": 717785,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.232Z"
+    },
+    {
+      "login": "ow_uruca",
+      "userId": "137621174",
+      "status": "available",
+      "value": 300160,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.948Z"
+    },
+    {
+      "login": "p1lepe1el1",
+      "userId": "1322264153",
+      "status": "available",
+      "value": 69485,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.922Z"
+    },
+    {
+      "login": "pablogaming13",
+      "userId": "105214785",
+      "status": "available",
+      "value": 28269,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.628Z"
+    },
+    {
+      "login": "pch3lk1n",
+      "userId": "48978939",
+      "status": "available",
+      "value": 581873,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.540Z"
+    },
+    {
+      "login": "pelaajatcom",
+      "userId": "259710795",
+      "status": "available",
+      "value": 120554,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.275Z"
+    },
+    {
+      "login": "peter",
+      "userId": "582765062",
+      "status": "available",
+      "value": 264174,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.552Z"
+    },
+    {
+      "login": "phantasm__",
+      "userId": "168492696",
+      "status": "available",
+      "value": 99976,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.547Z"
+    },
+    {
+      "login": "pizamizu",
+      "userId": "717502139",
+      "status": "available",
+      "value": 1441,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.916Z"
+    },
+    {
+      "login": "psp1g",
+      "userId": "104391402",
+      "status": "available",
+      "value": 139894,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.513Z"
+    },
+    {
+      "login": "rdulive",
+      "userId": "59965916",
+      "status": "available",
+      "value": 345070,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.524Z"
+    },
+    {
+      "login": "rtparenacs",
+      "userId": "122208625",
+      "status": "available",
+      "value": 262374,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.456Z"
+    },
+    {
+      "login": "rumathra",
+      "userId": "41567638",
+      "status": "available",
+      "value": 1287748,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.914Z"
+    },
+    {
+      "login": "sakanatl",
+      "userId": "1105075921",
+      "status": "available",
+      "value": 2296,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.308Z"
+    },
+    {
+      "login": "seoi1016",
+      "userId": "752742297",
+      "status": "available",
+      "value": 232166,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.342Z"
+    },
+    {
+      "login": "shaunz",
+      "userId": "43102846",
+      "status": "available",
+      "value": 289150,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.435Z"
+    },
+    {
+      "login": "shinjifromjapanxd",
+      "userId": "276504990",
+      "status": "available",
+      "value": 260759,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.090Z"
+    },
+    {
+      "login": "shinyatheninja",
+      "userId": "188526166",
+      "status": "available",
+      "value": 72981,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.304Z"
+    },
+    {
+      "login": "shlorox",
+      "userId": "40784764",
+      "status": "available",
+      "value": 437411,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.981Z"
+    },
+    {
+      "login": "shuteye_orange",
+      "userId": "25202416",
+      "status": "available",
+      "value": 178611,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.106Z"
+    },
+    {
+      "login": "skyrroztv",
+      "userId": "52349411",
+      "status": "available",
+      "value": 1220265,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.463Z"
+    },
+    {
+      "login": "skywhywalker",
+      "userId": "254030065",
+      "status": "available",
+      "value": 1417514,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.533Z"
+    },
+    {
+      "login": "slayproxx",
+      "userId": "57361005",
+      "status": "available",
+      "value": 97280,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.798Z"
+    },
+    {
+      "login": "solaryhs",
+      "userId": "416031592",
+      "status": "available",
+      "value": 214623,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.324Z"
+    },
+    {
+      "login": "sovietwomble",
+      "userId": "67802451",
+      "status": "available",
+      "value": 1607549,
+      "collectedAt": "2026-11-02T12:37:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.012Z"
+    },
+    {
+      "login": "steel",
+      "userId": "195675197",
+      "status": "available",
+      "value": 823391,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.250Z"
+    },
+    {
+      "login": "sterzik",
+      "userId": "499126234",
+      "status": "available",
+      "value": 247387,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.828Z"
+    },
+    {
+      "login": "stokes",
+      "userId": "438465591",
+      "status": "available",
+      "value": 187318,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.498Z"
+    },
+    {
+      "login": "strawberrytabby",
+      "userId": "562723403",
+      "status": "available",
+      "value": 752001,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.294Z"
+    },
+    {
+      "login": "stray228",
+      "userId": "40488774",
+      "status": "available",
+      "value": 1796888,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.575Z"
+    },
+    {
+      "login": "strogo",
+      "userId": "233741947",
+      "status": "available",
+      "value": 2313371,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.089Z"
+    },
+    {
+      "login": "sumitaninasi",
+      "userId": "745183962",
+      "status": "available",
+      "value": 3814,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.654Z"
+    },
+    {
+      "login": "sunglitters",
+      "userId": "98916815",
+      "status": "available",
+      "value": 119666,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.809Z"
+    },
+    {
+      "login": "superjj",
+      "userId": "58352686",
+      "status": "available",
+      "value": 173229,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.616Z"
+    },
+    {
+      "login": "swagg",
+      "userId": "39724467",
+      "status": "available",
+      "value": 2409215,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.114Z"
+    },
+    {
+      "login": "takayaspecial",
+      "userId": "93305727",
+      "status": "available",
+      "value": 105703,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.673Z"
+    },
+    {
+      "login": "theboxlily",
+      "userId": "906723758",
+      "status": "available",
+      "value": 28038,
+      "collectedAt": "2026-11-02T12:37:34.000Z",
+      "retrievedAt": "2026-11-02T13:12:24.358Z"
+    },
+    {
+      "login": "theburntpeanut_247",
+      "userId": "1305342529",
+      "status": "available",
+      "value": 520727,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.866Z"
+    },
+    {
+      "login": "titiseadmin",
+      "userId": "400123822",
+      "status": "available",
+      "value": 73242,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.261Z"
+    },
+    {
+      "login": "tonakaito_hendy",
+      "userId": "510453927",
+      "status": "available",
+      "value": 348371,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.845Z"
+    },
+    {
+      "login": "tortedelini",
+      "userId": "22712717",
+      "status": "available",
+      "value": 45081,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.648Z"
+    },
+    {
+      "login": "tototmix",
+      "userId": "94618049",
+      "status": "available",
+      "value": 195067,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.383Z"
+    },
+    {
+      "login": "tpabomah",
+      "userId": "265940345",
+      "status": "available",
+      "value": 853651,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.397Z"
+    },
+    {
+      "login": "tru3ta1ent",
+      "userId": "48286022",
+      "status": "available",
+      "value": 706360,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.909Z"
+    },
+    {
+      "login": "vau0307",
+      "userId": "1327820963",
+      "status": "available",
+      "value": 14323,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:21.562Z"
+    },
+    {
+      "login": "velja_lol",
+      "userId": "142181685",
+      "status": "available",
+      "value": 255188,
+      "collectedAt": "2026-11-02T12:37:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:22.244Z"
+    },
+    {
+      "login": "voll",
+      "userId": "38819526",
+      "status": "available",
+      "value": 17363,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.662Z"
+    },
+    {
+      "login": "vovapain",
+      "userId": "39048329",
+      "status": "available",
+      "value": 304925,
+      "collectedAt": "2026-11-02T12:21:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:14.377Z"
+    },
+    {
+      "login": "vovohzera",
+      "userId": "45581486",
+      "status": "available",
+      "value": 4043,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.563Z"
+    },
+    {
+      "login": "washidai_",
+      "userId": "121079066",
+      "status": "available",
+      "value": 27230,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:16.555Z"
+    },
+    {
+      "login": "watchfultv",
+      "userId": "172643869",
+      "status": "available",
+      "value": 311054,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.708Z"
+    },
+    {
+      "login": "wendolynortizz",
+      "userId": "1017626993",
+      "status": "available",
+      "value": 1222149,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.048Z"
+    },
+    {
+      "login": "whityyy",
+      "userId": "31553042",
+      "status": "available",
+      "value": 16968,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.121Z"
+    },
+    {
+      "login": "wingo",
+      "userId": "41384425",
+      "status": "available",
+      "value": 137001,
+      "collectedAt": "2026-11-02T12:21:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:17.599Z"
+    },
+    {
+      "login": "wtf_winds123",
+      "userId": "29546745",
+      "status": "available",
+      "value": 336966,
+      "collectedAt": "2026-11-02T12:37:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:19.401Z"
+    },
+    {
+      "login": "x2twins",
+      "userId": "189290002",
+      "status": "available",
+      "value": 3143362,
+      "collectedAt": "2026-11-02T12:37:33.000Z",
+      "retrievedAt": "2026-11-02T13:12:23.641Z"
+    },
+    {
+      "login": "x9nium",
+      "userId": "29377368",
+      "status": "available",
+      "value": 50868,
+      "collectedAt": "2026-11-02T12:37:31.000Z",
+      "retrievedAt": "2026-11-02T13:12:20.807Z"
+    },
+    {
+      "login": "xrohat",
+      "userId": "430023505",
+      "status": "available",
+      "value": 1367915,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.526Z"
+    },
+    {
+      "login": "yaritaiji",
+      "userId": "102631269",
+      "status": "available",
+      "value": 347660,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.581Z"
+    },
+    {
+      "login": "yugi",
+      "userId": "936171791",
+      "status": "available",
+      "value": 462410,
+      "collectedAt": "2026-11-02T12:37:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.035Z"
+    },
+    {
+      "login": "yuhilolz",
+      "userId": "108667255",
+      "status": "available",
+      "value": 16760,
+      "collectedAt": "2026-11-02T12:21:32.000Z",
+      "retrievedAt": "2026-11-02T13:12:15.858Z"
+    },
+    {
+      "login": "yukiofps14",
+      "userId": "427263526",
+      "status": "available",
+      "value": 260545,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.262Z"
+    },
+    {
+      "login": "yutapongo",
+      "userId": "65737149",
+      "status": "available",
+      "value": 72381,
+      "collectedAt": "2026-11-02T12:21:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:12.281Z"
+    },
+    {
+      "login": "yuuechka",
+      "userId": "423486275",
+      "status": "available",
+      "value": 662739,
+      "collectedAt": "2026-11-02T12:37:29.000Z",
+      "retrievedAt": "2026-11-02T13:12:18.801Z"
+    },
+    {
+      "login": "yuyuta0702",
+      "userId": "752988454",
+      "status": "available",
+      "value": 409044,
+      "collectedAt": "2026-11-02T12:21:28.000Z",
+      "retrievedAt": "2026-11-02T13:12:11.179Z"
+    },
+    {
+      "login": "zerost_s",
+      "userId": "89969094",
+      "status": "available",
+      "value": 203385,
+      "collectedAt": "2026-11-02T12:21:30.000Z",
+      "retrievedAt": "2026-11-02T13:12:13.701Z"
+    }
+  ]
+}

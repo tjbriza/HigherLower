@@ -4,7 +4,18 @@
 export type { SemanticCategoryId } from "@/lib/catalog/semanticCatalog";
 
 export type CategoryId =
-  "movie-ratings" | "game-playerbase" | "game-ratings" | "country-populations";
+  | "movie-ratings"
+  | "game-playerbase"
+  | "game-ratings"
+  | "country-populations"
+  | "release-dates"
+  | "movie-gross-revenue"
+  | "artist-album-counts"
+  | "album-release-dates"
+  | "youtube-subscribers"
+  | "game-release-dates"
+  | "monthly-listeners"
+  | "twitch-followers";
 
 export interface Category {
   /** Stable URL-safe identifier */

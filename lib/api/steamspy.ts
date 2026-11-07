@@ -1,12 +1,18 @@
 /**
- * SteamSpy fetcher — Game Playerbase
+ * SteamSpy fetcher — Peak Concurrent Players
  *
  * Endpoint: https://steamspy.com/api.php?request=top100in2weeks
  * No API key required.
  *
  * GameItem mapping:
- *   value        = ccu (concurrent users — peak at time of request)
- *   displayValue = formatted player count, e.g. "1,234,567 players"
+ *   value        = ccu (previous-day peak concurrent users)
+ *   displayValue = formatted peak count, e.g. "1.23M peak players"
+ *
+ * `ccu` semantics (verified 2026-10-12 against SteamSpy's About page and the
+ * `steamr` API reference): the **peak concurrent-user count recorded
+ * yesterday** — a daily peak, NOT a live/instantaneous count and NOT an
+ * all-time peak. SteamSpy pulls data every minute but updates visualizations
+ * once daily (GMT+2), so the metric is at least one day stale by design.
  *
  * SteamSpy does not serve cover art directly; we supplement with the
  * Steam CDN which uses the same appid.
@@ -23,7 +29,7 @@ import { GameItem, ApiFetchError } from "@/types/api";
 interface SteamSpyGame {
   appid: number;
   name: string;
-  /** Current concurrent users (peak CCU in last 2 weeks) */
+  /** Previous-day peak concurrent users (CCU yesterday) — not a live count */
   ccu: number;
   /** Owners range string, e.g. "50,000,000 .. 100,000,000" — not used for value */
   owners: string;
@@ -45,15 +51,18 @@ function steamImageUrl(appid: number): string {
   return `${STEAM_CDN}/${appid}/library_600x900.jpg`;
 }
 
-/** Formats a number as a localised string with a "players" suffix */
+/**
+ * Formats a previous-day peak concurrent-player count. The word "peak" is
+ * required so the card never implies a live/instantaneous player count.
+ */
 function formatPlayerCount(n: number): string {
   if (n >= 1_000_000) {
-    return `${(n / 1_000_000).toFixed(2)}M players`;
+    return `${(n / 1_000_000).toFixed(2)}M peak players`;
   }
   if (n >= 1_000) {
-    return `${(n / 1_000).toFixed(1)}K players`;
+    return `${(n / 1_000).toFixed(1)}K peak players`;
   }
-  return `${n.toLocaleString("en-US")} players`;
+  return `${n.toLocaleString("en-US")} peak players`;
 }
 
 // ─── Fetcher ──────────────────────────────────────────────────────────────────
@@ -80,7 +89,7 @@ export async function fetchGamePlayerbase(): Promise<GameItem[]> {
   return games
     .filter(
       (g) =>
-        g.ccu > 0 &&           // skip games with zero concurrent users
+        g.ccu > 0 &&           // exclude ccu = 0 (no meaningful comparison value)
         g.name?.trim() &&      // must have a name
         g.name.length <= 60 && // skip very long DLC/bundle titles
         g.appid,               // must have a Steam App ID for the CDN image
@@ -92,5 +101,5 @@ export async function fetchGamePlayerbase(): Promise<GameItem[]> {
       value: g.ccu,
       displayValue: formatPlayerCount(g.ccu),
     }))
-    .sort((a, b) => b.value - a.value); // highest CCU first
+    .sort((a, b) => b.value - a.value); // highest previous-day peak first
 }

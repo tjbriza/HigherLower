@@ -1,0 +1,2516 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-02T11:33:46.192Z",
+  "records": [
+    {
+      "mbid": "00a9f935-ba93-4fc8-a33a-993abe9c936b",
+      "name": "Nightwish",
+      "spotifyArtistId": "2NPduAUeLVsfIauhRwuft1",
+      "spotifyUrl": "https://open.spotify.com/artist/2NPduAUeLVsfIauhRwuft1",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nightwish_au_Rockhal_2015.JPG",
+      "attribution": "Fafle7429 · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "0168ca0c-2da7-4f1f-a57a-a5e99edd04c4",
+      "name": "SDP",
+      "spotifyArtistId": "1EfwyuCzDQpCslZc8C9gkG",
+      "spotifyUrl": "https://open.spotify.com/artist/1EfwyuCzDQpCslZc8C9gkG",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sdp_2015_m%C3%BCnchen_1.jpg",
+      "attribution": "Arne Müseler · CC BY-SA 3.0 de · https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    },
+    {
+      "mbid": "0221734a-35a8-40f7-b5c5-2f61a200bc7c",
+      "name": "Migos",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Migos_Veld_festival_2017.jpg",
+      "attribution": "The Come Up Show · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+      "name": "Queen",
+      "spotifyArtistId": "1dfeR4HaWDbWqFHLkxsg1d",
+      "spotifyUrl": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_A_Night_At_The_Opera_(1975_Elektra_publicity_photo_02).jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "0480ca1e-6fe0-42e7-893b-8b876fa1f902",
+      "name": "T‐SQUARE",
+      "spotifyArtistId": "7BwOjwl5mKpGVIvzvqEcie",
+      "spotifyUrl": "https://open.spotify.com/artist/7BwOjwl5mKpGVIvzvqEcie",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/T-Square_Bangkok.png",
+      "attribution": "Yai Photomann · CC BY 3.0 · https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+      "name": "Daft Punk",
+      "spotifyArtistId": "4tZwfgrHOc3mvqYlEYSvVi",
+      "spotifyUrl": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Daft_Punk_in_2013.jpg",
+      "attribution": "Sony Music Entertainment · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "mbid": "07e748f1-075e-428d-85dc-ce3be434e906",
+      "name": "Dave Matthews Band",
+      "spotifyArtistId": "2TI7qyDE0QfyOlnbtfDo7L",
+      "spotifyUrl": "https://open.spotify.com/artist/2TI7qyDE0QfyOlnbtfDo7L",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dave_Matthews_Band_-_Band_Shot_Melbourne_2005.jpg",
+      "attribution": "Diliff · CC BY 2.5 · https://creativecommons.org/licenses/by/2.5"
+    },
+    {
+      "mbid": "084308bd-1654-436f-ba03-df6697104e19",
+      "name": "Green Day",
+      "spotifyArtistId": "7oPftvlwr6VrsViSDV7fJY",
+      "spotifyUrl": "https://open.spotify.com/artist/7oPftvlwr6VrsViSDV7fJY",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Green_Day_-_Hella_Mega_Tour_-_August_10%2C_2021.jpg",
+      "attribution": "ECarterSterling · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "091ec508-877f-4e3c-92a3-10903bbbc7ad",
+      "name": "The Everly Brothers",
+      "spotifyArtistId": "4ACplpEqD6JIVgKrafauzs",
+      "spotifyUrl": "https://open.spotify.com/artist/4ACplpEqD6JIVgKrafauzs",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Everlys_Brothers_in_concert.jpg",
+      "attribution": "Savannah Grandfather · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "096c365c-eae7-4e96-8b3b-aa5e9f62a9b0",
+      "name": "Clemencic Consort",
+      "spotifyArtistId": "7IU1mejEjVK8cebFCnGmlX",
+      "spotifyUrl": "https://open.spotify.com/artist/7IU1mejEjVK8cebFCnGmlX",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20171216_202742_ClemencicConsort.jpg",
+      "attribution": "Akemi Steinböck · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "0c502791-4ee9-4c5f-9696-0602b721ff3b",
+      "name": "Electric Light Orchestra",
+      "spotifyArtistId": "7jefIIksOi1EazgRTfW2Pk",
+      "spotifyUrl": "https://open.spotify.com/artist/7jefIIksOi1EazgRTfW2Pk",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Elo_27041978_04_800.jpg",
+      "attribution": "Helge Øverås · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "spotifyArtistId": "3Nrfpe0tUJi4K4DXYWgMUX",
+      "spotifyUrl": "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/BTS_during_a_White_House_press_conference_May_31%2C_2022_(cropped).jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "0eedfc95-e79a-4fd9-832a-cd816a0b3fda",
+      "name": "Lady A",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/LadyAntebellumApr10.jpg",
+      "attribution": "Keith Hinkle at https://www.flickr.com/photos/burningkarma/ · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "0f9997bd-e079-429e-8ccd-9378c9b0c746",
+      "name": "Weather Report",
+      "spotifyArtistId": "162DCkd8aDKwvjBb74Gu8b",
+      "spotifyUrl": "https://open.spotify.com/artist/162DCkd8aDKwvjBb74Gu8b",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Weather_Report_19810611_shinjuku_fn23.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "0febdcf7-4e1f-4661-9493-b40427de2c13",
+      "name": "Wu‐Tang Clan",
+      "spotifyArtistId": "34EP7KEpOjXcM2TCat1ISk",
+      "spotifyUrl": "https://open.spotify.com/artist/34EP7KEpOjXcM2TCat1ISk",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wu_Tang_Clan_on_Stage.jpg",
+      "attribution": "Napalm filled tires · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "1089f50b-10c3-47ef-8b21-b0b899c827d8",
+      "name": "The Oak Ridge Boys",
+      "spotifyArtistId": "3XnO697XIus1M0cMuxZjos",
+      "spotifyUrl": "https://open.spotify.com/artist/3XnO697XIus1M0cMuxZjos",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Oak_Ridge_Boys_on_stage_in_Defiance%2C_Ohio%2C_2024.jpg",
+      "attribution": "Theboreingone · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+      "name": "Creedence Clearwater Revival",
+      "spotifyArtistId": "3IYUhFvPQItj6xySrBmZkd",
+      "spotifyUrl": "https://open.spotify.com/artist/3IYUhFvPQItj6xySrBmZkd",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Creedence_Clearwater_Revival_1968.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "10adbe5e-a2c0-4bf3-8249-2b4cbf6e6ca8",
+      "name": "Massive Attack",
+      "spotifyArtistId": "6FXMGgJwohJLUSr5nVlf9X",
+      "spotifyUrl": "https://open.spotify.com/artist/6FXMGgJwohJLUSr5nVlf9X",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Massive_Attack_composite.jpg",
+      "attribution": "Photo by Festival Eurockéennes/Rod le Hiboo, artwork by Jezhotwells · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "12b6e407-4ec0-4cc6-80d4-b38d7df99694",
+      "name": "ALI PROJECT",
+      "spotifyArtistId": "1kCSjswFJFcjTauk0sKaOn",
+      "spotifyUrl": "https://open.spotify.com/artist/1kCSjswFJFcjTauk0sKaOn",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali-project-usa.jpg",
+      "attribution": "Jscozzari at English Wikipedia · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "13c9c494-09aa-4518-8572-9f41dbdff461",
+      "name": "K.I.Z",
+      "spotifyArtistId": "0bMt8SJlp0gFRUufzifS05",
+      "spotifyUrl": "https://open.spotify.com/artist/0bMt8SJlp0gFRUufzifS05",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/WirSindMehr2018-K.I.Z.-29.jpg",
+      "attribution": "Chris W. Braunschweiger (talk) · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "13df2a46-f72f-40e7-aa63-26fcf62c7048",
+      "name": "Ministry",
+      "spotifyArtistId": "1DXylZlWbVvlckNqwvjTEt",
+      "spotifyUrl": "https://open.spotify.com/artist/1DXylZlWbVvlckNqwvjTEt",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hellfest2017Ministry_14.jpg",
+      "attribution": "Selbymay · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "153c9281-268f-4cf3-8938-f5a4593e5df4",
+      "name": "Soundgarden",
+      "spotifyArtistId": "5xUf6j4upBrXZPg6AI4MRK",
+      "spotifyUrl": "https://open.spotify.com/artist/5xUf6j4upBrXZPg6AI4MRK",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Soundgarden_Chicago.jpg",
+      "attribution": "musicisentropy · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "1709e9f2-c77f-4779-b67d-44905fbc35c0",
+      "name": "The Swingle Singers",
+      "spotifyArtistId": "1ZlFYysRdc6YaUH5FkxPl8",
+      "spotifyUrl": "https://open.spotify.com/artist/1ZlFYysRdc6YaUH5FkxPl8",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Swingles_jm102026.jpg",
+      "attribution": "joergens.mi · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "17b53d9f-5c63-4a09-a593-dde4608e0db9",
+      "name": "The Kinks",
+      "spotifyArtistId": "1SQRv42e4PjEYfPhS0Tk9E",
+      "spotifyUrl": "https://open.spotify.com/artist/1SQRv42e4PjEYfPhS0Tk9E",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fanclub_-_The_Kinks_2.png",
+      "attribution": "VARA. Photographer: W. Veenman · CC BY-SA 3.0 nl · https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+    },
+    {
+      "mbid": "17e574e0-402a-4fe0-b513-4184c23f8873",
+      "name": "Canadian Brass",
+      "spotifyArtistId": "51LdwFHCk1yoK1jELZ4VOu",
+      "spotifyUrl": "https://open.spotify.com/artist/51LdwFHCk1yoK1jELZ4VOu",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Canadian_Brass_Master_Class_(32650031276).jpg",
+      "attribution": "Colorado State Universtiy School of Music, Theatre, and Dance · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "183d6ef6-e161-47ff-9085-063c8b897e97",
+      "name": "They Might Be Giants",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/They_Might_Be_Giants_in_Asheville%2C_2025.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "1884ed9c-6fe1-468d-a7f8-8d19c9c4e441",
+      "name": "Status Quo",
+      "spotifyArtistId": "4gIdjgLlvgEOz7MexDZzpM",
+      "spotifyUrl": "https://open.spotify.com/artist/4gIdjgLlvgEOz7MexDZzpM",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Status_quo_2005.jpg",
+      "attribution": "KevM at English Wikipedia · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "1932f5b6-0b7b-4050-b1df-833ca89e5f44",
+      "name": "Marillion",
+      "spotifyArtistId": "7ai5TWiOG8g9Hds5AATS28",
+      "spotifyUrl": "https://open.spotify.com/artist/7ai5TWiOG8g9Hds5AATS28",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marillion2.jpg",
+      "attribution": "Lrheath · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "1946a82a-f927-40c2-8235-38d64f50d043",
+      "name": "The Chemical Brothers",
+      "spotifyArtistId": "1GhPHrq36VKCY3ucVaZCfo",
+      "spotifyUrl": "https://open.spotify.com/artist/1GhPHrq36VKCY3ucVaZCfo",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Chemical_Brothers_performing_in_Barcelona%2C_Spain_(2007).jpg",
+      "attribution": "https://www.flickr.com/photos/alterna2/ · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "1a1cd7f3-e5df-4eca-bae2-2757c9e656b5",
+      "name": "Duran Duran",
+      "spotifyArtistId": "0lZoBs4Pzo7R89JM9lxwoT",
+      "spotifyUrl": "https://open.spotify.com/artist/0lZoBs4Pzo7R89JM9lxwoT",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Duran_Duran_1983.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "1c893468-37a9-4fb7-909f-929751a8ebed",
+      "name": "Dr. Hook",
+      "spotifyArtistId": "2Mhi3jfuRSdbVZPdjqsnnN",
+      "spotifyUrl": "https://open.spotify.com/artist/2Mhi3jfuRSdbVZPdjqsnnN",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr.Hook_telethon1977.jpg",
+      "attribution": "Jay Phagan · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "1d93c839-22e7-4f76-ad84-d27039efc048",
+      "name": "Sepultura",
+      "spotifyArtistId": "6JW8wliOEwaDZ231ZY7cf4",
+      "spotifyUrl": "https://open.spotify.com/artist/6JW8wliOEwaDZ231ZY7cf4",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sepultura_Tons_of_Rock_2026_05.jpg",
+      "attribution": "Birgit Fostervold · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "1dba1ce0-6197-4926-9737-6bc362dc0c00",
+      "name": "Sol Invictus",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "missing",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sol_Invictus_Live.jpg",
+      "attribution": "Michael Moll · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+      "name": "Taylor Swift",
+      "spotifyArtistId": "06HL4z0CvFAxyc27GXpf02",
+      "spotifyUrl": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png",
+      "attribution": "iHeartRadioCA · CC BY 3.0 · https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "mbid": "22437443-0e53-487b-aad0-87c851fbfeb0",
+      "name": "The Tallis Scholars",
+      "spotifyArtistId": "3vENFkiF5PZRluBBtQiwcG",
+      "spotifyUrl": "https://open.spotify.com/artist/3vENFkiF5PZRluBBtQiwcG",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brucknerfest_2025_-_The_Tallis_Scholars_BHO-1772.jpg",
+      "attribution": "Bernhard Holub · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "22872b62-5faa-43f3-8a45-f4386385af1d",
+      "name": "La Capella Reial de Catalunya",
+      "spotifyArtistId": "4dKYKf1IgHr64LifxxBVHM",
+      "spotifyUrl": "https://open.spotify.com/artist/4dKYKf1IgHr64LifxxBVHM",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Capella_Reial_de_Catalunya_and_Hesp%C3%A8rion_XXI.jpg",
+      "attribution": "Teresa Llordès · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "23d8426c-18c7-46e6-a51d-7395bd43c641",
+      "name": "Tangerine Dream",
+      "spotifyArtistId": "1BGN1IdyiSR0ZYrkoKNchl",
+      "spotifyUrl": "https://open.spotify.com/artist/1BGN1IdyiSR0ZYrkoKNchl",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tangerine_Dream_-_Elbphilharmonie_Hamburg_2018_02.jpg",
+      "attribution": "Frank Schwichtenberg · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "23d9d74d-c95e-46a6-be26-a6075c49747a",
+      "name": "Faithless",
+      "spotifyArtistId": "5T4UKHhr4HGIC0VzdZQtAE",
+      "spotifyUrl": "https://open.spotify.com/artist/5T4UKHhr4HGIC0VzdZQtAE",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Faithless.gif",
+      "attribution": "Christian Guthier from Oxford, UK · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "2469950a-f0ca-425a-bfbc-baf55ea3afde",
+      "name": "Kool & the Gang",
+      "spotifyArtistId": "3VNITwohbvU5Wuy5PC6dsI",
+      "spotifyUrl": "https://open.spotify.com/artist/3VNITwohbvU5Wuy5PC6dsI",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kool_%26_the_Gang_-_Leverkusener_Jazztage_2017-1963_(cropped).jpg",
+      "attribution": "Foto: Andreas Lawen, Fotandi · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "249eb550-505e-43ef-ac50-e8c605706ff1",
+      "name": "Giant Sand",
+      "spotifyArtistId": "339qxEdD8z8okRAiTp1HKf",
+      "spotifyUrl": "https://open.spotify.com/artist/339qxEdD8z8okRAiTp1HKf",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant_Sand_2006.jpg",
+      "attribution": "GothEric on Flickr · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "252b5d32-5bd5-4cae-9d48-6aafa2145c33",
+      "name": "The Bellamy Brothers",
+      "spotifyArtistId": "5iB5AWIa7qreioi0AF3Bxa",
+      "spotifyUrl": "https://open.spotify.com/artist/5iB5AWIa7qreioi0AF3Bxa",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Bellamy_Brothers.jpg",
+      "attribution": "Jarrett Gaza · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "26bcd35d-56a3-4e4d-8ad7-7bc5787c3af1",
+      "name": "Salt‐N‐Pepa",
+      "spotifyArtistId": "7wqtxqI3eo7Gn1P7SpP6cQ",
+      "spotifyUrl": "https://open.spotify.com/artist/7wqtxqI3eo7Gn1P7SpP6cQ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Salt-n-Pepa_2013.jpg",
+      "attribution": "David Burke · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "26f07661-e115-471d-a930-206f5c89d17c",
+      "name": "Mötley Crüe",
+      "spotifyArtistId": "0cc6vw3VN8YlIcvr1v7tBL",
+      "spotifyUrl": "https://open.spotify.com/artist/0cc6vw3VN8YlIcvr1v7tBL",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B6tley_Cr%C3%BCe%2C_Sweden_Rock_2012.jpg",
+      "attribution": "Bjornsphoto · CC BY 3.0 · https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "mbid": "2819834e-4e08-47b0-a2c4-b7672318e8f0",
+      "name": "The Byrds",
+      "spotifyArtistId": "1PCZpxHJz7WAMF8EEq8bfc",
+      "spotifyUrl": "https://open.spotify.com/artist/1PCZpxHJz7WAMF8EEq8bfc",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Byrds_(1970).jpg",
+      "attribution": "Joost Evers / Anefo · CC BY-SA 3.0 nl · https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+    },
+    {
+      "mbid": "2841d983-f8c3-432a-af02-7407a84580a8",
+      "name": "Merzbow",
+      "spotifyArtistId": "5UezsklPScipW64XJm7qql",
+      "spotifyUrl": "https://open.spotify.com/artist/5UezsklPScipW64XJm7qql",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Masami_Akita_5267969.jpg",
+      "attribution": "Nomo (Michael Hoefner) · CC BY 2.5 · https://creativecommons.org/licenses/by/2.5"
+    },
+    {
+      "mbid": "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d",
+      "name": "Dream Theater",
+      "spotifyArtistId": "2aaLAng2L2aWD2FClzwiep",
+      "spotifyUrl": "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dream_theater_live_in_Parigi_2005.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "29c5b1fb-5dcc-4499-b225-4ceeeb8a73d1",
+      "name": "The Carter Family",
+      "spotifyArtistId": "0FRIWJYklnmsll5M6h4gUL",
+      "spotifyUrl": "https://open.spotify.com/artist/0FRIWJYklnmsll5M6h4gUL",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Carter_Family_in_the_1930s_(retouched_using_Remini_App).jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "2a90aa9c-d2ff-49fd-a8e5-2463f657eb45",
+      "name": "Rage",
+      "spotifyArtistId": "5TJVsWPUaJxBxWfVZQEt2x",
+      "spotifyUrl": "https://open.spotify.com/artist/5TJVsWPUaJxBxWfVZQEt2x",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rage_Metal_Frenzy_2017_17.jpg",
+      "attribution": "S. Bollmann · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "2fa45bbb-0efb-4950-9d40-94bf23cbfec1",
+      "name": "Bone Thugs‐n‐Harmony",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bone_Thugs_N_Harmony.jpg",
+      "attribution": "Kmilo from NY/TX · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "322d2e0e-7df2-4208-a46c-26cb6c60ba56",
+      "name": "The Piano Guys",
+      "spotifyArtistId": "0jW6R8CVyVohuUJVcuweDI",
+      "spotifyUrl": "https://open.spotify.com/artist/0jW6R8CVyVohuUJVcuweDI",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Piano_Guys.jpg",
+      "attribution": "Scott Jarvie · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "3248ed2d-bada-41b5-a7b6-ac88faa1f1ac",
+      "name": "The Chicks",
+      "spotifyArtistId": "25IG9fa7cbdmCIy3OnuH57",
+      "spotifyUrl": "https://open.spotify.com/artist/25IG9fa7cbdmCIy3OnuH57",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dixie_Chicks_in_Austin%2C_Texas.jpg",
+      "attribution": "Ron Baker (https://www.flickr.com/photos/kingsnake) · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "336f2e14-b064-45c8-8b2a-01663a0bee64",
+      "name": "The Sugarhill Gang",
+      "spotifyArtistId": "7zliF6Q946WznVk3ZMYhZX",
+      "spotifyUrl": "https://open.spotify.com/artist/7zliF6Q946WznVk3ZMYhZX",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Sugarhill_Gang_(52790148289).jpg",
+      "attribution": "Gage Skidmore from Surprise, AZ, United States of America · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "370bd5a3-4abf-4356-8576-3a8fc0c11d65",
+      "name": "Above & Beyond",
+      "spotifyArtistId": "10gzBoINW3cLJfZUka8Zoe",
+      "spotifyUrl": "https://open.spotify.com/artist/10gzBoINW3cLJfZUka8Zoe",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paavo_Siljamaki_Tony_McGuinness_cropped.jpg",
+      "attribution": "Peter Drier · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+      "name": "Oasis",
+      "spotifyArtistId": "2DaxqgrOhkeH0fpeiQq2f4",
+      "spotifyUrl": "https://open.spotify.com/artist/2DaxqgrOhkeH0fpeiQq2f4",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oasis_-_Wembley_Stadium_-_Saturday_27th_September_2025.jpg",
+      "attribution": "Raph_PH · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "mbid": "3a212655-d7d5-4570-9d31-4b7b1ef02629",
+      "name": "G‐Unit",
+      "spotifyArtistId": "6evKD5JWJON3qPBJtUEmtY",
+      "spotifyUrl": "https://open.spotify.com/artist/6evKD5JWJON3qPBJtUEmtY",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/50_Cent%2C_Lloyd_Banks_%26_Tony_Yayo_at_Rider_Pt_2_video_shoot.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "3a9f0e21-5796-4f04-bd4c-3deafd59ad80",
+      "name": "Hespèrion XXI",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hesp%C3%A8rion_XXI.jpg",
+      "attribution": "David Ignaszewski · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "3bdcd49d-212e-4f4f-877a-eac1e4a2bddc",
+      "name": "Naughty by Nature",
+      "spotifyArtistId": "4Otx4bRLSfpah5kX8hdgDC",
+      "spotifyUrl": "https://open.spotify.com/artist/4Otx4bRLSfpah5kX8hdgDC",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Naughty_by_Nature_(w_Griz_on_the_Grind).jpg",
+      "attribution": "christopherharte · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "3d2b98e5-556f-4451-a3ff-c50ea18d57cb",
+      "name": "Aerosmith",
+      "spotifyArtistId": "7Ey4PD4MYsKc5I2dolUwbH",
+      "spotifyUrl": "https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerosmith_B.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "3dc00dcb-6106-43d1-b48d-21d236f53983",
+      "name": "People Under the Stairs",
+      "spotifyArtistId": "0av074qUwLn5eyzwqoq3xh",
+      "spotifyUrl": "https://open.spotify.com/artist/0av074qUwLn5eyzwqoq3xh",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/People_Under_The_Stairs.jpg",
+      "attribution": "Piecelock70 · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "3f5be744-e867-42fb-8913-5fd69e4099b5",
+      "name": "Chicago",
+      "spotifyArtistId": "3iDD7bnsjL9J4fO298r0L0",
+      "spotifyUrl": "https://open.spotify.com/artist/3iDD7bnsjL9J4fO298r0L0",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago_band_1973.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "41f4d85a-0bd7-4602-a3e3-8c47f36efb0a",
+      "name": "Accept",
+      "spotifyArtistId": "3JDIAtVrJdQ7GFOX26LYpv",
+      "spotifyUrl": "https://open.spotify.com/artist/3JDIAtVrJdQ7GFOX26LYpv",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Accept_-_Elbriot_2022_52.jpg",
+      "attribution": "Frank Schwichtenberg · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "42cb63fa-0cbc-49cb-9cc3-34080b709921",
+      "name": "Foster & Allen",
+      "spotifyArtistId": "53UCUopHRBowldiFYqYdzA",
+      "spotifyUrl": "https://open.spotify.com/artist/53UCUopHRBowldiFYqYdzA",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/FosterAllen2.jpg",
+      "attribution": "David Hull · CC BY 3.0 · https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "mbid": "43b58c98-3779-4b04-9a23-1c95cca3a145",
+      "name": "Erasure",
+      "spotifyArtistId": "0z5DFXmhT4ZNzWElsM7V89",
+      "spotifyUrl": "https://open.spotify.com/artist/0z5DFXmhT4ZNzWElsM7V89",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Andy%2C_Vince%2C_and_the_ladies.jpg",
+      "attribution": "highclassjackass · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "4458d70d-c215-4f06-beea-ebd448dad6ac",
+      "name": "Bill Haley and His Comets",
+      "spotifyArtistId": "3MFp4cYuYtTZe3d3xkLLbr",
+      "spotifyUrl": "https://open.spotify.com/artist/3MFp4cYuYtTZe3d3xkLLbr",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/BillHaley.JPG",
+      "attribution": null
+    },
+    {
+      "mbid": "4580d83b-093e-4241-91fb-2dd71f5f1f3f",
+      "name": "Carpenters",
+      "spotifyArtistId": "1eEfMU2AhEo7XnKgL7c304",
+      "spotifyUrl": "https://open.spotify.com/artist/1eEfMU2AhEo7XnKgL7c304",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Carpenters_1974.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "4591ea10-e654-4cfc-9615-56987c5bcbfe",
+      "name": "Axel Rudi Pell",
+      "spotifyArtistId": "7dWw3TXxNe2aEhng9vVRNl",
+      "spotifyUrl": "https://open.spotify.com/artist/7dWw3TXxNe2aEhng9vVRNl",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Axel_Rudi_Pell_band.JPG",
+      "attribution": null
+    },
+    {
+      "mbid": "46a782ea-4308-476b-abd1-a91b197f3037",
+      "name": "Crosby, Stills, Nash & Young",
+      "spotifyArtistId": "1CYsQCypByMVgnv17qsSbQ",
+      "spotifyUrl": "https://open.spotify.com/artist/1CYsQCypByMVgnv17qsSbQ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/CSNY_8-1974_(1).jpg",
+      "attribution": "Tony Morelli · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "4a4ee089-93b1-4470-af9a-6ff575d32704",
+      "name": "The Prodigy",
+      "spotifyArtistId": "4k1ELeJKT1ISyDv8JivPpB",
+      "spotifyUrl": "https://open.spotify.com/artist/4k1ELeJKT1ISyDv8JivPpB",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Prodigy-rock-am-ring-2009.jpg",
+      "attribution": "Herr Stern · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "4d483147-c871-48c4-8470-85e5a66381c5",
+      "name": "Celtic Woman",
+      "spotifyArtistId": "6NWtt9pNOL2Gx7kBykdE5x",
+      "spotifyUrl": "https://open.spotify.com/artist/6NWtt9pNOL2Gx7kBykdE5x",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Susan_McFadden%2C_Chlo%C3%AB_Agnew%2C_Lisa_Lambe%2C_Mairead_Nesbitt.jpg",
+      "attribution": "Eva Rinaldi · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "51508c1f-8d07-4a00-9cf1-26c570fe7b78",
+      "name": "Cypress Hill",
+      "spotifyArtistId": "4P0dddbxPil35MNN9G2MEX",
+      "spotifyUrl": "https://open.spotify.com/artist/4P0dddbxPil35MNN9G2MEX",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cypress_Hill.jpg",
+      "attribution": "Philgarlic · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+      "name": "Black Sabbath",
+      "spotifyArtistId": "5M52tdBnJaKSvOpJGz8mfZ",
+      "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Black_Sabbath_(1970).png",
+      "attribution": null
+    },
+    {
+      "mbid": "534ee493-bfac-4575-a44a-0ae41e2c3fe4",
+      "name": "Rush",
+      "spotifyArtistId": "2Hkut4rAAyrQxRdof7FVJq",
+      "spotifyUrl": "https://open.spotify.com/artist/2Hkut4rAAyrQxRdof7FVJq",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rush_band_1970s.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "535afeda-2538-435d-9dd1-5e10be586774",
+      "name": "Earth, Wind & Fire",
+      "spotifyArtistId": "4QQgXkCYTt3BlENzhyNETg",
+      "spotifyUrl": "https://open.spotify.com/artist/4QQgXkCYTt3BlENzhyNETg",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Earth_Wind_and_Fire_1970s_press_photo.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "5700dcd4-c139-4f31-aa3e-6382b9af9032",
+      "name": "Kraftwerk",
+      "spotifyArtistId": "0dmPX6ovclgOy8WWJaFEUU",
+      "spotifyUrl": "https://open.spotify.com/artist/0dmPX6ovclgOy8WWJaFEUU",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kraftwerk_In_Chicago-01.jpg",
+      "attribution": "SafeForWork · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "57961a97-3796-4bf7-9f02-a985a8979ae9",
+      "name": "Motörhead",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Motorhead_in_Indianapolis_(September_9%2C_2015)_-_Jessica_Branstetter_09.jpg",
+      "attribution": "Jessica Branstetter · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "5a28f8c2-31fb-4047-ae57-c5c326989262",
+      "name": "Hawkwind",
+      "spotifyArtistId": "2jK54ZlZhTF1TxygsVeR05",
+      "spotifyUrl": "https://open.spotify.com/artist/2jK54ZlZhTF1TxygsVeR05",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hawkwind_2017.jpg",
+      "attribution": "Michael Reason-Wiki · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "name": "Nirvana",
+      "spotifyArtistId": "6olE6TJLqED3rqDCT0FyPh",
+      "spotifyUrl": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nirvana_around_1992.jpg",
+      "attribution": "P.B. Rage from USA · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "5dcdb5eb-cb72-4e6e-9e63-b7bace604965",
+      "name": "Bon Jovi",
+      "spotifyArtistId": "58lV9VcRSjABbAbfWS6skp",
+      "spotifyUrl": "https://open.spotify.com/artist/58lV9VcRSjABbAbfWS6skp",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bon_Jovi_1.jpg",
+      "attribution": "Rosana Prada · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "5dedf5cf-a598-4408-9556-3bf3f149f3ba",
+      "name": "Whitesnake",
+      "spotifyArtistId": "3UbyYnvNIT5DFXU4WgiGpP",
+      "spotifyUrl": "https://open.spotify.com/artist/3UbyYnvNIT5DFXU4WgiGpP",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Whitesnake_-_Wacken_Open_Air_2016-AL1161.jpg",
+      "attribution": "Andreas Lawen, Fotandi · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "5dfdca28-9ddc-4853-933c-8bc97d87beec",
+      "name": "Marilyn Manson",
+      "spotifyArtistId": "2VYQTNDsvvKN9wmU5W7xpj",
+      "spotifyUrl": "https://open.spotify.com/artist/2VYQTNDsvvKN9wmU5W7xpj",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marilyn_Manson_2012.jpg",
+      "attribution": "SaiDay · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "5e372a49-5672-4fb8-ba14-18c90780c4f9",
+      "name": "Calexico",
+      "spotifyArtistId": "1OmdWpAh1pucAuZPzJaxIJ",
+      "spotifyUrl": "https://open.spotify.com/artist/1OmdWpAh1pucAuZPzJaxIJ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Calexico_-_Burg_Herzberg_Festival_2024_04.jpg",
+      "attribution": "Frank Schwichtenberg · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "5ecc3f72-20a6-47a0-8dc5-fb0b3dadeea0",
+      "name": "Run‐D.M.C.",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Run_DMC_(cropped).png",
+      "attribution": "Jeff Pinilla · CC BY 3.0 · https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "mbid": "5f3b32e5-efb5-4096-9260-587c155e50b7",
+      "name": "Cosmic Gate",
+      "spotifyArtistId": "6ySxYu68zTsO5ghsThpGtS",
+      "spotifyUrl": "https://open.spotify.com/artist/6ySxYu68zTsO5ghsThpGtS",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cosmic_Gate_(Melbourne_2006).jpg",
+      "attribution": "Scott Sandars from Melbourne, Australia · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "6082f427-055a-4b27-819f-06f17fd1bda9",
+      "name": "Passport",
+      "spotifyArtistId": "6e9Ex9Qjrbzae5ivbHzaG9",
+      "spotifyUrl": "https://open.spotify.com/artist/6e9Ex9Qjrbzae5ivbHzaG9",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Passport_E8245089.jpg",
+      "attribution": "Nomo michael hoefner http://www.zwo5.de · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "614e3804-7d34-41ba-857f-811bad7c2b7a",
+      "name": "Dire Straits",
+      "spotifyArtistId": "0WwSkZ7LtFUFjGjMZBMt6T",
+      "spotifyUrl": "https://open.spotify.com/artist/0WwSkZ7LtFUFjGjMZBMt6T",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dire_Straits_1978_Hamburg_1.jpg",
+      "attribution": "Heinrich Klaffs · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "6264b98d-4ddc-4b96-a79d-18f53394a99e",
+      "name": "Ricercar Consort",
+      "spotifyArtistId": "31UpASs8WklOdK5tfVTRjb",
+      "spotifyUrl": "https://open.spotify.com/artist/31UpASs8WklOdK5tfVTRjb",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/FolleJourn%C3%A9e2009_RicercarConsort.jpg",
+      "attribution": "Pymouss · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+      "name": "Metallica",
+      "spotifyArtistId": "2ye2Wgw4gimLv2eAKyk1NB",
+      "spotifyUrl": "https://open.spotify.com/artist/2ye2Wgw4gimLv2eAKyk1NB",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Metallica_March_2024.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "6606c527-376a-47b4-bb35-748d01e14f6d",
+      "name": "Blank & Jones",
+      "spotifyArtistId": "2XTff332rrZaE1rBM47Krp",
+      "spotifyUrl": "https://open.spotify.com/artist/2XTff332rrZaE1rBM47Krp",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blank_and_Jones.jpg",
+      "attribution": "Jarrod Lombardo from Socorro, NM, US · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+      "name": "AC/DC",
+      "spotifyArtistId": "711MCceyCBcFnzjGY4Q7Un",
+      "spotifyUrl": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AC_DC_at_London's_Olympic_Stadium.jpg",
+      "attribution": "Egghead06 · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+      "name": "Led Zeppelin",
+      "spotifyArtistId": "36QJpDe2go2KgaRleHCDTp",
+      "spotifyUrl": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Led_zeppelin_revista_pelo_1971.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "67930b3e-e00b-469f-8c74-fd69f20522ec",
+      "name": "Sade",
+      "spotifyArtistId": "47zz7sob9NUcODy0BTDvKx",
+      "spotifyUrl": "https://open.spotify.com/artist/47zz7sob9NUcODy0BTDvKx",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sade_Adu_Band.jpg",
+      "attribution": "Thilo Parg · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
+      "name": "Foo Fighters",
+      "spotifyArtistId": "7jy3rLJdDQY21OgRLCZ9sD",
+      "spotifyUrl": "https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/FoosLollBerlin190917-74_(cropped).jpg",
+      "attribution": "Raph_PH · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "68fb131b-858d-4b7f-93b8-5b1924908421",
+      "name": "Incognito",
+      "spotifyArtistId": "5moJNCJeiNwuQAhDLJXULs",
+      "spotifyUrl": "https://open.spotify.com/artist/5moJNCJeiNwuQAhDLJXULs",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Incognito_Band.jpg",
+      "attribution": "Incognito · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+      "name": "The Cure",
+      "spotifyArtistId": "7bu3H8JO7d0UbMoVzbo70s",
+      "spotifyUrl": "https://open.spotify.com/artist/7bu3H8JO7d0UbMoVzbo70s",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Cure_Live_in_Singapore_2-_1st_August_2007.jpg",
+      "attribution": "momento mori from Kuala Lumpur, Malaysia · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "6a726ac6-019e-455c-8bbb-571a77bed52e",
+      "name": "Thin Lizzy",
+      "spotifyArtistId": "6biWAmrHyiMkX49LkycGqQ",
+      "spotifyUrl": "https://open.spotify.com/artist/6biWAmrHyiMkX49LkycGqQ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Thin_Lizzy_-_TopPop_1974_1.png",
+      "attribution": "AVRO · CC BY-SA 3.0 nl · https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+    },
+    {
+      "mbid": "6b335658-22c8-485d-93de-0bc29a1d0349",
+      "name": "Judas Priest",
+      "spotifyArtistId": "2tRsMl4eGxwoNabM08Dm4I",
+      "spotifyUrl": "https://open.spotify.com/artist/2tRsMl4eGxwoNabM08Dm4I",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Judas_Priest_-_Wacken_Open_Air_2018_01.jpg",
+      "attribution": "Frank Schwichtenberg · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "6d072aa8-c851-49c5-92f9-cbca05f4bed9",
+      "name": "Orchestral Manoeuvres in the Dark",
+      "spotifyArtistId": "7wJ9NwdRWtN92NunmXuwBk",
+      "spotifyUrl": "https://open.spotify.com/artist/7wJ9NwdRWtN92NunmXuwBk",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/O.M.D._Bandpic.jpg",
+      "attribution": "Andrew D. Hurley · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "6e0ae159-8449-4262-bba5-18ec87fa529f",
+      "name": "Rascal Flatts",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/RascalFlatts.jpg",
+      "attribution": "Melissa Dale · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "6e9ac29b-798c-4af7-8d9e-55cdc72a999c",
+      "name": "Einstürzende Neubauten",
+      "spotifyArtistId": "7KomCxZv6D5qCVvefwMnwB",
+      "spotifyUrl": "https://open.spotify.com/artist/7KomCxZv6D5qCVvefwMnwB",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/EN_2000-05-19_Karlsruhe_1.jpg",
+      "attribution": "No machine-readable author provided. Alex Ex assumed (based on copyright claims). · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "6faa7ca7-0d99-4a5e-bfa6-1fd5037520c6",
+      "name": "Grateful Dead",
+      "spotifyArtistId": "4TMHGUX5WI7OOm53PqSDAT",
+      "spotifyUrl": "https://open.spotify.com/artist/4TMHGUX5WI7OOm53PqSDAT",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grateful_Dead_(1970).png",
+      "attribution": null
+    },
+    {
+      "mbid": "72359492-22be-4ed9-aaa0-efa434fb2b01",
+      "name": "The Allman Brothers Band",
+      "spotifyArtistId": "4wQ3PyMz3WwJGI5uEqHUVR",
+      "spotifyUrl": "https://open.spotify.com/artist/4wQ3PyMz3WwJGI5uEqHUVR",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Allman_Brothers_Band_1969.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "7249b899-8db8-43e7-9e6e-22f1e736024e",
+      "name": "Def Leppard",
+      "spotifyArtistId": "6H1RjVyNruCmrBEWRbD0VZ",
+      "spotifyUrl": "https://open.spotify.com/artist/6H1RjVyNruCmrBEWRbD0VZ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DefLeppard1.JPG",
+      "attribution": "wikipedia user Weatherman90 · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+      "name": "Bob Dylan",
+      "spotifyArtistId": "74ASZWbe4lXaubB36ztrGX",
+      "spotifyUrl": "https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DylanYoungKilkenny140719v2_(50_of_52)_(52246124397)_(cropped).jpg",
+      "attribution": "Raph_PH · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "733e7372-5400-4c79-9059-33e2b2262d01",
+      "name": "Fettes Brot",
+      "spotifyArtistId": "3RRODs1rHC2ktLqyDDfgPH",
+      "spotifyUrl": "https://open.spotify.com/artist/3RRODs1rHC2ktLqyDDfgPH",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1_Live_Krone_2013_Fettes_Brot_1.jpg",
+      "attribution": "Superbass · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "7364dea6-ca9a-48e3-be01-b44ad0d19897",
+      "name": "a‐ha",
+      "spotifyArtistId": "2jzc5TC5TVFLXQlBNiIUzE",
+      "spotifyUrl": "https://open.spotify.com/artist/2jzc5TC5TVFLXQlBNiIUzE",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/A-haVistalegre19.JPG",
+      "attribution": "Jamesbond raul · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "73fdb566-a9b1-494c-9f32-51768ec9fd27",
+      "name": "OutKast",
+      "spotifyArtistId": "1G9G7WwrXka3Z1r7aIDjI7",
+      "spotifyUrl": "https://open.spotify.com/artist/1G9G7WwrXka3Z1r7aIDjI7",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2014227235242_2014-08-15_Rock'n'Heim_-_Sven_-_5D_MK_II_-_250_-_IMG_0063_mod.jpg",
+      "attribution": "Sven Mandel · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "75472b2f-55ca-47bb-a192-5ac8601350ba",
+      "name": "The Modern Jazz Quartet",
+      "spotifyArtistId": "7wBFjZMHsC6nfV0HOSd6uI",
+      "spotifyUrl": "https://open.spotify.com/artist/7wBFjZMHsC6nfV0HOSd6uI",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Modern_Jazz_Quartet.png",
+      "attribution": null
+    },
+    {
+      "mbid": "75f47650-8a52-494a-8334-c5279bc6db09",
+      "name": "The Ink Spots",
+      "spotifyArtistId": "5bOsFzuJ6QZMr86ezC4oXY",
+      "spotifyUrl": "https://open.spotify.com/artist/5bOsFzuJ6QZMr86ezC4oXY",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ink_Spots_Billboard_3.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "765774a0-2060-469b-8b7d-612eea48579b",
+      "name": "Helloween",
+      "spotifyArtistId": "4pQN0GB0fNEEOfQCaWotsY",
+      "spotifyUrl": "https://open.spotify.com/artist/4pQN0GB0fNEEOfQCaWotsY",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Helloween_Rockharz_2026_35.jpg",
+      "attribution": "S. Bollmann@S._Bollmann · Attribution"
+    },
+    {
+      "mbid": "76e78b58-f301-4975-8058-7f84d8360738",
+      "name": "Little Big Town",
+      "spotifyArtistId": "3CygdxquGHurS7f9LjNLkv",
+      "spotifyUrl": "https://open.spotify.com/artist/3CygdxquGHurS7f9LjNLkv",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/LittleBigTown.JPG",
+      "attribution": null
+    },
+    {
+      "mbid": "77029a1c-76fa-4350-a1a8-dacc10230b6f",
+      "name": "Lester Flatt & Earl Scruggs",
+      "spotifyArtistId": "1iNNWK8bYjc5EK0waLk1J1",
+      "spotifyUrl": "https://open.spotify.com/artist/1iNNWK8bYjc5EK0waLk1J1",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Scruggs_and_Lester_Flatt.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "79239441-bfd5-4981-a70c-55c3f15c1287",
+      "name": "Madonna",
+      "spotifyArtistId": "6tbjWDEIzxoDsBA1FuhfPW",
+      "spotifyUrl": "https://open.spotify.com/artist/6tbjWDEIzxoDsBA1FuhfPW",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Madonna_Rebel_Heart_Tour_2015_-_Stockholm_(23051472299)_(cropped).jpg",
+      "attribution": "chrisweger · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "7928481f-848e-4551-b658-472c0aaf0c85",
+      "name": "Die Fantastischen Vier",
+      "spotifyArtistId": "748dDObrUoBetes0pLj788",
+      "spotifyUrl": "https://open.spotify.com/artist/748dDObrUoBetes0pLj788",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2016225231723_2016-08-12_Rocco_del_Schlacko_-_Sven_-_5DS_R_-_0236_-_5DSR7614_mod.jpg",
+      "attribution": "Sven Mandel · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "79491354-3d83-40e3-9d8e-7592d58d790a",
+      "name": "Deep Purple",
+      "spotifyArtistId": "568ZhdwyaiCyOGJRtNYhWf",
+      "spotifyUrl": "https://open.spotify.com/artist/568ZhdwyaiCyOGJRtNYhWf",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deep_Purple%2C_Notodden_2024.jpg",
+      "attribution": "Birgit Fostervold · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "7a1eb805-2242-4daa-bd90-c1ed350e2e48",
+      "name": "Insane Clown Posse",
+      "spotifyArtistId": "4xtWjIlVuZwTCeqVAsgEXy",
+      "spotifyUrl": "https://open.spotify.com/artist/4xtWjIlVuZwTCeqVAsgEXy",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Insane_clown_posse_2017.jpg",
+      "attribution": "SullyDC from Alexandria, VA, USA · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "7aa4a16e-9d5a-41d3-968e-fae1a2c84d05",
+      "name": "IAM",
+      "spotifyArtistId": "56Q6weEROZ1RsVrTak8Bm7",
+      "spotifyUrl": "https://open.spotify.com/artist/56Q6weEROZ1RsVrTak8Bm7",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/IAM_-_F%C3%AAte_de_l'Humanit%C3%A9_2014_-_003.jpg",
+      "attribution": "Thesupermat · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "7ac055fa-e357-4890-9098-010b8094a900",
+      "name": "Alabama",
+      "spotifyArtistId": "6rJqqRce0Kvo2dJUXoHleC",
+      "spotifyUrl": "https://open.spotify.com/artist/6rJqqRce0Kvo2dJUXoHleC",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alabama_at_Bayfest_2014.jpg",
+      "attribution": "Saginaw-hitchhiker · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "7bf711e9-4e69-4e08-b6e8-c0cb5805f1e7",
+      "name": "The Dave Brubeck Quartet",
+      "spotifyArtistId": "4iRZAbYvBqnxrbs6K25aJ7",
+      "spotifyUrl": "https://open.spotify.com/artist/4iRZAbYvBqnxrbs6K25aJ7",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Davebrubeckquartet1967a.jpg",
+      "attribution": "user:dontworry · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "7c7f9c94-dee8-4903-892b-6cf44652e2de",
+      "name": "Tears for Fears",
+      "spotifyArtistId": "4bthk9UfsYUYdcFyqxmSUU",
+      "spotifyUrl": "https://open.spotify.com/artist/4bthk9UfsYUYdcFyqxmSUU",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tears_for_Fears_2008.jpg",
+      "attribution": "KWa · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "80b3cf5e-18fe-4c59-98c7-e5bb87210710",
+      "name": "The Roots",
+      "spotifyArtistId": "78xUyw6FkVZrRAtziFdtdu",
+      "spotifyUrl": "https://open.spotify.com/artist/78xUyw6FkVZrRAtziFdtdu",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Roots_2007.jpg",
+      "attribution": "Aaron Matthews from Thornhill, Canada. · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "83b9cbe7-9857-49e2-ab8e-b57b01038103",
+      "name": "Pearl Jam",
+      "spotifyArtistId": "1w5Kfo2jwwIPruYS2UWh56",
+      "spotifyUrl": "https://open.spotify.com/artist/1w5Kfo2jwwIPruYS2UWh56",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PearlJam-Oakland-2013.JPG",
+      "attribution": "Lugnuts · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+      "name": "Pink Floyd",
+      "spotifyArtistId": "0k17h0D3J5VfsdmQ1iZtE9",
+      "spotifyUrl": "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pink_Floyd%2C_1971_(HQ).jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "83e59f23-3b0b-4304-834d-5bcafd5df6d2",
+      "name": "Scooter",
+      "spotifyArtistId": "0HlxL5hisLf59ETEPM3cUA",
+      "spotifyUrl": "https://open.spotify.com/artist/0HlxL5hisLf59ETEPM3cUA",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Scooter_-_2018337213019_2018-12-03_Scooter_-_25_Years_Wild_%26_Wicked_-_Sven_-_1D_X_MK_II_-_0432_-_B70I4846.jpg",
+      "attribution": "Sven Mandel · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+      "name": "Depeche Mode",
+      "spotifyArtistId": "762310PdDnwsDxAQxzQkfX",
+      "spotifyUrl": "https://open.spotify.com/artist/762310PdDnwsDxAQxzQkfX",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Depeche_mode_in_portland_Nov_2023.jpg",
+      "attribution": "Brianhphoto · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "85823097-9e6c-4876-a04a-8a761a477992",
+      "name": "Zion I",
+      "spotifyArtistId": "3LLs28LJVlXAjWc8UDkcQZ",
+      "spotifyUrl": "https://open.spotify.com/artist/3LLs28LJVlXAjWc8UDkcQZ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zioni.jpg",
+      "attribution": "PDTantisocial at en.wikipedia · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "86e736b4-93e2-40ff-9e1c-fb7c63fef5f6",
+      "name": "Barenaked Ladies",
+      "spotifyArtistId": "0dEvJpkqhrcn64d3oI8v79",
+      "spotifyUrl": "https://open.spotify.com/artist/0dEvJpkqhrcn64d3oI8v79",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Barenaked_Ladies_miming_golf.jpg",
+      "attribution": "en:User:TheHYPO · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "885f0f99-e945-4181-9990-bff2762ef9b8",
+      "name": "The Count Basie Orchestra",
+      "spotifyArtistId": "2Hn9fch2OLB5jZuEAVjTCe",
+      "spotifyUrl": "https://open.spotify.com/artist/2Hn9fch2OLB5jZuEAVjTCe",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/CountBasieEthelWatersStageDoorCanteen.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "8bfac288-ccc5-448d-9573-c33ea2aa5c30",
+      "name": "Red Hot Chili Peppers",
+      "spotifyArtistId": "0L8ExT028jH3ddEcZwqJJ5",
+      "spotifyUrl": "https://open.spotify.com/artist/0L8ExT028jH3ddEcZwqJJ5",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/RHCP_Live_in_London_26_June_2022.jpg",
+      "attribution": "Kreepin Deth · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "8c90ad8c-9150-4c51-a1eb-342232e99d06",
+      "name": "The Band",
+      "spotifyArtistId": "4vpDg7Y7fU982Ds30zawDA",
+      "spotifyUrl": "https://open.spotify.com/artist/4vpDg7Y7fU982Ds30zawDA",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Last_Waltz.jpg",
+      "attribution": "David Gans · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "8c9b336e-acc8-4e20-9195-6ed0634da9fc",
+      "name": "The Residents",
+      "spotifyArtistId": "0X7nkgtJrvXcn1W8lN9Mtm",
+      "spotifyUrl": "https://open.spotify.com/artist/0X7nkgtJrvXcn1W8lN9Mtm",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Residents_2013.jpg",
+      "attribution": "Own work · CC BY-SA 2.0 de · https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+    },
+    {
+      "mbid": "8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e",
+      "name": "Genesis",
+      "spotifyArtistId": "3CkvROUTQ6nRi9yQOcsB50",
+      "spotifyUrl": "https://open.spotify.com/artist/3CkvROUTQ6nRi9yQOcsB50",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2180_-_Pittsburgh_-_Mellon_Arena_-_Genesis_-_The_Carpet_Crawlers.JPG",
+      "attribution": "Andrew Bossi · CC BY-SA 2.5 · https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "mbid": "8eae1e0a-1696-4532-9e3c-0a072217ef4c",
+      "name": "Drive‐By Truckers",
+      "spotifyArtistId": "1rXr1ZnvbRoYBaedIl9v4v",
+      "spotifyUrl": "https://open.spotify.com/artist/1rXr1ZnvbRoYBaedIl9v4v",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DBT_Live.JPG",
+      "attribution": "Saverivers at English Wikipedia · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "95790653-fbba-495b-8701-c857a815880d",
+      "name": "Collegium Vocale Gent",
+      "spotifyArtistId": "17BdLN9q8RRQQqyklLwac1",
+      "spotifyUrl": "https://open.spotify.com/artist/17BdLN9q8RRQQqyklLwac1",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Collegium_vocale675.jpg",
+      "attribution": "Michiel Hendryckx · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+      "name": "A Tribe Called Quest",
+      "spotifyArtistId": "09hVIj6vWgoCDtT03h8ZCa",
+      "spotifyUrl": "https://open.spotify.com/artist/09hVIj6vWgoCDtT03h8ZCa",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tribe_2009.jpg",
+      "attribution": "Chalice L. · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "96bcdacc-59bc-41b5-ac66-18e5b55f1689",
+      "name": "Il Giardino Armonico",
+      "spotifyArtistId": "3ffMbKIrSWo557U1wDxNDq",
+      "spotifyUrl": "https://open.spotify.com/artist/3ffMbKIrSWo557U1wDxNDq",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Il_Giardino_Armonico_-_Misteria_Paschalia_2010.JPG",
+      "attribution": "Mrug · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "9a3bf45c-347d-4630-894d-7cf3e8e0b632",
+      "name": "Santana",
+      "spotifyArtistId": "6GI52t8N5F02MxU0g5U69P",
+      "spotifyUrl": "https://open.spotify.com/artist/6GI52t8N5F02MxU0g5U69P",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santana_(1971).png",
+      "attribution": null
+    },
+    {
+      "mbid": "9b8d6e2c-2b4e-4924-82ae-226b4e701f6b",
+      "name": "The Brand New Heavies",
+      "spotifyArtistId": "3DEveX6KVzhPDqq2VRuN14",
+      "spotifyUrl": "https://open.spotify.com/artist/3DEveX6KVzhPDqq2VRuN14",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brand_New_Heavies_at_the_Porgy_%26_Bess_in_Vienna_2008h.jpg",
+      "attribution": "Manfred Werner / Tsui · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "9beb62b2-88db-4cea-801e-162cd344ee53",
+      "name": "Beastie Boys",
+      "spotifyArtistId": "03r4iKL2g2442PT9n2UKsx",
+      "spotifyUrl": "https://open.spotify.com/artist/03r4iKL2g2442PT9n2UKsx",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Beastie_Boys_2009_(6184423405).jpg",
+      "attribution": "Maddy Julien · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "9c9f1380-2516-4fc9-a3e6-f9f61941d090",
+      "name": "Muse",
+      "spotifyArtistId": "12Chz98pHFMPJEknJQMWvI",
+      "spotifyUrl": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Muse_2006_003.jpg",
+      "attribution": "Warner Music Sweden · CC BY 3.0 · https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "mbid": "9e53f84d-ef44-4c16-9677-5fd4d78cbd7d",
+      "name": "Wilco",
+      "spotifyArtistId": "2QoU3awHVdcHS8LrZEKvSM",
+      "spotifyUrl": "https://open.spotify.com/artist/2QoU3awHVdcHS8LrZEKvSM",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilco_MassMoca_AustinNelson.jpg",
+      "attribution": "Austin Nelson · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "9ef8042a-2528-4f5c-b7c1-5e72b1efe170",
+      "name": "Gang Starr",
+      "spotifyArtistId": "5cMgGlA1xGyeAB2ctYlRdZ",
+      "spotifyUrl": "https://open.spotify.com/artist/5cMgGlA1xGyeAB2ctYlRdZ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DJ_Premier_and_Guru.jpg",
+      "attribution": "DJ Premier 2008.jpg: Alan Mildor and Guru.jpg: Barbara Mürdter derivative work: Karppinen (talk) · CC BY 3.0 · https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "mbid": "9efff43b-3b29-4082-824e-bc82f646f93d",
+      "name": "The Doors",
+      "spotifyArtistId": "22WZ7M8sxp5THdruNY3gXt",
+      "spotifyUrl": "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Doors_electra_publicity_photo.JPG",
+      "attribution": null
+    },
+    {
+      "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+      "name": "The Who",
+      "spotifyArtistId": "67ea9eGLXYMsO2eYQRui3w",
+      "spotifyUrl": "https://open.spotify.com/artist/67ea9eGLXYMsO2eYQRui3w",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Who_2007_-2-.JPG",
+      "attribution": "Joep Vullings (see dutch userpage) · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "a0a17e6e-d396-45b5-a141-b4a82ba0bb9a",
+      "name": "Corvus Corax",
+      "spotifyArtistId": "0Qeg2Ytz5AcfvkIO3RYV3z",
+      "spotifyUrl": "https://open.spotify.com/artist/0Qeg2Ytz5AcfvkIO3RYV3z",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_Corax_German_Band.jpeg",
+      "attribution": "Attribution"
+    },
+    {
+      "mbid": "a1d77dd4-8728-4a47-bdfa-9663d791139c",
+      "name": "The Future Sound of London",
+      "spotifyArtistId": "2qhmNI4ZHPpeDutdg473Z3",
+      "spotifyUrl": "https://open.spotify.com/artist/2qhmNI4ZHPpeDutdg473Z3",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/11apr_261_GarryCobain.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+      "name": "U2",
+      "spotifyArtistId": "51Blml2LZPmy7TTiAg47vQ",
+      "spotifyUrl": "https://open.spotify.com/artist/51Blml2LZPmy7TTiAg47vQ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg",
+      "attribution": "Remy · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "mbid": "a466c2a2-6517-42fb-a160-1087c3bafd9f",
+      "name": "Slipknot",
+      "spotifyArtistId": "05fG473iIaoy82BF1aGhL8",
+      "spotifyUrl": "https://open.spotify.com/artist/05fG473iIaoy82BF1aGhL8",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Slipknot_at_Roskilde_Festival_2013.jpg",
+      "attribution": "Morten Jensen · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "a663d7d0-754b-40e2-9ea3-3c6c39fd5937",
+      "name": "DJ Jazzy Jeff & the Fresh Prince",
+      "spotifyArtistId": "1mG23iQeR29Ojhq89D5gbh",
+      "spotifyUrl": "https://open.spotify.com/artist/1mG23iQeR29Ojhq89D5gbh",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Thejazzyjeff.jpg",
+      "attribution": "Neil Rickards from Cambridge, England · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "a6c6897a-7415-4f8d-b5a5-3a5e05f3be67",
+      "name": "twenty one pilots",
+      "spotifyArtistId": "3YQKmKGau1PzlVlkL1iodx",
+      "spotifyUrl": "https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Twentyone_Pilots_at_Press_conference_of_Soundbox_in_Bangkok.JPG",
+      "attribution": "Sry85 · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "name": "Radiohead",
+      "spotifyArtistId": "4Z8W4fKeB5YxbusRsdQVPb",
+      "spotifyUrl": "https://open.spotify.com/artist/4Z8W4fKeB5YxbusRsdQVPb",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/RadioheadO2211125_composite.jpg",
+      "attribution": "Raph_PH · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "mbid": "a8ebde98-7e91-46c7-992c-90039ba42017",
+      "name": "De La Soul",
+      "spotifyArtistId": "1Z8ODXyhEBi3WynYw0Rya6",
+      "spotifyUrl": "https://open.spotify.com/artist/1Z8ODXyhEBi3WynYw0Rya6",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/De_La_Soul_by_foto_di_matti.jpg",
+      "attribution": "Matti Hillig · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "a9044915-8be3-4c7e-b11f-9e2d2ea0a91e",
+      "name": "Megadeth",
+      "spotifyArtistId": "1Yox196W7bzVNZI7RBaPnf",
+      "spotifyUrl": "https://open.spotify.com/artist/1Yox196W7bzVNZI7RBaPnf",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Megadeth_-_Wacken_Open_Air_2023_12.jpg",
+      "attribution": "Frank Schwichtenberg · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "aab5c954-cabe-432e-899e-1c4f99757327",
+      "name": "Toto",
+      "spotifyArtistId": "0PFtn5NtBbbUNbU9EAmIWF",
+      "spotifyUrl": "https://open.spotify.com/artist/0PFtn5NtBbbUNbU9EAmIWF",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TOTO_live_2010_in_Copenhagen_in_KB_Hallen.JPG",
+      "attribution": "Maltesen · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "ab309b83-904f-4e2c-8d11-a0223bba51f9",
+      "name": "DIR EN GREY",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DEG_Zenith.jpg",
+      "attribution": "Original uploader was Gorkab Nitrix at fr.wikipedia · CC BY-SA 2.5 · https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "mbid": "ac865b2e-bba8-4f5a-8756-dd40d5e39f46",
+      "name": "Korn",
+      "spotifyArtistId": "3RNrq3jvMZxD9ZyoOZbQOD",
+      "spotifyUrl": "https://open.spotify.com/artist/3RNrq3jvMZxD9ZyoOZbQOD",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korn_-_2022156202911_2022-06-05_Rock_am_Ring_-_Sven_-_1D_X_MK_II_-_2645_-_B70I4504.jpg",
+      "attribution": "Sven Mandel · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "ac8a45f8-5520-4463-9fda-f63f8844cb50",
+      "name": "Nitty Gritty Dirt Band",
+      "spotifyArtistId": "7y70dch6JuuuNnwlsOQvwW",
+      "spotifyUrl": "https://open.spotify.com/artist/7y70dch6JuuuNnwlsOQvwW",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dirt_Band_1976.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+      "name": "The Rolling Stones",
+      "spotifyArtistId": "22bE4uQ6baNwSHPVcDxLCe",
+      "spotifyUrl": "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+      "attribution": "Jim Pietryga · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "name": "The Beatles",
+      "spotifyArtistId": "3WrFJ7ztbogyGnTHbHJFl2",
+      "spotifyUrl": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Beatles_Trenter_1963.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "b15ebd71-a252-417d-9e1c-3e6863da68f8",
+      "name": "Faith No More",
+      "spotifyArtistId": "6GbCJZrI318Ybm8mY36Of5",
+      "spotifyUrl": "https://open.spotify.com/artist/6GbCJZrI318Ybm8mY36Of5",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Faith_No_More_2009.jpg",
+      "attribution": "Jose Rubio · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "b2853652-db74-44b7-b4b3-ffb72af6b910",
+      "name": "Casiopea",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Caseopia_3rd_comp.png",
+      "attribution": "Yoshiro Kanao and Paddock Music Co., uploaded by Reppop · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "b2a92fa4-ba29-431f-a9ea-08a2956e9b25",
+      "name": "Kottonmouth Kings",
+      "spotifyArtistId": "0jx4hPtb5enLdBDdHKuSgf",
+      "spotifyUrl": "https://open.spotify.com/artist/0jx4hPtb5enLdBDdHKuSgf",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/KottonmouthKings.jpg",
+      "attribution": "Matt Lemmon · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "b2d122f9-eadb-4930-a196-8f221eeb0c66",
+      "name": "Rammstein",
+      "spotifyArtistId": "6wWVKhxIU2cEi0K81v7HvP",
+      "spotifyUrl": "https://open.spotify.com/artist/6wWVKhxIU2cEi0K81v7HvP",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rammstein_at_Wacken_Open_Air_2013_06.jpg",
+      "attribution": "Jonas Rogowski · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "b353e839-0c82-46ad-83df-2dcc6c14d126",
+      "name": "London Music Works",
+      "spotifyArtistId": "0VeT7hHTJFJZcENGekjCsB",
+      "spotifyUrl": "https://open.spotify.com/artist/0VeT7hHTJFJZcENGekjCsB",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/London_Music_Works.jpg",
+      "attribution": "London Music Works · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "mbid": "b38225b8-8e5f-42aa-bcdc-7bae5b5bdab3",
+      "name": "King Crimson",
+      "spotifyArtistId": "7M1FPw29m5FbicYzS2xdpi",
+      "spotifyUrl": "https://open.spotify.com/artist/7M1FPw29m5FbicYzS2xdpi",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/King_Crimson_-_Dour_Festival_2003_(01).jpg",
+      "attribution": "Hunter Desportes · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "b4375768-3c8b-46e7-b578-c920ccfe725f",
+      "name": "The Flying Burrito Brothers",
+      "spotifyArtistId": "0rESpKEusFHxhW59MIf7eM",
+      "spotifyUrl": "https://open.spotify.com/artist/0rESpKEusFHxhW59MIf7eM",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Flying_Burrito_Brothers.png",
+      "attribution": null
+    },
+    {
+      "mbid": "b4d32cff-f19e-455f-86c4-f347d824ca61",
+      "name": "Eurythmics",
+      "spotifyArtistId": "0NKDgy9j66h3DLnN8qu1bB",
+      "spotifyUrl": "https://open.spotify.com/artist/0NKDgy9j66h3DLnN8qu1bB",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eurythmics_1985.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "b52211f1-49a2-4cd2-8535-dd1ba37ea90b",
+      "name": "Cowboy Junkies",
+      "spotifyArtistId": "3CYSRCHfilgR8DSbkCMp5j",
+      "spotifyUrl": "https://open.spotify.com/artist/3CYSRCHfilgR8DSbkCMp5j",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cowboy_Junkies_-_Barbican_25_01_13_(8415684818).jpg",
+      "attribution": "Paul Carless from St Albans, UK · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "b616d6f0-ec1f-4c69-8a79-12a97ece7372",
+      "name": "Anthrax",
+      "spotifyArtistId": "3JysSUOyfVs1UQ0UaESheP",
+      "spotifyUrl": "https://open.spotify.com/artist/3JysSUOyfVs1UQ0UaESheP",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthrax_Rockavaria_2016_(12_von_12).jpg",
+      "attribution": "pitpony.photography · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+      "name": "Van Halen",
+      "spotifyArtistId": "2cnMpRsOVqtPMfq7YiFE6K",
+      "spotifyUrl": "https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/VanHalenwithHagar.jpg",
+      "attribution": "bella lago from USA · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "b7ffd2af-418f-4be2-bdd1-22f8b48613da",
+      "name": "Nine Inch Nails",
+      "spotifyArtistId": "0X380XXQSNBYuleKzav5UO",
+      "spotifyUrl": "https://open.spotify.com/artist/0X380XXQSNBYuleKzav5UO",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/NIN_Munich_2007.jpg",
+      "attribution": "Luca De Santis from Orzignano (PI), Italy (Author's website) · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "b8549efe-f4fd-4dc0-8ef1-226e9c400233",
+      "name": "The Monkees",
+      "spotifyArtistId": "320EPCSEezHt1rtbfwH6Ck",
+      "spotifyUrl": "https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Monkees_1966.JPG",
+      "attribution": null
+    },
+    {
+      "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+      "name": "Eminem",
+      "spotifyArtistId": "7dGJo4pcD2V6oG8kP0tJRR",
+      "spotifyUrl": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eminem_2021_Color_Corrected.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "ba0d6274-db14-4ef5-b28d-657ebde1a396",
+      "name": "The Smashing Pumpkins",
+      "spotifyArtistId": "40Yq4vzPs9VNUrIBG5Jr2i",
+      "spotifyUrl": "https://open.spotify.com/artist/40Yq4vzPs9VNUrIBG5Jr2i",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Smashing_Pumpkins_den_Atelier%2CLuxembourg.JPG",
+      "attribution": "Schnékert · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "ba2f4f3b-0293-4bc8-bb94-2f73b5207343",
+      "name": "Underworld",
+      "spotifyArtistId": "1PXHzxRDiLnjqNrRn2Xbsa",
+      "spotifyUrl": "https://open.spotify.com/artist/1PXHzxRDiLnjqNrRn2Xbsa",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Underworld_(223233).jpg",
+      "attribution": "Tore Sætre · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "bb276148-faf8-417d-853e-d56086f99f00",
+      "name": "The Doppelgangaz",
+      "spotifyArtistId": "4J8pjytuR06BizCeBKBIDk",
+      "spotifyUrl": "https://open.spotify.com/artist/4J8pjytuR06BizCeBKBIDk",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Doppelgangaz_2014.jpg",
+      "attribution": "Coup d'Oreille · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "bbd80354-597e-4d53-94e4-92b3a7cb8f2c",
+      "name": "Saxon",
+      "spotifyArtistId": "71vVmHeNgCVSa5SVmfvscU",
+      "spotifyUrl": "https://open.spotify.com/artist/71vVmHeNgCVSa5SVmfvscU",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saxon.jpg",
+      "attribution": "Birgit Fostervold · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "bd13909f-1c29-4c27-a874-d4aaf27c5b1a",
+      "name": "Fleetwood Mac",
+      "spotifyArtistId": "08GQAI4eElDnROBrJRGE0X",
+      "spotifyUrl": "https://open.spotify.com/artist/08GQAI4eElDnROBrJRGE0X",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fleetwood_Mac_2009.jpg",
+      "attribution": "Weatherman90 at English Wikipedia · CC BY 3.0 · https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "mbid": "bdacc37b-8633-4bf8-9dd5-4662ee651aec",
+      "name": "Slayer",
+      "spotifyArtistId": "1IQ2e1buppatiN1bxUVkrk",
+      "spotifyUrl": "https://open.spotify.com/artist/1IQ2e1buppatiN1bxUVkrk",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hellfest2017Slayer_02.jpg",
+      "attribution": "Selbymay · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "be540c02-7898-4b79-9acc-c8122c7d9e83",
+      "name": "Pet Shop Boys",
+      "spotifyArtistId": "2ycnb8Er79LoH2AsR5ldjh",
+      "spotifyUrl": "https://open.spotify.com/artist/2ycnb8Er79LoH2AsR5ldjh",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pet_Shop_Boys_live_i_Tivoli.JPG",
+      "attribution": "Jørgen Hans Maltesen · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "bf0f7e29-dfe1-416c-b5c6-f9ebc19ea810",
+      "name": "Bee Gees",
+      "spotifyArtistId": "1LZEQNv7sE11VDY3SdxQeN",
+      "spotifyUrl": "https://open.spotify.com/artist/1LZEQNv7sE11VDY3SdxQeN",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bee_Gees_1977.JPG",
+      "attribution": null
+    },
+    {
+      "mbid": "bf2e15d0-4b77-469e-bfb4-f8414415baca",
+      "name": "Public Enemy",
+      "spotifyArtistId": "6Mo9PoU6svvhgEum7wh2Nd",
+      "spotifyUrl": "https://open.spotify.com/artist/6Mo9PoU6svvhgEum7wh2Nd",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Public_Enemy-01-mika.jpg",
+      "attribution": "MikaV · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "bf600e2b-dc2d-4839-a1be-6ebef4087cd0",
+      "name": "311",
+      "spotifyArtistId": "41Q0HrwWBtuUkJc7C1Rp6K",
+      "spotifyUrl": "https://open.spotify.com/artist/41Q0HrwWBtuUkJc7C1Rp6K",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/311_Austin.jpg",
+      "attribution": "Eli Watson · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "c0bf9e20-2872-4897-ad1f-0882b83272a0",
+      "name": "UFO",
+      "spotifyArtistId": "2Omy3P5hFZym7FKum1JA1s",
+      "spotifyUrl": "https://open.spotify.com/artist/2Omy3P5hFZym7FKum1JA1s",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/UFO_%E2%80%93_Hamburger_Harley_Days_2015_04.jpg",
+      "attribution": "Frank Schwichtenberg · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "c0c1183e-6940-48ca-8f96-98250fcb3ef1",
+      "name": "Slum Village",
+      "spotifyArtistId": "1020a42xVklY6c56imNcaa",
+      "spotifyUrl": "https://open.spotify.com/artist/1020a42xVklY6c56imNcaa",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Young_RJ_et_T3_(Slum_Village).jpg",
+      "attribution": "Coup d'Oreille · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "c0c852b3-0fdc-4482-aac1-8f8e1fa0e98f",
+      "name": "Truck Stop",
+      "spotifyArtistId": "7eH4Ds7cmyDRSmmApbJHUc",
+      "spotifyUrl": "https://open.spotify.com/artist/7eH4Ds7cmyDRSmmApbJHUc",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/13-07-13_Truck_Stop_01.JPG",
+      "attribution": "Achim Raschka (talk) · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "c16817df-0160-490d-a437-c128cbca9218",
+      "name": "Florida Georgia Line",
+      "spotifyArtistId": "3b8QkneNDz4JHKKKlLgYZg",
+      "spotifyUrl": "https://open.spotify.com/artist/3b8QkneNDz4JHKKKlLgYZg",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flagaline.jpg",
+      "attribution": "Lunchbox LP · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "c16a2424-6f7b-4538-a547-0cef5add7056",
+      "name": "BOND",
+      "spotifyArtistId": "3G4zK7ipHdaAZkG6EBwIoW",
+      "spotifyUrl": "https://open.spotify.com/artist/3G4zK7ipHdaAZkG6EBwIoW",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bond_-_Metrocentre_2009.jpg",
+      "attribution": "TubularWorld · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "c1d4f2ba-cf39-460c-9528-6b827d3417a1",
+      "name": "Yes",
+      "spotifyArtistId": "7AC976RDJzL2asmZuz7qil",
+      "spotifyUrl": "https://open.spotify.com/artist/7AC976RDJzL2asmZuz7qil",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yes_concert.jpg",
+      "attribution": "Rick Dikeman · CC BY-SA 3.0 · http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "mbid": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+      "name": "Bob Marley & The Wailers",
+      "spotifyArtistId": "2QsynagSdAqZj3U9HgDzjD",
+      "spotifyUrl": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bob-marley-wailers-crystal-palace.jpg",
+      "attribution": "Tankfield · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "c3cceeed-3332-4cf0-8c4c-bbde425147b6",
+      "name": "Scorpions",
+      "spotifyArtistId": "27T030eWyCQRmDyuvr1kxY",
+      "spotifyUrl": "https://open.spotify.com/artist/27T030eWyCQRmDyuvr1kxY",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Scorpions_in_Kavarna_2010.JPG",
+      "attribution": "Stolz · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "c3d6fdd5-67c5-453e-87e3-d17a00a52879",
+      "name": "Stratovarius",
+      "spotifyArtistId": "1O8CSXsPwEqxcoBE360PPO",
+      "spotifyUrl": "https://open.spotify.com/artist/1O8CSXsPwEqxcoBE360PPO",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stratovarius_-_Wacken_Open_Air_2022_04.jpg",
+      "attribution": "Frank Schwichtenberg · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "c544ed4d-2390-4442-a83e-1ea2883b09c8",
+      "name": "Lynyrd Skynyrd",
+      "spotifyArtistId": "4MVyzYMgTwdP7Z49wAZHx0",
+      "spotifyUrl": "https://open.spotify.com/artist/4MVyzYMgTwdP7Z49wAZHx0",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lynyrd_Skynyrd_band_(1973).jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "c616aef1-e21f-46f8-864f-b7bad96f41b2",
+      "name": "Yello",
+      "spotifyArtistId": "3xgj17ZsWxxU86S4qlWvOi",
+      "spotifyUrl": "https://open.spotify.com/artist/3xgj17ZsWxxU86S4qlWvOi",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dieter_Meier_and_Boris_Blank.jpg",
+      "attribution": "Trivialist · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "c685765c-b778-4ed6-9035-8f7088431765",
+      "name": "The Highwaymen",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HighwaymenSupergroupGrouped.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "c6ba2a8c-6414-4d7b-812f-44739adb42f6",
+      "name": "Camille and Kennerly",
+      "spotifyArtistId": "4PdQIT1YwgNZePRD0Ogtz3",
+      "spotifyUrl": "https://open.spotify.com/artist/4PdQIT1YwgNZePRD0Ogtz3",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Camille_and_Kennerly_Kitt_Promotional_Picture_For_A_Harp_Duet_Video.jpg",
+      "attribution": "Camille and Kennerly Kitt · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "c779e090-909f-4403-a90e-c1d08cdbb719",
+      "name": "Laibach",
+      "spotifyArtistId": "7l4LQfvN4yz8zbK4WY0AAg",
+      "spotifyUrl": "https://open.spotify.com/artist/7l4LQfvN4yz8zbK4WY0AAg",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/LAIBACH_Press_Photo_2011.jpg",
+      "attribution": "Gruppe LAIBACH · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "c7cf4584-bfb1-4cf5-be41-aef384310bbb",
+      "name": "The Shadows",
+      "spotifyArtistId": "03hfAxVdAWj7kxDnSG0fLD",
+      "spotifyUrl": "https://open.spotify.com/artist/03hfAxVdAWj7kxDnSG0fLD",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cliff_Richard_aankomst_met_zijn_Shadows%2C_Bestanddeelnr_913-7397.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "c842d29f-a297-48cd-bb71-4f77fd672b16",
+      "name": "T. Rex",
+      "spotifyArtistId": "3dBVyJ7JuOMt4GE9607Qin",
+      "spotifyUrl": "https://open.spotify.com/artist/3dBVyJ7JuOMt4GE9607Qin",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugen_Rex_by_Binder.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "c8db3d2b-19d8-4dc7-b2cb-deea37aa274a",
+      "name": "The Hilliard Ensemble",
+      "spotifyArtistId": "0L8W3JzyTX29RLKZgc3bqS",
+      "spotifyUrl": "https://open.spotify.com/artist/0L8W3JzyTX29RLKZgc3bqS",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicholas_Hilliard_021.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "ca891d65-d9b0-4258-89f7-e6ba29d83767",
+      "name": "Iron Maiden",
+      "spotifyArtistId": "6mdiAmATAx73kdxrNrnlao",
+      "spotifyUrl": "https://open.spotify.com/artist/6mdiAmATAx73kdxrNrnlao",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Iron_Maiden_Irvine_2008.jpg",
+      "attribution": "Anne Varak · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "cbf882cd-5fb3-4324-b212-32ed0b985ba8",
+      "name": "Twiztid",
+      "spotifyArtistId": "2aMAN8kMJ7eUOAuPUYOwI7",
+      "spotifyUrl": "https://open.spotify.com/artist/2aMAN8kMJ7eUOAuPUYOwI7",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Twiztid_in_Chesterfield%2C_MI_on_April_27th%2C_2013.JPG",
+      "attribution": "Juggalobignick1 · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+      "name": "Coldplay",
+      "spotifyArtistId": "4gzpq5DPGxSnKTe4SA8HAU",
+      "spotifyUrl": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ColdplayWembley120925_(cropped).jpg",
+      "attribution": "Raph_PH · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+      "name": "Adele",
+      "spotifyArtistId": "4dpARuHxo51G3z768sgnrY",
+      "spotifyUrl": "https://open.spotify.com/artist/4dpARuHxo51G3z768sgnrY",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Adele_2016.jpg",
+      "attribution": "Marc E. · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "ccda046a-2674-4f7d-97e6-f23d6c156432",
+      "name": "Dead Can Dance",
+      "spotifyArtistId": "6sq7prp0tj9Abn89khmfja",
+      "spotifyUrl": "https://open.spotify.com/artist/6sq7prp0tj9Abn89khmfja",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brendan_Perry_and_Lisa_Gerrard_in_concert_as_group_Dead_Can_Dance%2C_Paris%2C_June_2013.jpg",
+      "attribution": "Pittigrilli · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "ce3bc975-a76f-415b-a6cd-1e568c5714dd",
+      "name": "Jungle Brothers",
+      "spotifyArtistId": "2iclO3rlyF0YVNE46ctYRj",
+      "spotifyUrl": "https://open.spotify.com/artist/2iclO3rlyF0YVNE46ctYRj",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jungle_brothers-mika.jpg",
+      "attribution": "Mikamote · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "d2db1078-c170-4e22-b261-14f3ad60a690",
+      "name": "DEVO",
+      "spotifyArtistId": "0UKfenbZb15sqhfPC6zbt3",
+      "spotifyUrl": "https://open.spotify.com/artist/0UKfenbZb15sqhfPC6zbt3",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Devo_2025.jpg",
+      "attribution": "Ian Abbott · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "mbid": "d5be5333-4171-427e-8e12-732087c6b78e",
+      "name": "Black Eyed Peas",
+      "spotifyArtistId": "1yxSLGMDHlW21z4YXirZDS",
+      "spotifyUrl": "https://open.spotify.com/artist/1yxSLGMDHlW21z4YXirZDS",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Black_Eyed_Peas_performing_at_O2_Apollo_Manchester_Nov2018.jpeg",
+      "attribution": null
+    },
+    {
+      "mbid": "d5da1841-9bc8-4813-9f89-11098090148e",
+      "name": "The Fall",
+      "spotifyArtistId": "6WoTvA9qinpHtSRJuldYh6",
+      "spotifyUrl": "https://open.spotify.com/artist/6WoTvA9qinpHtSRJuldYh6",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Fall-10.jpg",
+      "attribution": "Commonorgarden · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "d6652e7b-33fe-49ef-8336-4c863b4f996f",
+      "name": "The E Street Band",
+      "spotifyArtistId": "6Gt8nwunKGTUYQq5UqiDR2",
+      "spotifyUrl": "https://open.spotify.com/artist/6Gt8nwunKGTUYQq5UqiDR2",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/E_Street_Band_2009.jpg",
+      "attribution": "Manuel Martinez Perez · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "d69ee229-2f36-494c-b104-9ae0d8be506b",
+      "name": "Level 42",
+      "spotifyArtistId": "0L9xkvBPcEp1nrhDrodxc5",
+      "spotifyUrl": "https://open.spotify.com/artist/0L9xkvBPcEp1nrhDrodxc5",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Level42_indigoO2_2009_02.jpg",
+      "attribution": "natz (talk) · CC BY 3.0 · https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "mbid": "d7134426-a937-43bf-bc54-f10ad8102ed9",
+      "name": "The Pharcyde",
+      "spotifyArtistId": "7yk35uHNQclPXFGFoTU44w",
+      "spotifyUrl": "https://open.spotify.com/artist/7yk35uHNQclPXFGFoTU44w",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Pharcyde_in_Dublin.jpg",
+      "attribution": "jaqian from Dublin, Ireland · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "d75d1f08-bbb8-4eae-9877-399ca9121197",
+      "name": "Mobb Deep",
+      "spotifyArtistId": "6O2zJ0tId7g07yzHtX0yap",
+      "spotifyUrl": "https://open.spotify.com/artist/6O2zJ0tId7g07yzHtX0yap",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Out4Fame-Festival_2015_-_Mobb_Deep_(cropped).JPG",
+      "attribution": "Lipstar &amp; Fred Production · CC BY-SA 2.5 · https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+      "name": "ABBA",
+      "spotifyArtistId": "0LcJLqbBmaGUft1e9Mm8HV",
+      "spotifyUrl": "https://open.spotify.com/artist/0LcJLqbBmaGUft1e9Mm8HV",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ABBA_-_TopPop_1974_5.png",
+      "attribution": "AVRO · CC BY-SA 3.0 nl · https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+    },
+    {
+      "mbid": "d8b15d32-609e-44a6-bff1-65c4df53a9f1",
+      "name": "Arrested Development",
+      "spotifyArtistId": "5Va9LuEmaZxnbk1gMnjMD7",
+      "spotifyUrl": "https://open.spotify.com/artist/5Va9LuEmaZxnbk1gMnjMD7",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Arrested_Development_004.jpg",
+      "attribution": "Joris Peeters · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "d9733f21-71d7-4fa7-813d-67eca0f0eaaf",
+      "name": "The Sun Ra Arkestra",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Sun_Ra_Arkestra_2023_Burlington_Discover_Jazz_Festival_Church_Street_Marketplace_downtown_Burlington_VT_June_2023_01.jpg",
+      "attribution": "Artaxerxes · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "db859a53-b7ca-4892-bcda-5ef78d2c891f",
+      "name": "Vader",
+      "spotifyArtistId": "2s5DSt9VBNzAn2TbtDHzFZ",
+      "spotifyUrl": "https://open.spotify.com/artist/2s5DSt9VBNzAn2TbtDHzFZ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vader_2011_in_Rostock.jpg",
+      "attribution": "Jonas Rogowski · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "e01646f2-2a04-450d-8bf2-0d993082e058",
+      "name": "Phish",
+      "spotifyArtistId": "5wbIWUzTPuTxTyG6ouQKqz",
+      "spotifyUrl": "https://open.spotify.com/artist/5wbIWUzTPuTxTyG6ouQKqz",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Phish_2009-12-30.jpg",
+      "attribution": "Dan Shinneman · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "e01c3376-15fa-40d7-b747-5f219bdefdd7",
+      "name": "Steely Dan",
+      "spotifyArtistId": "6P7H3ai06vU1sGvdpBwDmE",
+      "spotifyUrl": "https://open.spotify.com/artist/6P7H3ai06vU1sGvdpBwDmE",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Steely_Dan_-_Donald_Fagen_-_Luzern_2007.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
+      "name": "KISS",
+      "spotifyArtistId": "07XSN3sPlIlB2L2XNcTwJw",
+      "spotifyUrl": "https://open.spotify.com/artist/07XSN3sPlIlB2L2XNcTwJw",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiss_original_lineup_(1976).jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+      "name": "Gorillaz",
+      "spotifyArtistId": "3AA28KZvwAUcZuOKwyblJQ",
+      "spotifyUrl": "https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorillaz%2C_Brixton_Academy%2C_London_(34377484273).jpg",
+      "attribution": "Drew de F Fawkes · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "e555f0c3-0a83-4c57-8a67-e657aac27ace",
+      "name": "Il Divo",
+      "spotifyArtistId": "3KNZ9AOjBajjmr6ZR2VGfl",
+      "spotifyUrl": "https://open.spotify.com/artist/3KNZ9AOjBajjmr6ZR2VGfl",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Il_Divo_2012.jpg",
+      "attribution": "Eva Rinaldi · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "e57f0cac-4f56-473c-8d7e-d93f753fd586",
+      "name": "Steve Miller Band",
+      "spotifyArtistId": "6QtGlUje9TIkLrgPZrESuk",
+      "spotifyUrl": "https://open.spotify.com/artist/6QtGlUje9TIkLrgPZrESuk",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve_Miller_Band_%40_Bluesfest_(3577183884).jpg",
+      "attribution": "ceedub13 · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "e64ad5ad-9bdf-4ef1-a943-e1121aca8eef",
+      "name": "Bach Collegium Japan",
+      "spotifyArtistId": "5UMys4J8cnrIxYbTljgI8w",
+      "spotifyUrl": "https://open.spotify.com/artist/5UMys4J8cnrIxYbTljgI8w",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bach_Collegium_Japan_BBC_Proms_2024_03.jpg",
+      "attribution": "Cnbrb · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "ea321799-9b1d-4e74-a074-a5facf597d82",
+      "name": "Fugees",
+      "spotifyArtistId": "2WKdxPFRD7IqZvlIAvhMgY",
+      "spotifyUrl": "https://open.spotify.com/artist/2WKdxPFRD7IqZvlIAvhMgY",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fugeesmontage.png",
+      "attribution": "Montage by kanyfug · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "ea4dfa26-f633-4da6-a52a-f49ea4897b58",
+      "name": "R.E.M.",
+      "spotifyArtistId": "4KWTAlx2RvbpseOGMEmROg",
+      "spotifyUrl": "https://open.spotify.com/artist/4KWTAlx2RvbpseOGMEmROg",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/R.E.M._at_Stadio_Euganeo%2C_Padova%2C_Italy%2C_2003-07-22_04.jpg",
+      "attribution": "Stefano · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "ea5883b7-68ce-48b3-b115-61746ea53b8c",
+      "name": "My Morning Jacket",
+      "spotifyArtistId": "43O3c6wewpzPKwVaGEEtBM",
+      "spotifyUrl": "https://open.spotify.com/artist/43O3c6wewpzPKwVaGEEtBM",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mymorningjacket.jpg",
+      "attribution": "Shelley from Texas · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "ebfc1398-8d96-47e3-82c3-f782abcdb13d",
+      "name": "The Beach Boys",
+      "spotifyArtistId": "3oDbviiivRWhXwIE8hxkVV",
+      "spotifyUrl": "https://open.spotify.com/artist/3oDbviiivRWhXwIE8hxkVV",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Beach_Boys%2C_May_29%2C_2012.jpg",
+      "attribution": "Louise Palanker · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "ecbd1331-95b6-4a77-b739-b4bd8ef222a7",
+      "name": "Son Volt",
+      "spotifyArtistId": "7AhDVqsNA5q46WKsRPXvoe",
+      "spotifyUrl": "https://open.spotify.com/artist/7AhDVqsNA5q46WKsRPXvoe",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Son_Volt.jpg",
+      "attribution": "merfam · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "ece57992-dc2e-4f67-a269-fa43626c1a3d",
+      "name": "Jethro Tull",
+      "spotifyArtistId": "6w6z8m4WXX7Tub4Rb6Lu7R",
+      "spotifyUrl": "https://open.spotify.com/artist/6w6z8m4WXX7Tub4Rb6Lu7R",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ian_Anderson_and_Martin_Barre_2006.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "eeb1195b-f213-4ce1-b28c-8565211f8e43",
+      "name": "Guns N’ Roses",
+      "spotifyArtistId": "3qm84nBOXUEQ2vnTfUTTFC",
+      "spotifyUrl": "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/GNR_London_Stadium_2017_3_(cropped).jpg",
+      "attribution": "Raph_PH · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "ef954679-5ee7-4016-acef-7ac71f2fa3d8",
+      "name": "Atmosphere",
+      "spotifyArtistId": "1GAS0rb4L8VTPvizAx2O9J",
+      "spotifyUrl": "https://open.spotify.com/artist/1GAS0rb4L8VTPvizAx2O9J",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Atmosphere_8-17-2023.jpg",
+      "attribution": "Constantino14 · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "f1106b17-dcbb-45f6-b938-199ccfab50cc",
+      "name": "New Order",
+      "spotifyArtistId": "0yNLKJebCb8Aueb54LYya3",
+      "spotifyUrl": "https://open.spotify.com/artist/0yNLKJebCb8Aueb54LYya3",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/New_Order%2C_Chile_2019_(39751785423).jpg",
+      "attribution": "RL GNZLZ from Chile · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "f1548c5b-329e-4036-921c-02213a04b525",
+      "name": "Uriah Heep",
+      "spotifyArtistId": "45O9BwPMyywM755SYUK0sP",
+      "spotifyUrl": "https://open.spotify.com/artist/45O9BwPMyywM755SYUK0sP",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Uriah_heep_2011.jpg",
+      "attribution": "Uelef, Ulf Cronenberg (Würzburg) · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+      "name": "Michael Jackson",
+      "spotifyArtistId": "3fMbdgg4jU18AjLCKBhRSm",
+      "spotifyUrl": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "f30118c5-f783-4969-8427-f3c096378267",
+      "name": "Brooks & Dunn",
+      "spotifyArtistId": "0XKOBt59crntr7HQXXO8Yz",
+      "spotifyUrl": "https://open.spotify.com/artist/0XKOBt59crntr7HQXXO8Yz",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brooksanddunn2010.jpg",
+      "attribution": "Burningkarma · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "f319b57a-a494-40f6-a467-3d196d3484e6",
+      "name": "Sparks",
+      "spotifyArtistId": "7pwjGKaqnfkvS7eQbHaqyH",
+      "spotifyUrl": "https://open.spotify.com/artist/7pwjGKaqnfkvS7eQbHaqyH",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sparks_-_TopPop_1974_04_(cropped).png",
+      "attribution": "AVRO · CC BY-SA 3.0 nl · https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+    },
+    {
+      "mbid": "f41490ce-fe39-435d-86c0-ab5ce098b423",
+      "name": "Simple Minds",
+      "spotifyArtistId": "6hN9F0iuULZYWXppob22Aj",
+      "spotifyUrl": "https://open.spotify.com/artist/6hN9F0iuULZYWXppob22Aj",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/-NIMES_-170618_Nimes_SM2018_mk2_MG_9308-Edit.jpg",
+      "attribution": "Vincent Barker · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "f46bd570-5768-462e-b84c-c7c993bbf47e",
+      "name": "Eagles",
+      "spotifyArtistId": "0ECwFtbIWEVNwjlrfc6xoL",
+      "spotifyUrl": "https://open.spotify.com/artist/0ECwFtbIWEVNwjlrfc6xoL",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Eagles_in_performance%2C_2008.jpg",
+      "attribution": "Steve Alexander · CC BY-SA 2.0 · https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "mbid": "f4857fb9-e255-4dc6-bd01-e4ca7cc68544",
+      "name": "Jamiroquai",
+      "spotifyArtistId": "6J7biCazzYhU3gM9j1wfid",
+      "spotifyUrl": "https://open.spotify.com/artist/6J7biCazzYhU3gM9j1wfid",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamiroquai_2018_Coachella18W1-121_(27188172187).jpg",
+      "attribution": "Raph_PH · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "f5586dfa-7031-4af0-8042-19b6a1170389",
+      "name": "Kronos Quartet",
+      "spotifyArtistId": "0M6xcJTswOl2qvExCJhiS3",
+      "spotifyUrl": "https://open.spotify.com/artist/0M6xcJTswOl2qvExCJhiS3",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kronos_Quartet_with_Paul_Wiancko.jpg",
+      "attribution": "Musical Instrument Museum · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "f58384a4-2ad2-4f24-89c5-c7b74ae1cce7",
+      "name": "King Gizzard & the Lizard Wizard",
+      "spotifyArtistId": "6XYvaoDGE0VmRt83Jss9Sn",
+      "spotifyUrl": "https://open.spotify.com/artist/6XYvaoDGE0VmRt83Jss9Sn",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/King_Gizzard_%26_The_Lizard_Wizard_2017_Press_Photo_1.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+      "name": "Linkin Park",
+      "spotifyArtistId": "6XyY86QOPPrYVGvF9ch6wz",
+      "spotifyUrl": "https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Linkin_Park_-_From_Zero_Lead_Press_Photo_-_James_Minchin_III.jpg",
+      "attribution": "James Minchin III (rights holder), CeriRoberts (Warner Records representative) · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "f5f22a9c-a00c-49f9-8123-329b632da79c",
+      "name": "The Andrews Sisters",
+      "spotifyArtistId": "2NCGI6dLTxLdI9XHdv7QfM",
+      "spotifyUrl": "https://open.spotify.com/artist/2NCGI6dLTxLdI9XHdv7QfM",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Andrews_Sisters_1952.JPG",
+      "attribution": null
+    },
+    {
+      "mbid": "f6372053-44f7-4353-9c76-979116a9822d",
+      "name": "Shakatak",
+      "spotifyArtistId": "5FFtX4eFjh2vZQEl31d2XJ",
+      "spotifyUrl": "https://open.spotify.com/artist/5FFtX4eFjh2vZQEl31d2XJ",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shakatak_01_KT.jpg",
+      "attribution": "Kentrethewey · CC BY-SA 4.0 · https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "mbid": "f6f2326f-6b25-4170-b89d-e235b25508e8",
+      "name": "Sigur Rós",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sigur_R%C3%B3s_at_the_Orpheum_Theatre%2C_San_Francisco.jpg",
+      "attribution": "Dale Cruse - 10M views · CC BY 4.0 · https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "mbid": "f75150f0-d80d-4c34-903b-6acfb47b63ee",
+      "name": "Lambchop",
+      "spotifyArtistId": "2Lhs0asnFQiLuntn3s8p78",
+      "spotifyUrl": "https://open.spotify.com/artist/2Lhs0asnFQiLuntn3s8p78",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lambchop_Dachau.jpg",
+      "attribution": null
+    },
+    {
+      "mbid": "f98711e5-06f7-43ed-8239-da0f61a9c460",
+      "name": "The Alan Parsons Project",
+      "spotifyArtistId": "2m62cc253Xvd9qYQ8d2X3d",
+      "spotifyUrl": "https://open.spotify.com/artist/2m62cc253Xvd9qYQ8d2X3d",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Parsons_live.jpg",
+      "attribution": "P199 · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "f9ef7a22-4262-4596-a2a8-1d19345b8e50",
+      "name": "Garbage",
+      "spotifyArtistId": "6S0GHTqz5sxK5f9HtLXn9q",
+      "spotifyUrl": "https://open.spotify.com/artist/6S0GHTqz5sxK5f9HtLXn9q",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Garbage-2005-Copenhagen-2.jpg",
+      "attribution": "Stig Nygaard from Copenhagen, Denmark · CC BY 2.0 · https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "mbid": "fb1080d4-aaf7-430e-b588-6a6ce79e2eb3",
+      "name": "The Mills Brothers",
+      "spotifyArtistId": "5v8bwWRbu7AI3YFhzoM6Ha",
+      "spotifyUrl": "https://open.spotify.com/artist/5v8bwWRbu7AI3YFhzoM6Ha",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mills_Brothers_1956.JPG",
+      "attribution": null
+    },
+    {
+      "mbid": "fcb79f1a-d3a9-41fe-9cd7-d16537907337",
+      "name": "The Crusaders",
+      "spotifyArtistId": null,
+      "spotifyUrl": null,
+      "status": "ambiguous",
+      "approved": false,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Crusaders.jpg",
+      "attribution": "Lionel decoster · CC BY-SA 3.0 · https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "mbid": "fe98e268-4ddd-441b-95a0-b219375f9ae4",
+      "name": "The Mothers of Invention",
+      "spotifyArtistId": "3P2gYnypDVi90ZavnaAhfL",
+      "spotifyUrl": "https://open.spotify.com/artist/3P2gYnypDVi90ZavnaAhfL",
+      "status": "musicbrainz_only",
+      "approved": true,
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Frank_Zappa_Mothers_of_Invention_1971.JPG",
+      "attribution": null
+    }
+  ]
+}

@@ -83,7 +83,7 @@
   box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
@@ -119,6 +119,70 @@ body {
 :focus-visible {
   outline: var(--focus-outline);
   outline-offset: var(--focus-outline-offset);
+}
+
+@keyframes home-dialog-in {
+  from { opacity: 0; transform: scale(0.97) translateY(4px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes home-dialog-out {
+  from { opacity: 1; transform: scale(1) translateY(0); }
+  to { opacity: 0; transform: scale(0.97) translateY(4px); }
+}
+
+.high-scores-dialog[open] {
+  animation: home-dialog-in 200ms cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.high-scores-dialog[data-closing="true"] {
+  animation: home-dialog-out 200ms cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.high-scores-dialog::backdrop {
+  background: rgb(9 7 25 / 78%);
+  animation: home-dialog-in 200ms cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.high-scores-dialog[data-closing="true"]::backdrop {
+  animation: home-dialog-out 200ms cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.high-scores-dialog.motion-reduce[open],
+.high-scores-dialog.motion-reduce::backdrop {
+  animation-duration: 0.01ms;
+}
+
+.home-go:hover:not(:disabled) {
+  background-color: #ef63df;
+}
+
+.home-go::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  z-index: 0;
+  border-radius: inherit;
+  background: inherit;
+  pointer-events: none;
+}
+
+.home-go::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border: 2px solid white;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.home-go:active:not(:disabled) {
+  transform: translate(4px, 4px);
+}
+
+.home-go:active:not(:disabled) .home-go-offset {
+  transform: translate(-4px, -4px);
 }
 
 @media (prefers-reduced-motion: reduce) {

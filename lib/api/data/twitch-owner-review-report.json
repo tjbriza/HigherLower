@@ -1,0 +1,1833 @@
+{
+  "reportType": "twitch-owner-review-preparation",
+  "version": 1,
+  "generatedAtLocal": "2026-11-02T22:51:17+08:00",
+  "assessment": "Text-only screening based solely on roster login/display-label strings and joined Metrika follower snapshot values. This is not factual verification of identity, account type, current follower counts, or suitability. No owner approval is implied.",
+  "sources": {
+    "roster": "lib/api/data/twitch-owner-review-roster.json",
+    "metrics": "lib/api/data/twitch-followers-metrika.snapshot.json",
+    "joinKeys": [
+      "canonical id",
+      "login (case-insensitive)"
+    ]
+  },
+  "counts": {
+    "totalProposed": 200,
+    "clearCandidates": 188,
+    "flaggedForOwnerReview": 12,
+    "duplicateRosterIds": 0,
+    "duplicateRosterLogins": 0,
+    "invalidLabels": 0,
+    "metricMismatches": 0
+  },
+  "duplicateDetails": {
+    "ids": [],
+    "logins": []
+  },
+  "sections": {
+    "clearCandidates": [
+      {
+        "id": "twitch:ache",
+        "login": "ache",
+        "proposedDisplayLabel": "Ache",
+        "followerValue": 533929,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:admiralbulldog",
+        "login": "admiralbulldog",
+        "proposedDisplayLabel": "AdmiralBulldog",
+        "followerValue": 777864,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:ajak0n",
+        "login": "ajak0n",
+        "proposedDisplayLabel": "ajak0n",
+        "followerValue": 109817,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:akarindao",
+        "login": "akarindao",
+        "proposedDisplayLabel": "夢野あかり",
+        "followerValue": 600499,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:alois_nl",
+        "login": "alois_nl",
+        "proposedDisplayLabel": "Alois_NL",
+        "followerValue": 396826,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:alveussanctuary",
+        "login": "alveussanctuary",
+        "proposedDisplayLabel": "AlveusSanctuary",
+        "followerValue": 489464,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:amakipururu",
+        "login": "amakipururu",
+        "proposedDisplayLabel": "天鬼ぷるる",
+        "followerValue": 229370,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:anarabdullaev_29947",
+        "login": "anarabdullaev_29947",
+        "proposedDisplayLabel": "anarabdullaev_29947",
+        "followerValue": 33,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:areslps",
+        "login": "areslps",
+        "proposedDisplayLabel": "AresLPs",
+        "followerValue": 143256,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:arky",
+        "login": "arky",
+        "proposedDisplayLabel": "Arky",
+        "followerValue": 592123,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:asmongold247",
+        "login": "asmongold247",
+        "proposedDisplayLabel": "Asmongold247",
+        "followerValue": 242309,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:assarisyoko1",
+        "login": "assarisyoko1",
+        "proposedDisplayLabel": "あっさりしょこー",
+        "followerValue": 133101,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:batora324",
+        "login": "batora324",
+        "proposedDisplayLabel": "バトラ",
+        "followerValue": 224482,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:bbbb87",
+        "login": "bbbb87",
+        "proposedDisplayLabel": "世誠",
+        "followerValue": 180110,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:berticuss",
+        "login": "berticuss",
+        "proposedDisplayLabel": "Berticuss",
+        "followerValue": 374238,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:blindzonexgod",
+        "login": "blindzonexgod",
+        "proposedDisplayLabel": "blindzonexgod",
+        "followerValue": 71916,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:bobross",
+        "login": "bobross",
+        "proposedDisplayLabel": "BobRoss",
+        "followerValue": 2176768,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:broxah",
+        "login": "broxah",
+        "proposedDisplayLabel": "Broxah",
+        "followerValue": 579544,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:bysl4m",
+        "login": "bysl4m",
+        "proposedDisplayLabel": "bySL4M",
+        "followerValue": 562490,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:ceros127",
+        "login": "ceros127",
+        "proposedDisplayLabel": "ceros127",
+        "followerValue": 62660,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:chodie",
+        "login": "chodie",
+        "proposedDisplayLabel": "Chodie",
+        "followerValue": 70665,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:clemovitch",
+        "login": "clemovitch",
+        "proposedDisplayLabel": "Clemovitch",
+        "followerValue": 233921,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:clioaite",
+        "login": "clioaite",
+        "proposedDisplayLabel": "ClioAite",
+        "followerValue": 78112,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:clutch_fii",
+        "login": "clutch_fii",
+        "proposedDisplayLabel": "clutch_fii",
+        "followerValue": 287714,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:coachlim",
+        "login": "coachlim",
+        "proposedDisplayLabel": "coachlim",
+        "followerValue": 270825,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:commanderx",
+        "login": "commanderx",
+        "proposedDisplayLabel": "CommanderX",
+        "followerValue": 43136,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:croissantstrike",
+        "login": "croissantstrike",
+        "proposedDisplayLabel": "CroissantStrike",
+        "followerValue": 245018,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:crystalst",
+        "login": "crystalst",
+        "proposedDisplayLabel": "Crystalst",
+        "followerValue": 260245,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:dafran",
+        "login": "dafran",
+        "proposedDisplayLabel": "dafran",
+        "followerValue": 908413,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:daikai4104",
+        "login": "daikai4104",
+        "proposedDisplayLabel": "大楷",
+        "followerValue": 81823,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:dakillzor",
+        "login": "dakillzor",
+        "proposedDisplayLabel": "Dakillzor",
+        "followerValue": 347593,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:deepins02_13613",
+        "login": "deepins02_13613",
+        "proposedDisplayLabel": "deepins02_13613",
+        "followerValue": 6,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:dheylo",
+        "login": "dheylo",
+        "proposedDisplayLabel": "Dheylo",
+        "followerValue": 253295,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:dingding248",
+        "login": "dingding248",
+        "proposedDisplayLabel": "丁義",
+        "followerValue": 44445,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:dmitry_bale",
+        "login": "dmitry_bale",
+        "proposedDisplayLabel": "DMITRY_BALE",
+        "followerValue": 216210,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:dmitry_lixxx",
+        "login": "dmitry_lixxx",
+        "proposedDisplayLabel": "Dmitry_Lixxx",
+        "followerValue": 1922532,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:doctorul_",
+        "login": "doctorul_",
+        "proposedDisplayLabel": "Doctorul_",
+        "followerValue": 36581,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:dracon",
+        "login": "dracon",
+        "proposedDisplayLabel": "Dracon",
+        "followerValue": 93267,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:elbokeron",
+        "login": "elbokeron",
+        "proposedDisplayLabel": "elBokeron",
+        "followerValue": 590480,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:entych",
+        "login": "entych",
+        "proposedDisplayLabel": "えんてぃ",
+        "followerValue": 49021,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:epicvoyages",
+        "login": "epicvoyages",
+        "proposedDisplayLabel": "EpicVoyages",
+        "followerValue": 42673,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:eslcs",
+        "login": "eslcs",
+        "proposedDisplayLabel": "ESLCS",
+        "followerValue": 6819328,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:ev913",
+        "login": "ev913",
+        "proposedDisplayLabel": "Ev913",
+        "followerValue": 41025,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:evelynomadera",
+        "login": "evelynomadera",
+        "proposedDisplayLabel": "evelynomadera",
+        "followerValue": 718680,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:failverde",
+        "login": "failverde",
+        "proposedDisplayLabel": "懶貓",
+        "followerValue": 298753,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:fanfan",
+        "login": "fanfan",
+        "proposedDisplayLabel": "fanfan",
+        "followerValue": 457822,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:fl0m",
+        "login": "fl0m",
+        "proposedDisplayLabel": "fl0m",
+        "followerValue": 987964,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:formixyouknow",
+        "login": "formixyouknow",
+        "proposedDisplayLabel": "formixyouknow",
+        "followerValue": 135102,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:fps_shaka",
+        "login": "fps_shaka",
+        "proposedDisplayLabel": "fps_shaka",
+        "followerValue": 1702761,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:fruktozka",
+        "login": "fruktozka",
+        "proposedDisplayLabel": "Fruktozka",
+        "followerValue": 453632,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:gerardromero",
+        "login": "gerardromero",
+        "proposedDisplayLabel": "gerardromero",
+        "followerValue": 759467,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:glorious_e",
+        "login": "glorious_e",
+        "proposedDisplayLabel": "Glorious_E",
+        "followerValue": 461680,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:gobgg",
+        "login": "gobgg",
+        "proposedDisplayLabel": "GoBGG",
+        "followerValue": 299524,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:gocchanmikey",
+        "login": "gocchanmikey",
+        "proposedDisplayLabel": "ごっちゃんマイキー",
+        "followerValue": 229889,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:greentea",
+        "login": "greentea",
+        "proposedDisplayLabel": "綠茶",
+        "followerValue": 186113,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:guanweiboy",
+        "login": "guanweiboy",
+        "proposedDisplayLabel": "冠緯",
+        "followerValue": 156654,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:hera",
+        "login": "hera",
+        "proposedDisplayLabel": "Hera",
+        "followerValue": 251020,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:hiiragitsurugi",
+        "login": "hiiragitsurugi",
+        "proposedDisplayLabel": "柊ツルギ",
+        "followerValue": 480977,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:hitch",
+        "login": "hitch",
+        "proposedDisplayLabel": "Hitch",
+        "followerValue": 156955,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:hitomi_teraz",
+        "login": "hitomi_teraz",
+        "proposedDisplayLabel": "実ひとみ_序境",
+        "followerValue": 43972,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:iceicell",
+        "login": "iceicell",
+        "proposedDisplayLabel": "iceicell",
+        "followerValue": 339702,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:ilame",
+        "login": "ilame",
+        "proposedDisplayLabel": "iLame",
+        "followerValue": 447362,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:indegnasen0706",
+        "login": "indegnasen0706",
+        "proposedDisplayLabel": "布団ちゃんと申します",
+        "followerValue": 340008,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:ironmouse",
+        "login": "ironmouse",
+        "proposedDisplayLabel": "ironmouse",
+        "followerValue": 2561281,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:iseedeadp3ople",
+        "login": "iseedeadp3ople",
+        "proposedDisplayLabel": "iseedeadp3ople",
+        "followerValue": 71041,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:itsjxin",
+        "login": "itsjxin",
+        "proposedDisplayLabel": "ItsJXin",
+        "followerValue": 11749,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:izakooo",
+        "login": "izakooo",
+        "proposedDisplayLabel": "IzakOOO",
+        "followerValue": 2014160,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:japabigodin",
+        "login": "japabigodin",
+        "proposedDisplayLabel": "japabigodin",
+        "followerValue": 16136,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:jasper7se",
+        "login": "jasper7se",
+        "proposedDisplayLabel": "Jasper7se",
+        "followerValue": 671261,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:jeanmassiet",
+        "login": "jeanmassiet",
+        "proposedDisplayLabel": "JeanMassiet",
+        "followerValue": 265606,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:jenazad",
+        "login": "jenazad",
+        "proposedDisplayLabel": "Jenazad",
+        "followerValue": 66212,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:jezu_lol",
+        "login": "jezu_lol",
+        "proposedDisplayLabel": "jezu_lol",
+        "followerValue": 70437,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:jingggxd",
+        "login": "jingggxd",
+        "proposedDisplayLabel": "jingggxd",
+        "followerValue": 773823,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:jinnytty",
+        "login": "jinnytty",
+        "proposedDisplayLabel": "Jinnytty",
+        "followerValue": 1133591,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:joshuaschmidtygo",
+        "login": "joshuaschmidtygo",
+        "proposedDisplayLabel": "JoshuaSchmidtYGO",
+        "followerValue": 69422,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:juice",
+        "login": "juice",
+        "proposedDisplayLabel": "Juice",
+        "followerValue": 167155,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:just_ns",
+        "login": "just_ns",
+        "proposedDisplayLabel": "just_ns",
+        "followerValue": 790621,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:k4sen",
+        "login": "k4sen",
+        "proposedDisplayLabel": "k4sen",
+        "followerValue": 1043824,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:kanegon1",
+        "login": "kanegon1",
+        "proposedDisplayLabel": "ごんかね",
+        "followerValue": 48459,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:kasanofff",
+        "login": "kasanofff",
+        "proposedDisplayLabel": "KASANOFFF",
+        "followerValue": 108609,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:katarsisgg",
+        "login": "katarsisgg",
+        "proposedDisplayLabel": "katarsisgg",
+        "followerValue": 21933,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:kenbogard",
+        "login": "kenbogard",
+        "proposedDisplayLabel": "kenbogard",
+        "followerValue": 107754,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:kinapoppo",
+        "login": "kinapoppo",
+        "proposedDisplayLabel": "kinapoppo",
+        "followerValue": 161952,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:kiruma_ch",
+        "login": "kiruma_ch",
+        "proposedDisplayLabel": "切嘛",
+        "followerValue": 125490,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:koma",
+        "login": "koma",
+        "proposedDisplayLabel": "Koma",
+        "followerValue": 312232,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:kopsteep",
+        "login": "kopsteep",
+        "proposedDisplayLabel": "kopsteep",
+        "followerValue": 212144,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:kr1stw",
+        "login": "kr1stw",
+        "proposedDisplayLabel": "西南69",
+        "followerValue": 87919,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:krapycoco",
+        "login": "krapycoco",
+        "proposedDisplayLabel": "虧皮",
+        "followerValue": 156109,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:kunshikitty",
+        "login": "kunshikitty",
+        "proposedDisplayLabel": "Kunshikitty",
+        "followerValue": 233621,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:lacy",
+        "login": "lacy",
+        "proposedDisplayLabel": "Lacy",
+        "followerValue": 3515049,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:lazvell",
+        "login": "lazvell",
+        "proposedDisplayLabel": "Lazvell",
+        "followerValue": 575378,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:lenapena2006",
+        "login": "lenapena2006",
+        "proposedDisplayLabel": "lenapena2006",
+        "followerValue": 52721,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:lens_doto",
+        "login": "lens_doto",
+        "proposedDisplayLabel": "LenS_Doto",
+        "followerValue": 198526,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:lewisaoe",
+        "login": "lewisaoe",
+        "proposedDisplayLabel": "lewisaoe",
+        "followerValue": 16478,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:limmy",
+        "login": "limmy",
+        "proposedDisplayLabel": "Limmy",
+        "followerValue": 495047,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:liquidhasuobs",
+        "login": "liquidhasuobs",
+        "proposedDisplayLabel": "LiquidHasuObs",
+        "followerValue": 38965,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:loeya",
+        "login": "loeya",
+        "proposedDisplayLabel": "Loeya",
+        "followerValue": 1665586,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:lolthek4sen",
+        "login": "lolthek4sen",
+        "proposedDisplayLabel": "lolthek4sen",
+        "followerValue": 44344,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:m0xyy",
+        "login": "m0xyy",
+        "proposedDisplayLabel": "m0xyy",
+        "followerValue": 686763,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:manhuntaufderflucht",
+        "login": "manhuntaufderflucht",
+        "proposedDisplayLabel": "Manhuntaufderflucht",
+        "followerValue": 11442,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:manyochill",
+        "login": "manyochill",
+        "proposedDisplayLabel": "まにょちる",
+        "followerValue": 14049,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:mashtakof",
+        "login": "mashtakof",
+        "proposedDisplayLabel": "MashtakOF",
+        "followerValue": 45739,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:maxim",
+        "login": "maxim",
+        "proposedDisplayLabel": "maxim",
+        "followerValue": 517893,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:maximilian_dood",
+        "login": "maximilian_dood",
+        "proposedDisplayLabel": "Maximilian_DOOD",
+        "followerValue": 1368562,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:mayj0501",
+        "login": "mayj0501",
+        "proposedDisplayLabel": "梅婕",
+        "followerValue": 24620,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:meiy_vl",
+        "login": "meiy_vl",
+        "proposedDisplayLabel": "Meiy_vl",
+        "followerValue": 341939,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:melharucos",
+        "login": "melharucos",
+        "proposedDisplayLabel": "melharucos",
+        "followerValue": 472510,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:meltonff",
+        "login": "meltonff",
+        "proposedDisplayLabel": "メルトンめるとん",
+        "followerValue": 99559,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:midbeast",
+        "login": "midbeast",
+        "proposedDisplayLabel": "midbeast",
+        "followerValue": 860190,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:mikaels1",
+        "login": "mikaels1",
+        "proposedDisplayLabel": "MikaelS1",
+        "followerValue": 88867,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:minoru04160",
+        "login": "minoru04160",
+        "proposedDisplayLabel": "軍師ミノル",
+        "followerValue": 39701,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:misolo3",
+        "login": "misolo3",
+        "proposedDisplayLabel": "misolo3",
+        "followerValue": 144562,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:mitsuki_mitsuu",
+        "login": "mitsuki_mitsuu",
+        "proposedDisplayLabel": "みつきさんです",
+        "followerValue": 42208,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:mmgeneral",
+        "login": "mmgeneral",
+        "proposedDisplayLabel": "斗艾",
+        "followerValue": 38189,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:montanablack88",
+        "login": "montanablack88",
+        "proposedDisplayLabel": "MontanaBlack88",
+        "followerValue": 5781582,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:nacho_dayo",
+        "login": "nacho_dayo",
+        "proposedDisplayLabel": "nacho_dayo",
+        "followerValue": 477237,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:nagibatorleon",
+        "login": "nagibatorleon",
+        "proposedDisplayLabel": "nagibatorleon",
+        "followerValue": 18613,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:naru0419045",
+        "login": "naru0419045",
+        "proposedDisplayLabel": "なるお_",
+        "followerValue": 134738,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:nein1203",
+        "login": "nein1203",
+        "proposedDisplayLabel": "小舞",
+        "followerValue": 93705,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:neineimeme",
+        "login": "neineimeme",
+        "proposedDisplayLabel": "捏捏寧寧",
+        "followerValue": 88313,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:nisqyy",
+        "login": "nisqyy",
+        "proposedDisplayLabel": "Nisqyy",
+        "followerValue": 437799,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:nooreax",
+        "login": "nooreax",
+        "proposedDisplayLabel": "nooreax",
+        "followerValue": 725137,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:nykchazza",
+        "login": "nykchazza",
+        "proposedDisplayLabel": "NYKchazza",
+        "followerValue": 371057,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:olofmeister",
+        "login": "olofmeister",
+        "proposedDisplayLabel": "olofmeister",
+        "followerValue": 947317,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:olyashaa",
+        "login": "olyashaa",
+        "proposedDisplayLabel": "olyashaa",
+        "followerValue": 717785,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:ow_uruca",
+        "login": "ow_uruca",
+        "proposedDisplayLabel": "ow_uruca",
+        "followerValue": 300160,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:p1lepe1el1",
+        "login": "p1lepe1el1",
+        "proposedDisplayLabel": "珮蕾",
+        "followerValue": 69485,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:pablogaming13",
+        "login": "pablogaming13",
+        "proposedDisplayLabel": "pablogaming13",
+        "followerValue": 28269,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:pch3lk1n",
+        "login": "pch3lk1n",
+        "proposedDisplayLabel": "PCH3LK1N",
+        "followerValue": 581873,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:pelaajatcom",
+        "login": "pelaajatcom",
+        "proposedDisplayLabel": "pelaajatcom",
+        "followerValue": 120554,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:peter",
+        "login": "peter",
+        "proposedDisplayLabel": "Peter",
+        "followerValue": 264174,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:phantasm__",
+        "login": "phantasm__",
+        "proposedDisplayLabel": "Phantasm__",
+        "followerValue": 99976,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:pizamizu",
+        "login": "pizamizu",
+        "proposedDisplayLabel": "ぴざみず",
+        "followerValue": 1441,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:psp1g",
+        "login": "psp1g",
+        "proposedDisplayLabel": "PSP1G",
+        "followerValue": 139894,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:rdulive",
+        "login": "rdulive",
+        "proposedDisplayLabel": "RduLIVE",
+        "followerValue": 345070,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:rtparenacs",
+        "login": "rtparenacs",
+        "proposedDisplayLabel": "RTPArenaCS",
+        "followerValue": 262374,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:rumathra",
+        "login": "rumathra",
+        "proposedDisplayLabel": "Rumathra",
+        "followerValue": 1287748,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:sakanatl",
+        "login": "sakanatl",
+        "proposedDisplayLabel": "sakanaTL",
+        "followerValue": 2296,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:seoi1016",
+        "login": "seoi1016",
+        "proposedDisplayLabel": "정서이_",
+        "followerValue": 232166,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:shaunz",
+        "login": "shaunz",
+        "proposedDisplayLabel": "Shaunz",
+        "followerValue": 289150,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:shinjifromjapanxd",
+        "login": "shinjifromjapanxd",
+        "proposedDisplayLabel": "しんじさん",
+        "followerValue": 260759,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:shinyatheninja",
+        "login": "shinyatheninja",
+        "proposedDisplayLabel": "ShinyaTheNinja",
+        "followerValue": 72981,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:shlorox",
+        "login": "shlorox",
+        "proposedDisplayLabel": "Shlorox",
+        "followerValue": 437411,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:shuteye_orange",
+        "login": "shuteye_orange",
+        "proposedDisplayLabel": "蝦愛橘子",
+        "followerValue": 178611,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:skywhywalker",
+        "login": "skywhywalker",
+        "proposedDisplayLabel": "skywhywalker",
+        "followerValue": 1417514,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:slayproxx",
+        "login": "slayproxx",
+        "proposedDisplayLabel": "Slayproxx",
+        "followerValue": 97280,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:solaryhs",
+        "login": "solaryhs",
+        "proposedDisplayLabel": "SolaryHS",
+        "followerValue": 214623,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:sovietwomble",
+        "login": "sovietwomble",
+        "proposedDisplayLabel": "SovietWomble",
+        "followerValue": 1607549,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:steel",
+        "login": "steel",
+        "proposedDisplayLabel": "steel",
+        "followerValue": 823391,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:sterzik",
+        "login": "sterzik",
+        "proposedDisplayLabel": "Sterzik",
+        "followerValue": 247387,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:stokes",
+        "login": "stokes",
+        "proposedDisplayLabel": "Stokes",
+        "followerValue": 187318,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:strawberrytabby",
+        "login": "strawberrytabby",
+        "proposedDisplayLabel": "StrawberryTabby",
+        "followerValue": 752001,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:stray228",
+        "login": "stray228",
+        "proposedDisplayLabel": "Stray228",
+        "followerValue": 1796888,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:strogo",
+        "login": "strogo",
+        "proposedDisplayLabel": "StRoGo",
+        "followerValue": 2313371,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:sumitaninasi",
+        "login": "sumitaninasi",
+        "proposedDisplayLabel": "墨谷",
+        "followerValue": 3814,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:sunglitters",
+        "login": "sunglitters",
+        "proposedDisplayLabel": "sunglitters",
+        "followerValue": 119666,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:superjj",
+        "login": "superjj",
+        "proposedDisplayLabel": "SuperJJ",
+        "followerValue": 173229,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:swagg",
+        "login": "swagg",
+        "proposedDisplayLabel": "Swagg",
+        "followerValue": 2409215,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:takayaspecial",
+        "login": "takayaspecial",
+        "proposedDisplayLabel": "たかやスペシャル",
+        "followerValue": 105703,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:theboxlily",
+        "login": "theboxlily",
+        "proposedDisplayLabel": "森森鈴蘭",
+        "followerValue": 28038,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:theburntpeanut_247",
+        "login": "theburntpeanut_247",
+        "proposedDisplayLabel": "TheBurntPeanut_247",
+        "followerValue": 520727,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:titiseadmin",
+        "login": "titiseadmin",
+        "proposedDisplayLabel": "あどみん",
+        "followerValue": 73242,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:tonakaito_hendy",
+        "login": "tonakaito_hendy",
+        "proposedDisplayLabel": "ヘンディー",
+        "followerValue": 348371,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:tortedelini",
+        "login": "tortedelini",
+        "proposedDisplayLabel": "tortedelini",
+        "followerValue": 45081,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:tototmix",
+        "login": "tototmix",
+        "proposedDisplayLabel": "ととみっくす",
+        "followerValue": 195067,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:tpabomah",
+        "login": "tpabomah",
+        "proposedDisplayLabel": "TpaBoMaH",
+        "followerValue": 853651,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:tru3ta1ent",
+        "login": "tru3ta1ent",
+        "proposedDisplayLabel": "TrU3Ta1ent",
+        "followerValue": 706360,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:vau0307",
+        "login": "vau0307",
+        "proposedDisplayLabel": "ばぁう",
+        "followerValue": 14323,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:velja_lol",
+        "login": "velja_lol",
+        "proposedDisplayLabel": "velja_lol",
+        "followerValue": 255188,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:voll",
+        "login": "voll",
+        "proposedDisplayLabel": "Voll",
+        "followerValue": 17363,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:vovapain",
+        "login": "vovapain",
+        "proposedDisplayLabel": "Vovapain",
+        "followerValue": 304925,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:vovohzera",
+        "login": "vovohzera",
+        "proposedDisplayLabel": "Vovohzera",
+        "followerValue": 4043,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:washidai_",
+        "login": "washidai_",
+        "proposedDisplayLabel": "わしだい",
+        "followerValue": 27230,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:wendolynortizz",
+        "login": "wendolynortizz",
+        "proposedDisplayLabel": "wendolynortizz",
+        "followerValue": 1222149,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:whityyy",
+        "login": "whityyy",
+        "proposedDisplayLabel": "whityyy",
+        "followerValue": 16968,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:wingo",
+        "login": "wingo",
+        "proposedDisplayLabel": "Wingo",
+        "followerValue": 137001,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:wtf_winds123",
+        "login": "wtf_winds123",
+        "proposedDisplayLabel": "大丸",
+        "followerValue": 336966,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:x2twins",
+        "login": "x2twins",
+        "proposedDisplayLabel": "x2Twins",
+        "followerValue": 3143362,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:x9nium",
+        "login": "x9nium",
+        "proposedDisplayLabel": "x9nium",
+        "followerValue": 50868,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:xrohat",
+        "login": "xrohat",
+        "proposedDisplayLabel": "xRohat",
+        "followerValue": 1367915,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:yaritaiji",
+        "login": "yaritaiji",
+        "proposedDisplayLabel": "たいじ_たいちゃんねる",
+        "followerValue": 347660,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:yugi",
+        "login": "yugi",
+        "proposedDisplayLabel": "Yugi",
+        "followerValue": 462410,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:yuhilolz",
+        "login": "yuhilolz",
+        "proposedDisplayLabel": "ゆーひ1",
+        "followerValue": 16760,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:yukiofps14",
+        "login": "yukiofps14",
+        "proposedDisplayLabel": "ゆきお2",
+        "followerValue": 260545,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:yutapongo",
+        "login": "yutapongo",
+        "proposedDisplayLabel": "yutapongo",
+        "followerValue": 72381,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:yuuechka",
+        "login": "yuuechka",
+        "proposedDisplayLabel": "yuuechka",
+        "followerValue": 662739,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:yuyuta0702",
+        "login": "yuyuta0702",
+        "proposedDisplayLabel": "ゆゆうた押忍",
+        "followerValue": 409044,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      },
+      {
+        "id": "twitch:zerost_s",
+        "login": "zerost_s",
+        "proposedDisplayLabel": "Zerost_s",
+        "followerValue": 203385,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "clearCandidate",
+        "reviewReason": "no obvious non-personal naming pattern detected; owner review remains required"
+      }
+    ],
+    "flaggedForOwnerReview": [
+      {
+        "id": "twitch:alohadancetv",
+        "login": "alohadancetv",
+        "proposedDisplayLabel": "ALOHADANCETV",
+        "followerValue": 939259,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:cs2_maincast",
+        "login": "cs2_maincast",
+        "proposedDisplayLabel": "cs2_maincast",
+        "followerValue": 294884,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:cs2_paragon_ru",
+        "login": "cs2_paragon_ru",
+        "proposedDisplayLabel": "cs2_paragon_ru",
+        "followerValue": 299183,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a game or game brand account; verify individual creator"
+      },
+      {
+        "id": "twitch:gronkhtv",
+        "login": "gronkhtv",
+        "proposedDisplayLabel": "GronkhTV",
+        "followerValue": 647893,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:gtimetv",
+        "login": "gtimetv",
+        "proposedDisplayLabel": "GTimeTV",
+        "followerValue": 1098023,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:itsassitv",
+        "login": "itsassitv",
+        "proposedDisplayLabel": "itsAssiTV",
+        "followerValue": 234147,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:kuchentv",
+        "login": "kuchentv",
+        "proposedDisplayLabel": "KuchenTV",
+        "followerValue": 392702,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:kungentv",
+        "login": "kungentv",
+        "proposedDisplayLabel": "KungenTV",
+        "followerValue": 317309,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:letshugotv",
+        "login": "letshugotv",
+        "proposedDisplayLabel": "LetsHugoTV",
+        "followerValue": 1242583,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:luzu_tv",
+        "login": "luzu_tv",
+        "proposedDisplayLabel": "LUZU_TV",
+        "followerValue": 512122,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:skyrroztv",
+        "login": "skyrroztv",
+        "proposedDisplayLabel": "SkyrrozTV",
+        "followerValue": 1220265,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      },
+      {
+        "id": "twitch:watchfultv",
+        "login": "watchfultv",
+        "proposedDisplayLabel": "watchfulTV",
+        "followerValue": 311054,
+        "currentReviewStatus": "pendingReview",
+        "localOnlyReviewStatus": "needsOwnerReview",
+        "reviewReason": "name suggests a broadcaster/network/media account; verify individual creator"
+      }
+    ]
+  }
+}

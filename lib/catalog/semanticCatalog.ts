@@ -132,14 +132,16 @@ export const SEMANTIC_CATEGORIES = [
   {
     id: "player-count",
     domainId: "gaming",
-    label: "Player Count",
-    description: "Compare current concurrent players only.",
+    label: "Peak Concurrent Players",
+    description:
+      "Compare the previous day's peak concurrent players on Steam.",
     metricDescription:
-      "Current concurrent players; recent activity or peak is not equivalent.",
+      "SteamSpy ccu: the peak number of concurrently connected players recorded yesterday. This is a daily peak, not a live count.",
     sourceDescription:
-      "Requires a suitable current-concurrency source; do not map SteamSpy recent-activity or peak values.",
-    providerCandidate: "Unresolved current-concurrency data path",
-    displayFormat: "Current concurrent-player count.",
+      "SteamSpy ccu (previous-day peak concurrent users) from the top100in2weeks endpoint.",
+    providerCandidate: "SteamSpy",
+    displayFormat:
+      "Peak concurrent-player count, labelled as a previous-day peak.",
     targetCatalog: true,
     compatibleModes: CLASSIC_AND_TIME_ATTACK,
   },

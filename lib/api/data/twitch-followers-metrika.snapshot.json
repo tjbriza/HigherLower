@@ -1,0 +1,1208 @@
+{
+  "version": 1,
+  "source": "Metrika Twitch account followers",
+  "generatedAt": "2026-11-02T14:30:09.871Z",
+  "collectedAt": "2026-11-02T12:21:28.000Z",
+  "records": [
+    {
+      "id": "twitch:ache",
+      "login": "ache",
+      "followerCount": 533929,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:admiralbulldog",
+      "login": "admiralbulldog",
+      "followerCount": 777864,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:ajak0n",
+      "login": "ajak0n",
+      "followerCount": 109817,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:akarindao",
+      "login": "akarindao",
+      "followerCount": 600499,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:alohadancetv",
+      "login": "alohadancetv",
+      "followerCount": 939259,
+      "collectedAt": "2026-11-02T12:37:34.000Z"
+    },
+    {
+      "id": "twitch:alois_nl",
+      "login": "alois_nl",
+      "followerCount": 396826,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:alveussanctuary",
+      "login": "alveussanctuary",
+      "followerCount": 489464,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:amakipururu",
+      "login": "amakipururu",
+      "followerCount": 229370,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:anarabdullaev_29947",
+      "login": "anarabdullaev_29947",
+      "followerCount": 33,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:areslps",
+      "login": "areslps",
+      "followerCount": 143256,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:arky",
+      "login": "arky",
+      "followerCount": 592123,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:asmongold247",
+      "login": "asmongold247",
+      "followerCount": 242309,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:assarisyoko1",
+      "login": "assarisyoko1",
+      "followerCount": 133101,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:batora324",
+      "login": "batora324",
+      "followerCount": 224482,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:bbbb87",
+      "login": "bbbb87",
+      "followerCount": 180110,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:berticuss",
+      "login": "berticuss",
+      "followerCount": 374238,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:blindzonexgod",
+      "login": "blindzonexgod",
+      "followerCount": 71916,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:bobross",
+      "login": "bobross",
+      "followerCount": 2176768,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:broxah",
+      "login": "broxah",
+      "followerCount": 579544,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:bysl4m",
+      "login": "bysl4m",
+      "followerCount": 562490,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:ceros127",
+      "login": "ceros127",
+      "followerCount": 62660,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:chodie",
+      "login": "chodie",
+      "followerCount": 70665,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:clemovitch",
+      "login": "clemovitch",
+      "followerCount": 233921,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:clioaite",
+      "login": "clioaite",
+      "followerCount": 78112,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:clutch_fii",
+      "login": "clutch_fii",
+      "followerCount": 287714,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:coachlim",
+      "login": "coachlim",
+      "followerCount": 270825,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:commanderx",
+      "login": "commanderx",
+      "followerCount": 43136,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:croissantstrike",
+      "login": "croissantstrike",
+      "followerCount": 245018,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:crystalst",
+      "login": "crystalst",
+      "followerCount": 260245,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:cs2_maincast",
+      "login": "cs2_maincast",
+      "followerCount": 294884,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:cs2_paragon_ru",
+      "login": "cs2_paragon_ru",
+      "followerCount": 299183,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:dafran",
+      "login": "dafran",
+      "followerCount": 908413,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:daikai4104",
+      "login": "daikai4104",
+      "followerCount": 81823,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:dakillzor",
+      "login": "dakillzor",
+      "followerCount": 347593,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:deepins02_13613",
+      "login": "deepins02_13613",
+      "followerCount": 6,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:dheylo",
+      "login": "dheylo",
+      "followerCount": 253295,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:dingding248",
+      "login": "dingding248",
+      "followerCount": 44445,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:dmitry_bale",
+      "login": "dmitry_bale",
+      "followerCount": 216210,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:dmitry_lixxx",
+      "login": "dmitry_lixxx",
+      "followerCount": 1922532,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:doctorul_",
+      "login": "doctorul_",
+      "followerCount": 36581,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:dracon",
+      "login": "dracon",
+      "followerCount": 93267,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:elbokeron",
+      "login": "elbokeron",
+      "followerCount": 590480,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:entych",
+      "login": "entych",
+      "followerCount": 49021,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:epicvoyages",
+      "login": "epicvoyages",
+      "followerCount": 42673,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:eslcs",
+      "login": "eslcs",
+      "followerCount": 6819328,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:ev913",
+      "login": "ev913",
+      "followerCount": 41025,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:evelynomadera",
+      "login": "evelynomadera",
+      "followerCount": 718680,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:failverde",
+      "login": "failverde",
+      "followerCount": 298753,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:fanfan",
+      "login": "fanfan",
+      "followerCount": 457822,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:fl0m",
+      "login": "fl0m",
+      "followerCount": 987964,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:formixyouknow",
+      "login": "formixyouknow",
+      "followerCount": 135102,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:fps_shaka",
+      "login": "fps_shaka",
+      "followerCount": 1702761,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:fruktozka",
+      "login": "fruktozka",
+      "followerCount": 453632,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:gerardromero",
+      "login": "gerardromero",
+      "followerCount": 759467,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:glorious_e",
+      "login": "glorious_e",
+      "followerCount": 461680,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:gobgg",
+      "login": "gobgg",
+      "followerCount": 299524,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:gocchanmikey",
+      "login": "gocchanmikey",
+      "followerCount": 229889,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:greentea",
+      "login": "greentea",
+      "followerCount": 186113,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:gronkhtv",
+      "login": "gronkhtv",
+      "followerCount": 647893,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:gtimetv",
+      "login": "gtimetv",
+      "followerCount": 1098023,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:guanweiboy",
+      "login": "guanweiboy",
+      "followerCount": 156654,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:hera",
+      "login": "hera",
+      "followerCount": 251020,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:hiiragitsurugi",
+      "login": "hiiragitsurugi",
+      "followerCount": 480977,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:hitch",
+      "login": "hitch",
+      "followerCount": 156955,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:hitomi_teraz",
+      "login": "hitomi_teraz",
+      "followerCount": 43972,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:iceicell",
+      "login": "iceicell",
+      "followerCount": 339702,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:ilame",
+      "login": "ilame",
+      "followerCount": 447362,
+      "collectedAt": "2026-11-02T12:37:28.000Z"
+    },
+    {
+      "id": "twitch:indegnasen0706",
+      "login": "indegnasen0706",
+      "followerCount": 340008,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:ironmouse",
+      "login": "ironmouse",
+      "followerCount": 2561281,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:iseedeadp3ople",
+      "login": "iseedeadp3ople",
+      "followerCount": 71041,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:itsassitv",
+      "login": "itsassitv",
+      "followerCount": 234147,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:itsjxin",
+      "login": "itsjxin",
+      "followerCount": 11749,
+      "collectedAt": "2026-11-02T12:37:34.000Z"
+    },
+    {
+      "id": "twitch:izakooo",
+      "login": "izakooo",
+      "followerCount": 2014160,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:japabigodin",
+      "login": "japabigodin",
+      "followerCount": 16136,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:jasper7se",
+      "login": "jasper7se",
+      "followerCount": 671261,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:jeanmassiet",
+      "login": "jeanmassiet",
+      "followerCount": 265606,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:jenazad",
+      "login": "jenazad",
+      "followerCount": 66212,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:jezu_lol",
+      "login": "jezu_lol",
+      "followerCount": 70437,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:jingggxd",
+      "login": "jingggxd",
+      "followerCount": 773823,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:jinnytty",
+      "login": "jinnytty",
+      "followerCount": 1133591,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:joshuaschmidtygo",
+      "login": "joshuaschmidtygo",
+      "followerCount": 69422,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:juice",
+      "login": "juice",
+      "followerCount": 167155,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:just_ns",
+      "login": "just_ns",
+      "followerCount": 790621,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:k4sen",
+      "login": "k4sen",
+      "followerCount": 1043824,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:kanegon1",
+      "login": "kanegon1",
+      "followerCount": 48459,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:kasanofff",
+      "login": "kasanofff",
+      "followerCount": 108609,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:katarsisgg",
+      "login": "katarsisgg",
+      "followerCount": 21933,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:kenbogard",
+      "login": "kenbogard",
+      "followerCount": 107754,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:kinapoppo",
+      "login": "kinapoppo",
+      "followerCount": 161952,
+      "collectedAt": "2026-11-02T12:37:34.000Z"
+    },
+    {
+      "id": "twitch:kiruma_ch",
+      "login": "kiruma_ch",
+      "followerCount": 125490,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:koma",
+      "login": "koma",
+      "followerCount": 312232,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:kopsteep",
+      "login": "kopsteep",
+      "followerCount": 212144,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:kr1stw",
+      "login": "kr1stw",
+      "followerCount": 87919,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:krapycoco",
+      "login": "krapycoco",
+      "followerCount": 156109,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:kuchentv",
+      "login": "kuchentv",
+      "followerCount": 392702,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:kungentv",
+      "login": "kungentv",
+      "followerCount": 317309,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:kunshikitty",
+      "login": "kunshikitty",
+      "followerCount": 233621,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:lacy",
+      "login": "lacy",
+      "followerCount": 3515049,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:lazvell",
+      "login": "lazvell",
+      "followerCount": 575378,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:lenapena2006",
+      "login": "lenapena2006",
+      "followerCount": 52721,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:lens_doto",
+      "login": "lens_doto",
+      "followerCount": 198526,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:letshugotv",
+      "login": "letshugotv",
+      "followerCount": 1242583,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:lewisaoe",
+      "login": "lewisaoe",
+      "followerCount": 16478,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:limmy",
+      "login": "limmy",
+      "followerCount": 495047,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:liquidhasuobs",
+      "login": "liquidhasuobs",
+      "followerCount": 38965,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:loeya",
+      "login": "loeya",
+      "followerCount": 1665586,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:lolthek4sen",
+      "login": "lolthek4sen",
+      "followerCount": 44344,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:luzu_tv",
+      "login": "luzu_tv",
+      "followerCount": 512122,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:m0xyy",
+      "login": "m0xyy",
+      "followerCount": 686763,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:manhuntaufderflucht",
+      "login": "manhuntaufderflucht",
+      "followerCount": 11442,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:manyochill",
+      "login": "manyochill",
+      "followerCount": 14049,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:mashtakof",
+      "login": "mashtakof",
+      "followerCount": 45739,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:maxim",
+      "login": "maxim",
+      "followerCount": 517893,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:maximilian_dood",
+      "login": "maximilian_dood",
+      "followerCount": 1368562,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:mayj0501",
+      "login": "mayj0501",
+      "followerCount": 24620,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:meiy_vl",
+      "login": "meiy_vl",
+      "followerCount": 341939,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:melharucos",
+      "login": "melharucos",
+      "followerCount": 472510,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:meltonff",
+      "login": "meltonff",
+      "followerCount": 99559,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:midbeast",
+      "login": "midbeast",
+      "followerCount": 860190,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:mikaels1",
+      "login": "mikaels1",
+      "followerCount": 88867,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:minoru04160",
+      "login": "minoru04160",
+      "followerCount": 39701,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:misolo3",
+      "login": "misolo3",
+      "followerCount": 144562,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:mitsuki_mitsuu",
+      "login": "mitsuki_mitsuu",
+      "followerCount": 42208,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:mmgeneral",
+      "login": "mmgeneral",
+      "followerCount": 38189,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:montanablack88",
+      "login": "montanablack88",
+      "followerCount": 5781582,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:nacho_dayo",
+      "login": "nacho_dayo",
+      "followerCount": 477237,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:nagibatorleon",
+      "login": "nagibatorleon",
+      "followerCount": 18613,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:naru0419045",
+      "login": "naru0419045",
+      "followerCount": 134738,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:nein1203",
+      "login": "nein1203",
+      "followerCount": 93705,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:neineimeme",
+      "login": "neineimeme",
+      "followerCount": 88313,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:nisqyy",
+      "login": "nisqyy",
+      "followerCount": 437799,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:nooreax",
+      "login": "nooreax",
+      "followerCount": 725137,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:nykchazza",
+      "login": "nykchazza",
+      "followerCount": 371057,
+      "collectedAt": "2026-11-02T12:37:28.000Z"
+    },
+    {
+      "id": "twitch:olofmeister",
+      "login": "olofmeister",
+      "followerCount": 947317,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:olyashaa",
+      "login": "olyashaa",
+      "followerCount": 717785,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:ow_uruca",
+      "login": "ow_uruca",
+      "followerCount": 300160,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:p1lepe1el1",
+      "login": "p1lepe1el1",
+      "followerCount": 69485,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:pablogaming13",
+      "login": "pablogaming13",
+      "followerCount": 28269,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:pch3lk1n",
+      "login": "pch3lk1n",
+      "followerCount": 581873,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:pelaajatcom",
+      "login": "pelaajatcom",
+      "followerCount": 120554,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:peter",
+      "login": "peter",
+      "followerCount": 264174,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:phantasm__",
+      "login": "phantasm__",
+      "followerCount": 99976,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:pizamizu",
+      "login": "pizamizu",
+      "followerCount": 1441,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:psp1g",
+      "login": "psp1g",
+      "followerCount": 139894,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:rdulive",
+      "login": "rdulive",
+      "followerCount": 345070,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:rtparenacs",
+      "login": "rtparenacs",
+      "followerCount": 262374,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:rumathra",
+      "login": "rumathra",
+      "followerCount": 1287748,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:sakanatl",
+      "login": "sakanatl",
+      "followerCount": 2296,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:seoi1016",
+      "login": "seoi1016",
+      "followerCount": 232166,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:shaunz",
+      "login": "shaunz",
+      "followerCount": 289150,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:shinjifromjapanxd",
+      "login": "shinjifromjapanxd",
+      "followerCount": 260759,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:shinyatheninja",
+      "login": "shinyatheninja",
+      "followerCount": 72981,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:shlorox",
+      "login": "shlorox",
+      "followerCount": 437411,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:shuteye_orange",
+      "login": "shuteye_orange",
+      "followerCount": 178611,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:skyrroztv",
+      "login": "skyrroztv",
+      "followerCount": 1220265,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:skywhywalker",
+      "login": "skywhywalker",
+      "followerCount": 1417514,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:slayproxx",
+      "login": "slayproxx",
+      "followerCount": 97280,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:solaryhs",
+      "login": "solaryhs",
+      "followerCount": 214623,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:sovietwomble",
+      "login": "sovietwomble",
+      "followerCount": 1607549,
+      "collectedAt": "2026-11-02T12:37:28.000Z"
+    },
+    {
+      "id": "twitch:steel",
+      "login": "steel",
+      "followerCount": 823391,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:sterzik",
+      "login": "sterzik",
+      "followerCount": 247387,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:stokes",
+      "login": "stokes",
+      "followerCount": 187318,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:strawberrytabby",
+      "login": "strawberrytabby",
+      "followerCount": 752001,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:stray228",
+      "login": "stray228",
+      "followerCount": 1796888,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:strogo",
+      "login": "strogo",
+      "followerCount": 2313371,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:sumitaninasi",
+      "login": "sumitaninasi",
+      "followerCount": 3814,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:sunglitters",
+      "login": "sunglitters",
+      "followerCount": 119666,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:superjj",
+      "login": "superjj",
+      "followerCount": 173229,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:swagg",
+      "login": "swagg",
+      "followerCount": 2409215,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:takayaspecial",
+      "login": "takayaspecial",
+      "followerCount": 105703,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:theboxlily",
+      "login": "theboxlily",
+      "followerCount": 28038,
+      "collectedAt": "2026-11-02T12:37:34.000Z"
+    },
+    {
+      "id": "twitch:theburntpeanut_247",
+      "login": "theburntpeanut_247",
+      "followerCount": 520727,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:titiseadmin",
+      "login": "titiseadmin",
+      "followerCount": 73242,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:tonakaito_hendy",
+      "login": "tonakaito_hendy",
+      "followerCount": 348371,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:tortedelini",
+      "login": "tortedelini",
+      "followerCount": 45081,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:tototmix",
+      "login": "tototmix",
+      "followerCount": 195067,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:tpabomah",
+      "login": "tpabomah",
+      "followerCount": 853651,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:tru3ta1ent",
+      "login": "tru3ta1ent",
+      "followerCount": 706360,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:vau0307",
+      "login": "vau0307",
+      "followerCount": 14323,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:velja_lol",
+      "login": "velja_lol",
+      "followerCount": 255188,
+      "collectedAt": "2026-11-02T12:37:32.000Z"
+    },
+    {
+      "id": "twitch:voll",
+      "login": "voll",
+      "followerCount": 17363,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:vovapain",
+      "login": "vovapain",
+      "followerCount": 304925,
+      "collectedAt": "2026-11-02T12:21:31.000Z"
+    },
+    {
+      "id": "twitch:vovohzera",
+      "login": "vovohzera",
+      "followerCount": 4043,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:washidai_",
+      "login": "washidai_",
+      "followerCount": 27230,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:watchfultv",
+      "login": "watchfultv",
+      "followerCount": 311054,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    },
+    {
+      "id": "twitch:wendolynortizz",
+      "login": "wendolynortizz",
+      "followerCount": 1222149,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:whityyy",
+      "login": "whityyy",
+      "followerCount": 16968,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:wingo",
+      "login": "wingo",
+      "followerCount": 137001,
+      "collectedAt": "2026-11-02T12:21:33.000Z"
+    },
+    {
+      "id": "twitch:wtf_winds123",
+      "login": "wtf_winds123",
+      "followerCount": 336966,
+      "collectedAt": "2026-11-02T12:37:30.000Z"
+    },
+    {
+      "id": "twitch:x2twins",
+      "login": "x2twins",
+      "followerCount": 3143362,
+      "collectedAt": "2026-11-02T12:37:33.000Z"
+    },
+    {
+      "id": "twitch:x9nium",
+      "login": "x9nium",
+      "followerCount": 50868,
+      "collectedAt": "2026-11-02T12:37:31.000Z"
+    },
+    {
+      "id": "twitch:xrohat",
+      "login": "xrohat",
+      "followerCount": 1367915,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:yaritaiji",
+      "login": "yaritaiji",
+      "followerCount": 347660,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:yugi",
+      "login": "yugi",
+      "followerCount": 462410,
+      "collectedAt": "2026-11-02T12:37:28.000Z"
+    },
+    {
+      "id": "twitch:yuhilolz",
+      "login": "yuhilolz",
+      "followerCount": 16760,
+      "collectedAt": "2026-11-02T12:21:32.000Z"
+    },
+    {
+      "id": "twitch:yukiofps14",
+      "login": "yukiofps14",
+      "followerCount": 260545,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:yutapongo",
+      "login": "yutapongo",
+      "followerCount": 72381,
+      "collectedAt": "2026-11-02T12:21:29.000Z"
+    },
+    {
+      "id": "twitch:yuuechka",
+      "login": "yuuechka",
+      "followerCount": 662739,
+      "collectedAt": "2026-11-02T12:37:29.000Z"
+    },
+    {
+      "id": "twitch:yuyuta0702",
+      "login": "yuyuta0702",
+      "followerCount": 409044,
+      "collectedAt": "2026-11-02T12:21:28.000Z"
+    },
+    {
+      "id": "twitch:zerost_s",
+      "login": "zerost_s",
+      "followerCount": 203385,
+      "collectedAt": "2026-11-02T12:21:30.000Z"
+    }
+  ]
+}

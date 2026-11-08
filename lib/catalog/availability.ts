@@ -259,7 +259,7 @@ export const CATEGORY_AVAILABILITY: Record<
       },
       "runtime-provider-evidence": {
         satisfied: true,
-        evidence: "Local validation confirms 196 unique approved runtime identities, one finite valid metric per identity, four rejected identities absent, neutral asset only, and no Helix fields. No live provider call was made.",
+        evidence: "Local validation confirms 196 unique approved runtime identities, one finite valid metric per identity, four rejected identities absent, and runtime images limited to verified Twitch profile-image URLs from the local avatar artifact or the deterministic identicon fallback. No provider request occurs at gameplay time; avatar enrichment is an offline developer-run step.",
       },
       "server-route-authorization": {
         satisfied: true,
@@ -267,7 +267,7 @@ export const CATEGORY_AVAILABILITY: Record<
       },
       "public-catalog-eligibility": {
         satisfied: true,
-        evidence: "Owner approved all 188 clear candidates and eight named flagged candidates; governance/compliance evidence and Option A architecture approval were supplied by the owner.",
+        evidence: "Owner approved all 188 clear candidates and eight named flagged candidates; governance/compliance evidence and Option A architecture approval were supplied by the owner. Imagery is referenced by URL from the local avatar artifact with a neutral fallback; no Twitch content is copied, vendored, or re-syndicated.",
       },
       "reversible-visibility": {
         satisfied: true,

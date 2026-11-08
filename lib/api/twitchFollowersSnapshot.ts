@@ -8,6 +8,7 @@ const METRICS_PATH = "lib/api/data/twitch-followers-metrika.snapshot.json";
 const ROSTER_PATH = "lib/api/data/twitch-owner-review-roster.json";
 const MAX_AGE_MS = 14 * 24 * 60 * 60 * 1000;
 const LOGIN_PATTERN = /^[a-z0-9_]{1,25}$/;
+const AVATAR_PATH = "lib/api/data/twitch-avatar-images.json";
 const AVATAR_PALETTE = ["#17152e", "#6d42d8", "#ff4f9a", "#20d9c2", "#ffd166"] as const;
 
 function escapeXmlText(value: string): string {
@@ -71,6 +72,28 @@ type RuntimeSnapshot = {
   items: GameItem[];
 };
 
+type AvatarEntry = {
+  userId: string;
+  login: string;
+  displayName: string;
+  profileImageUrl: string;
+  verifiedAt: string;
+};
+
+const AVATAR_REQUEST_CAP = 100;
+const AVATAR_TOP_LEVEL_KEYS = [
+  "schemaVersion",
+  "generatedAt",
+  "source",
+  "endpoint",
+  "requestCap",
+  "batchCount",
+  "requestedIdentities",
+  "returnedIdentities",
+  "entries",
+];
+const AVATAR_ENTRY_KEYS = ["userId", "login", "displayName", "profileImageUrl", "verifiedAt"];
+
 function fail(message: string): never {
   throw new ApiFetchError("TwitchFollowersSnapshot", null, message);
 }
@@ -132,13 +155,71 @@ function parseRoster(raw: unknown): ReviewItem[] {
   return items;
 }
 
+function isVerifiedAvatarUrl(value: unknown): value is string {
+  if (typeof value !== "string" || !value.trim()) return false;
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" && url.hostname === "static-cdn.jtvnw.net";
+  } catch {
+    return false;
+  }
+}
+
+function parseAvatarImages(raw: unknown): Map<string, string> {
+  if (!isRecord(raw) || raw.schemaVersion !== 1 || !isRecord(raw.entries) ||
+    Object.keys(raw).some((key) => !AVATAR_TOP_LEVEL_KEYS.includes(key)) ||
+    raw.requestCap !== AVATAR_REQUEST_CAP ||
+    typeof raw.requestedIdentities !== "number" ||
+    !Number.isSafeInteger(raw.requestedIdentities) || raw.requestedIdentities < 0 ||
+    raw.batchCount !== Math.ceil(raw.requestedIdentities / AVATAR_REQUEST_CAP) ||
+    raw.returnedIdentities !== Object.keys(raw.entries).length) {
+    return fail("Twitch avatar artifact schema is invalid.");
+  }
+  const avatars = new Map<string, string>();
+  for (const [key, candidate] of Object.entries(raw.entries)) {
+    if (!LOGIN_PATTERN.test(key) || !isRecord(candidate) || candidate.login !== key ||
+      Object.keys(candidate).some((field) => !AVATAR_ENTRY_KEYS.includes(field)) ||
+      typeof candidate.userId !== "string" || !/^\d+$/.test(candidate.userId) ||
+      typeof candidate.displayName !== "string" || !candidate.displayName.trim() ||
+      typeof candidate.verifiedAt !== "string" || !Number.isFinite(Date.parse(candidate.verifiedAt))) {
+      // Skip only this entry; the identity keeps its deterministic identicon.
+      continue;
+    }
+    if (!isVerifiedAvatarUrl(candidate.profileImageUrl)) continue;
+    const avatarEntry = candidate as unknown as AvatarEntry;
+    avatars.set(key, avatarEntry.profileImageUrl);
+  }
+  return avatars;
+}
+
+function readAvatarImages(): Map<string, string> {
+  try {
+    return parseAvatarImages(JSON.parse(readFileSync(join(process.cwd(), AVATAR_PATH), "utf8")) as unknown);
+  } catch (error) {
+    const code = isRecord(error) ? error.code : undefined;
+    const failure = code === "ENOENT"
+      ? "missing-file"
+      : error instanceof ApiFetchError ? "invalid-schema" : "unreadable-or-malformed";
+    console.warn(`Twitch avatar artifact not used at ${AVATAR_PATH} (${failure}).`);
+    return new Map<string, string>();
+  }
+}
+
+function avatarImagesFrom(raw: unknown): Map<string, string> {
+  if (raw === undefined) return new Map<string, string>();
+  if (raw instanceof Map) return raw as Map<string, string>;
+  return parseAvatarImages(raw);
+}
+
 export function buildTwitchFollowersSnapshot(
   metricsRaw: unknown,
   rosterRaw: unknown,
+  avatarsRaw: unknown = undefined,
   now = Date.now(),
 ): RuntimeSnapshot {
   const metrics = parseMetrics(metricsRaw, now);
   const roster = parseRoster(rosterRaw);
+  const avatarsByLogin = avatarImagesFrom(avatarsRaw);
   const metricsByLogin = new Map(metrics.records.map((record) => [record.login, record]));
   const approvedLogins = new Set<string>();
   const approvedIds = new Set<string>();
@@ -150,10 +231,11 @@ export function buildTwitchFollowersSnapshot(
     if (!metric || metric.id !== candidate.id || approvedLogins.has(login) || approvedIds.has(candidate.id)) continue;
     approvedLogins.add(login);
     approvedIds.add(candidate.id);
+    const avatarUrl = avatarsByLogin.get(login);
     items.push({
       id: candidate.id,
       name: candidate.displayLabel,
-      imageUrl: createTwitchAvatarDataUri(login, candidate.displayLabel),
+      imageUrl: avatarUrl ?? createTwitchAvatarDataUri(login, candidate.displayLabel),
       value: metric.followerCount,
       displayValue: `${metric.followerCount.toLocaleString("en-US")} followers`,
     });
@@ -174,7 +256,7 @@ export function readTwitchFollowersSnapshot(): RuntimeSnapshot {
   } catch {
     return fail(`Required local data is missing or invalid at ${ROSTER_PATH}.`);
   }
-  return buildTwitchFollowersSnapshot(metricsRaw, rosterRaw);
+  return buildTwitchFollowersSnapshot(metricsRaw, rosterRaw, readAvatarImages());
 }
 
 export async function fetchTwitchFollowersFromSnapshot(): Promise<GameItem[]> {

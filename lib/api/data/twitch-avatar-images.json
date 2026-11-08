@@ -1,0 +1,1370 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-08T09:34:05.211Z",
+  "source": "Twitch Helix Get Users; ownerApproved roster only",
+  "endpoint": "https://api.twitch.tv/helix/users",
+  "requestCap": 100,
+  "batchCount": 2,
+  "requestedIdentities": 196,
+  "returnedIdentities": 194,
+  "entries": {
+    "ache": {
+      "userId": "193032346",
+      "login": "ache",
+      "displayName": "Ache",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/493f45b3-d34c-49e9-a624-d0c2bc631498-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "admiralbulldog": {
+      "userId": "30816637",
+      "login": "admiralbulldog",
+      "displayName": "AdmiralBulldog",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/admiralbulldog-profile_image-888d5b80958e636f-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "ajak0n": {
+      "userId": "644963197",
+      "login": "ajak0n",
+      "displayName": "ajak0n",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d708a025-2b7b-41b6-9e77-a3100ff73ca0-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "akarindao": {
+      "userId": "584184005",
+      "login": "akarindao",
+      "displayName": "夢野あかり",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d92ee667-de20-403c-9871-718c8887098c-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "alohadancetv": {
+      "userId": "46571894",
+      "login": "alohadancetv",
+      "displayName": "ALOHADANCETV",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/288c688d-16e0-4c54-b76d-3bbbaa677438-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "alois_nl": {
+      "userId": "122799408",
+      "login": "alois_nl",
+      "displayName": "Alois_NL",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/08449999-2e34-47c8-8a31-908cf3c31297-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "alveussanctuary": {
+      "userId": "636587384",
+      "login": "alveussanctuary",
+      "displayName": "AlveusSanctuary",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/4384f6c4-6608-48f4-b3a7-36d0eb6efbd3-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "amakipururu": {
+      "userId": "741229569",
+      "login": "amakipururu",
+      "displayName": "天鬼ぷるる",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/48aad627-8bb3-42a3-9e7b-78c71f14fb1a-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "areslps": {
+      "userId": "48245475",
+      "login": "areslps",
+      "displayName": "AresLPs",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/39b0070f-7e79-4391-8c81-eb5bb792f0e6-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "arky": {
+      "userId": "100869214",
+      "login": "arky",
+      "displayName": "Arky",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1ed0e0c7-2714-41c3-9848-5eb1696db74a-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "asmongold247": {
+      "userId": "1312862940",
+      "login": "asmongold247",
+      "displayName": "Asmongold247",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e9f84ea0-72b8-486f-9afd-4a5e8c62305f-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "assarisyoko1": {
+      "userId": "792691462",
+      "login": "assarisyoko1",
+      "displayName": "あっさりしょこー",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/2317edf4-3b28-4854-a698-f8ba84243ea2-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "batora324": {
+      "userId": "93828097",
+      "login": "batora324",
+      "displayName": "バトラ",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/606420a1-58b8-4965-826e-d376b83ac0f8-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "bbbb87": {
+      "userId": "128222917",
+      "login": "bbbb87",
+      "displayName": "世誠",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5be19d98-99cd-484b-ab03-e21c8ca3a17f-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "berticuss": {
+      "userId": "179896802",
+      "login": "berticuss",
+      "displayName": "Berticuss",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/b67462b1-ac28-4a98-994f-2fc614261fb0-profile_image-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "blindzonexgod": {
+      "userId": "613410561",
+      "login": "blindzonexgod",
+      "displayName": "blindzonexgod",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bbdfe6c-3421-4430-9f02-21bff072fa66-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "bobross": {
+      "userId": "105458682",
+      "login": "bobross",
+      "displayName": "BobRoss",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/bobross-profile_image-0b9dd167a9bb16b5-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "broxah": {
+      "userId": "43539324",
+      "login": "broxah",
+      "displayName": "Broxah",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/39da49ae-e57f-4fc2-b781-6371440847eb-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "bysl4m": {
+      "userId": "38759871",
+      "login": "bysl4m",
+      "displayName": "bySL4M",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/aebf02e9-bede-4b89-9e06-0210a0c98b68-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "ceros127": {
+      "userId": "40211539",
+      "login": "ceros127",
+      "displayName": "ceros127",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/b08c78ad-6699-430e-bc92-14c515fc2335-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "chodie": {
+      "userId": "77840050",
+      "login": "chodie",
+      "displayName": "Chodie",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/89ba3942-c491-4275-aa07-63b19975341c-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "clemovitch": {
+      "userId": "132501030",
+      "login": "clemovitch",
+      "displayName": "Clemovitch",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/7d509709-af4c-4de1-8f87-46ee85aee829-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "clioaite": {
+      "userId": "693883340",
+      "login": "clioaite",
+      "displayName": "ClioAite",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/20346730-4353-447f-b028-494752aad43b-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "clutch_fii": {
+      "userId": "169539617",
+      "login": "clutch_fii",
+      "displayName": "clutch_fii",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1fa56c8d-22d1-46f2-9edd-450474faba50-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "coachlim": {
+      "userId": "51653974",
+      "login": "coachlim",
+      "displayName": "coachlim",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/a5c04324-7909-46c3-84a0-9d53a85472bd-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "commanderx": {
+      "userId": "27689704",
+      "login": "commanderx",
+      "displayName": "CommanderX",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/06a29653-904a-4f56-a5b2-92b0ca72de46-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "croissantstrike": {
+      "userId": "168116110",
+      "login": "croissantstrike",
+      "displayName": "CroissantStrike",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/09b1b79c-5c2d-47fa-9767-866948544c1c-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "crystalst": {
+      "userId": "115983024",
+      "login": "crystalst",
+      "displayName": "Crystalst",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1519646e-20c6-4e0d-a814-b91aa4d8f6d3-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "dafran": {
+      "userId": "41314239",
+      "login": "dafran",
+      "displayName": "dafran",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/dafran-profile_image-98c45a96ca6ad150-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "daikai4104": {
+      "userId": "30324190",
+      "login": "daikai4104",
+      "displayName": "大楷",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/928c1a61-8c4c-40e3-9210-3296752a87c9-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "dakillzor": {
+      "userId": "25722719",
+      "login": "dakillzor",
+      "displayName": "Dakillzor",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/ba5e4714-b7dd-43f5-9c62-df0c91647482-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "dheylo": {
+      "userId": "29530640",
+      "login": "dheylo",
+      "displayName": "Dheylo",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/b188da2d-c5f1-45f3-baa9-3ce368beba7a-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "dingding248": {
+      "userId": "66548548",
+      "login": "dingding248",
+      "displayName": "丁義",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/2a57b5ba-f601-4f53-ac85-5682d84f7e49-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "dmitry_bale": {
+      "userId": "130313947",
+      "login": "dmitry_bale",
+      "displayName": "DMITRY_BALE",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/aed21381-a47f-45a6-b0d3-748dd03de0a3-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "dmitry_lixxx": {
+      "userId": "188890121",
+      "login": "dmitry_lixxx",
+      "displayName": "Dmitry_Lixxx",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/a0926e97-e614-431c-ae1d-57d668656ea5-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "doctorul_": {
+      "userId": "272573477",
+      "login": "doctorul_",
+      "displayName": "Doctorul_",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/6ea6c894-c650-4918-a84b-8ec5eeff92ad-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "dracon": {
+      "userId": "38770961",
+      "login": "dracon",
+      "displayName": "Dracon",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/36309a46-7d79-4111-8c51-b9358912a3ce-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "elbokeron": {
+      "userId": "74547642",
+      "login": "elbokeron",
+      "displayName": "elBokeron",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d4262486-f631-416f-8e60-7e7e921b6d8f-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "entych": {
+      "userId": "69600926",
+      "login": "entych",
+      "displayName": "えんてぃ",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e95230d6-77f9-4db1-a58d-af1ef180f374-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "epicvoyages": {
+      "userId": "140043801",
+      "login": "epicvoyages",
+      "displayName": "EpicVoyages",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/f591a8fb-52f7-4553-8ec1-190e921ce434-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "eslcs": {
+      "userId": "31239503",
+      "login": "eslcs",
+      "displayName": "ESLCS",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/c1ecbcd5-b8b6-4e0c-9d5f-e01d610aa97d-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "ev913": {
+      "userId": "718820856",
+      "login": "ev913",
+      "displayName": "Ev913",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/cf4401eb-f418-4238-89b6-ba087b447522-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "evelynomadera": {
+      "userId": "446246227",
+      "login": "evelynomadera",
+      "displayName": "evelynomadera",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8d9cb4bf-5930-4b3f-87ff-e0892734da17-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "failverde": {
+      "userId": "23852822",
+      "login": "failverde",
+      "displayName": "懶貓",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/963d9792-e9de-4b0e-a418-5ffd871dc4ee-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "fanfan": {
+      "userId": "596031520",
+      "login": "fanfan",
+      "displayName": "fanfan",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/c65b6b35-0702-494e-9f81-0b2939f0adc2-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "fl0m": {
+      "userId": "25093116",
+      "login": "fl0m",
+      "displayName": "fl0m",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/fl0m-profile_image-efa66f8f4aa42f40-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "formixyouknow": {
+      "userId": "1242180809",
+      "login": "formixyouknow",
+      "displayName": "formixyouknow",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/2ad0d88c-59ad-4e71-a4ae-d0d8c9380f01-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "fps_shaka": {
+      "userId": "49207184",
+      "login": "fps_shaka",
+      "displayName": "fps_shaka",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d8a3e3e9-f70a-4634-bd59-b4a1cab834de-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "fruktozka": {
+      "userId": "91465245",
+      "login": "fruktozka",
+      "displayName": "Fruktozka",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8e182135-9555-4543-985d-1d00329491f6-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "gerardromero": {
+      "userId": "605221125",
+      "login": "gerardromero",
+      "displayName": "gerardromero",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/49bdc39f-4b83-491b-8b99-8719ed8faca9-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "glorious_e": {
+      "userId": "63304572",
+      "login": "glorious_e",
+      "displayName": "Glorious_E",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d4d79c6d-e57c-487d-912d-e13e85d1a7bf-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "gobgg": {
+      "userId": "40760591",
+      "login": "gobgg",
+      "displayName": "GoBGG",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8d22b203-f257-4701-b84b-bc94fcb713ab-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "gocchanmikey": {
+      "userId": "818506560",
+      "login": "gocchanmikey",
+      "displayName": "ごっちゃんマイキー",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/3bfcebed-d50d-42c0-8846-084da38eff01-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "greentea": {
+      "userId": "29528480",
+      "login": "greentea",
+      "displayName": "綠茶",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/greentea-profile_image-e28e1f700311f077-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "gtimetv": {
+      "userId": "60160906",
+      "login": "gtimetv",
+      "displayName": "GTimeTV",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/70be2768-2156-41b4-bf4f-2ad2ba3057ac-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "guanweiboy": {
+      "userId": "150989534",
+      "login": "guanweiboy",
+      "displayName": "冠緯",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/10662d89-629a-40f5-887e-0e72928d4c1f-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "hera": {
+      "userId": "91402599",
+      "login": "hera",
+      "displayName": "Hera",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/6556770d-fd50-4c67-a1d5-13d2483269f2-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "hiiragitsurugi": {
+      "userId": "952340772",
+      "login": "hiiragitsurugi",
+      "displayName": "柊ツルギ",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8f077ace-48ff-4f3a-b8b6-17fb13bc90b5-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "hitch": {
+      "userId": "200186636",
+      "login": "hitch",
+      "displayName": "Hitch",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/705a5b01-d8d2-46ed-aac1-78cee5d8101a-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "hitomi_teraz": {
+      "userId": "1348099501",
+      "login": "hitomi_teraz",
+      "displayName": "実ひとみ_序境",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/9c6334ab-3aa5-43b5-9668-8260bcbd799e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "iceicell": {
+      "userId": "434276417",
+      "login": "iceicell",
+      "displayName": "iceicell",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/f90bbbde-7934-4d0f-80df-74889e3c7c9e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "ilame": {
+      "userId": "87791915",
+      "login": "ilame",
+      "displayName": "iLame",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce8be9fe-c33d-412e-aea6-98497a74390b-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "indegnasen0706": {
+      "userId": "813704147",
+      "login": "indegnasen0706",
+      "displayName": "布団ちゃんと申します",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6e621ba-8f31-4832-9e11-56010f40248c-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "ironmouse": {
+      "userId": "175831187",
+      "login": "ironmouse",
+      "displayName": "ironmouse",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/c2aca19b-b318-4398-99a5-fb6a597536fd-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "iseedeadp3ople": {
+      "userId": "170671692",
+      "login": "iseedeadp3ople",
+      "displayName": "iseedeadp3ople",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1c95406-b9d3-4cbf-a06e-a516c3d3a297-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "itsassitv": {
+      "userId": "406995218",
+      "login": "itsassitv",
+      "displayName": "itsAssiTV",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/f14a9b5a-5539-4c08-a327-499d13bb48ac-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "itsjxin": {
+      "userId": "676652575",
+      "login": "itsjxin",
+      "displayName": "ItsJXin",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/9b864f07-3c6f-4603-8ca5-ae953c4407db-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "izakooo": {
+      "userId": "36717908",
+      "login": "izakooo",
+      "displayName": "IzakOOO",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/fb0c5dab-f137-4860-a9df-0102056ec63d-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "japabigodin": {
+      "userId": "231014663",
+      "login": "japabigodin",
+      "displayName": "japabigodin",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/839fd6eb-cb9d-431c-8251-c4b64ec84924-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "jasper7se": {
+      "userId": "77415295",
+      "login": "jasper7se",
+      "displayName": "Jasper7se",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/4b329a05-aafd-4e91-87d0-ce8dc80c745c-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "jeanmassiet": {
+      "userId": "117011503",
+      "login": "jeanmassiet",
+      "displayName": "JeanMassiet",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/2dafa812-0b1c-4f0c-9707-bff3a71f7c2d-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "jenazad": {
+      "userId": "32133240",
+      "login": "jenazad",
+      "displayName": "Jenazad",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1787fef9-8db1-457e-bf54-7a7a8841c2fb-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "jezu_lol": {
+      "userId": "234456766",
+      "login": "jezu_lol",
+      "displayName": "jezu_lol",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1e464743-812b-49a2-b8be-ae1d80577c38-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "jingggxd": {
+      "userId": "136397315",
+      "login": "jingggxd",
+      "displayName": "jingggxd",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/3bee23fc-3c8a-420a-a9bb-a0653c8dbb51-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "jinnytty": {
+      "userId": "159498717",
+      "login": "jinnytty",
+      "displayName": "Jinnytty",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/37567ea1-8246-4385-bcf6-8a3cdb9ca93b-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "joshuaschmidtygo": {
+      "userId": "410810480",
+      "login": "joshuaschmidtygo",
+      "displayName": "JoshuaSchmidtYGO",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/2ced2d66-5a64-4ab5-ac16-9182e0c9e2f9-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "juice": {
+      "userId": "65411398",
+      "login": "juice",
+      "displayName": "Juice",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/0f93d8ec-38bf-40e6-9b01-6714323b762f-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "just_ns": {
+      "userId": "42316376",
+      "login": "just_ns",
+      "displayName": "just_ns",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/284ff7cd-3d60-4446-ac5c-3e3fee3bc262-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "k4sen": {
+      "userId": "44525650",
+      "login": "k4sen",
+      "displayName": "k4sen",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/794e906d-64d7-41ab-bb89-8fb159e4124b-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "kanegon1": {
+      "userId": "73569767",
+      "login": "kanegon1",
+      "displayName": "ごんかね",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d2b79a29-cb63-4039-a4c6-c8ce26140522-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "kasanofff": {
+      "userId": "1021870531",
+      "login": "kasanofff",
+      "displayName": "KASANOFFF",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/3c112c43-08e9-4020-813d-0da0c13040d5-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "katarsisgg": {
+      "userId": "426865642",
+      "login": "katarsisgg",
+      "displayName": "katarsisgg",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8679b787-6a76-43db-8d0c-a5ce066d8248-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "kenbogard": {
+      "userId": "37523739",
+      "login": "kenbogard",
+      "displayName": "kenbogard",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/a4fb0d8c-43ac-4a75-9875-e51984ddea33-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "kinapoppo": {
+      "userId": "587350743",
+      "login": "kinapoppo",
+      "displayName": "kinapoppo",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/41657c1a-3b79-44ce-855e-3fa5c2067700-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "kiruma_ch": {
+      "userId": "777241187",
+      "login": "kiruma_ch",
+      "displayName": "切嘛",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/66696875-aadb-4300-8aa4-12acda0453ec-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "koma": {
+      "userId": "457428542",
+      "login": "koma",
+      "displayName": "Koma",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/51c64ff7-3854-4570-8e8a-67b97c7f9251-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "kopsteep": {
+      "userId": "89886468",
+      "login": "kopsteep",
+      "displayName": "kopsteep",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/44fca324-a1be-4dc2-8c59-47ab33c2eca2-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "kr1stw": {
+      "userId": "170869845",
+      "login": "kr1stw",
+      "displayName": "西南69",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/7d92814e-60ca-467c-bffc-5ea734eb9f2a-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "krapycoco": {
+      "userId": "37106068",
+      "login": "krapycoco",
+      "displayName": "虧皮",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/a1a3869d-842d-44eb-8cf0-5003e1de77ce-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "kuchentv": {
+      "userId": "36810911",
+      "login": "kuchentv",
+      "displayName": "KuchenTV",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/kuchentv-profile_image-708de77184d4e22d-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "kungentv": {
+      "userId": "30383713",
+      "login": "kungentv",
+      "displayName": "KungenTV",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/kungentv-profile_image-d47d682db27bb74d-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "kunshikitty": {
+      "userId": "111787808",
+      "login": "kunshikitty",
+      "displayName": "Kunshikitty",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5ce7fde5-b3b1-48e9-a424-bda943765612-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "lacy": {
+      "userId": "494543675",
+      "login": "lacy",
+      "displayName": "Lacy",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/48487d3b-e713-4a49-ad35-dec6ab7d690e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "lazvell": {
+      "userId": "48677263",
+      "login": "lazvell",
+      "displayName": "Lazvell",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/85baa6dc-c2d9-4135-b6d0-dfb429d1230d-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "lenapena2006": {
+      "userId": "883429620",
+      "login": "lenapena2006",
+      "displayName": "lenapena2006",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/cb2d3266-66bb-4860-82b3-e8af6ea962b7-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "lens_doto": {
+      "userId": "265525984",
+      "login": "lens_doto",
+      "displayName": "LenS_Doto",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/a727a8dc-20cc-4a60-b3ab-2c64c9c8088e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "letshugotv": {
+      "userId": "117385099",
+      "login": "letshugotv",
+      "displayName": "LetsHugoTV",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/111bbc84-a87d-49fc-9b8e-8b9bf0c67297-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "lewisaoe": {
+      "userId": "698851364",
+      "login": "lewisaoe",
+      "displayName": "lewisaoe",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e2438274-9ac0-4f3f-b1d2-0ab93803bd7e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "limmy": {
+      "userId": "10386664",
+      "login": "limmy",
+      "displayName": "Limmy",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/9cb58844-34c4-4891-a133-e2168fb62337-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "liquidhasuobs": {
+      "userId": "30209220",
+      "login": "liquidhasuobs",
+      "displayName": "LiquidHasuObs",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/7f3ba7f7-3298-4787-b755-a241b82157cf-profile_image-300x300.jpg",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "loeya": {
+      "userId": "166279350",
+      "login": "loeya",
+      "displayName": "Loeya",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/2481f7d8-c49e-472a-8ee2-0f8543c2a142-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "lolthek4sen": {
+      "userId": "1323501012",
+      "login": "lolthek4sen",
+      "displayName": "lolthek4sen",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/7dd32a9f-d37d-46c6-9ed9-e25a50682961-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "m0xyy": {
+      "userId": "69012069",
+      "login": "m0xyy",
+      "displayName": "m0xyy",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/c901b680-9876-4e67-826a-e141381628e5-profile_image-300x300.jpg",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "manhuntaufderflucht": {
+      "userId": "1048971170",
+      "login": "manhuntaufderflucht",
+      "displayName": "Manhuntaufderflucht",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/570e7a85-69b2-43e4-b69f-0724af594d24-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "manyochill": {
+      "userId": "778227078",
+      "login": "manyochill",
+      "displayName": "まにょちる",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/0bf4aa52-6b16-42b1-bf7f-527880a6e847-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "mashtakof": {
+      "userId": "540612615",
+      "login": "mashtakof",
+      "displayName": "MashtakOF",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/4c0e62ae-e459-41e3-abd1-7a73b5ab6e2f-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "maxim": {
+      "userId": "172376071",
+      "login": "maxim",
+      "displayName": "maxim",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/bd90a9ed-e485-418c-b0ba-7adfe23781bf-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "maximilian_dood": {
+      "userId": "30104304",
+      "login": "maximilian_dood",
+      "displayName": "Maximilian_DOOD",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/maximilian_dood-profile_image-c6e12e1798861491-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "mayj0501": {
+      "userId": "1047145019",
+      "login": "mayj0501",
+      "displayName": "梅婕",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/542ac375-d273-42cb-a5ac-b5e386588167-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "meiy_vl": {
+      "userId": "473688875",
+      "login": "meiy_vl",
+      "displayName": "Meiy_vl",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/90181b76-5b10-42f6-a868-36e0b80b50b0-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "melharucos": {
+      "userId": "26819117",
+      "login": "melharucos",
+      "displayName": "melharucos",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1f3d7e72-6c77-4fe7-9a08-def5ec31ed6b-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "meltonff": {
+      "userId": "806179236",
+      "login": "meltonff",
+      "displayName": "メルトンめるとん",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f40863a-5353-4b27-aacc-67d0d1329094-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "midbeast": {
+      "userId": "92113890",
+      "login": "midbeast",
+      "displayName": "midbeast",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1a12b66-6db9-4466-8935-9da9d4cb8411-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "mikaels1": {
+      "userId": "170431874",
+      "login": "mikaels1",
+      "displayName": "MikaelS1",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/7c03dc7b-f2df-4646-9fc6-6bd69bf9eecd-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "minoru04160": {
+      "userId": "214737896",
+      "login": "minoru04160",
+      "displayName": "軍師ミノル",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1c59e822-cf2b-4c4f-a4c9-9e7afd720be9-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "misolo3": {
+      "userId": "246624681",
+      "login": "misolo3",
+      "displayName": "misolo3",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/616dfb57-6d89-4472-b6ad-d08db6c1b14a-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "mitsuki_mitsuu": {
+      "userId": "689257502",
+      "login": "mitsuki_mitsuu",
+      "displayName": "みつきさんです",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/a9ef5493-c06f-44c2-bc9d-c492e01c0395-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "mmgeneral": {
+      "userId": "70857747",
+      "login": "mmgeneral",
+      "displayName": "斗艾",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/a0ae01aa-f565-4867-91bf-aa667a1334af-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "montanablack88": {
+      "userId": "45044816",
+      "login": "montanablack88",
+      "displayName": "MontanaBlack88",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/6f36c08a-6f7d-40f1-a9e8-12eee2ff0f93-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "nacho_dayo": {
+      "userId": "190110029",
+      "login": "nacho_dayo",
+      "displayName": "nacho_dayo",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/7cf48b89-3ef1-40e3-af79-7096754d5545-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "nagibatorleon": {
+      "userId": "570971897",
+      "login": "nagibatorleon",
+      "displayName": "nagibatorleon",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/c43f19da-a503-4472-a7de-dd1338d9120f-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "naru0419045": {
+      "userId": "805456112",
+      "login": "naru0419045",
+      "displayName": "なるお_",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0641882-2dd3-4298-b912-a67dde59e67d-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "nein1203": {
+      "userId": "64855800",
+      "login": "nein1203",
+      "displayName": "小舞",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/b97f1b2e-5532-4fee-8879-5e6e6eb502d8-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "neineimeme": {
+      "userId": "554813506",
+      "login": "neineimeme",
+      "displayName": "捏捏寧寧",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/3970c6db-3f10-4a25-bae6-d473970dcb10-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "nisqyy": {
+      "userId": "84539108",
+      "login": "nisqyy",
+      "displayName": "Nisqyy",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/2473d146-e994-4ec0-b77d-bde756d387df-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "nooreax": {
+      "userId": "172312401",
+      "login": "nooreax",
+      "displayName": "nooreax",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/cf4d614e-35d9-43ec-8dc4-63de61989132-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "nykchazza": {
+      "userId": "622580525",
+      "login": "nykchazza",
+      "displayName": "NYKchazza",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/49005be5-d2fb-49e2-a526-8fc89bec94e0-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "olofmeister": {
+      "userId": "46717011",
+      "login": "olofmeister",
+      "displayName": "olofmeister",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/31b9e758-02e4-4be7-98a7-184e4941e02d-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "olyashaa": {
+      "userId": "104717035",
+      "login": "olyashaa",
+      "displayName": "olyashaa",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/olyashaa-profile_image-678836346723f273-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "ow_uruca": {
+      "userId": "137621174",
+      "login": "ow_uruca",
+      "displayName": "ow_uruca",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/6aef7f49-1956-4576-aa81-bad779578ee8-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "p1lepe1el1": {
+      "userId": "1322264153",
+      "login": "p1lepe1el1",
+      "displayName": "珮蕾",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/cc28639e-8f2f-45df-9699-0d66b31b7bec-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "pablogaming13": {
+      "userId": "105214785",
+      "login": "pablogaming13",
+      "displayName": "pablogaming13",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/2080dc42-1255-4f8c-8311-c5a8b2174915-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "pch3lk1n": {
+      "userId": "48978939",
+      "login": "pch3lk1n",
+      "displayName": "PCH3LK1N",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/6211c167-2bc8-4663-bf31-ede424b41945-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "pelaajatcom": {
+      "userId": "259710795",
+      "login": "pelaajatcom",
+      "displayName": "pelaajatcom",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e237dd2c-6a9b-44f2-b25f-05866ec9dd7e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "peter": {
+      "userId": "582765062",
+      "login": "peter",
+      "displayName": "Peter",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/81314008-19fc-47c3-a65d-6a9994828444-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "phantasm__": {
+      "userId": "168492696",
+      "login": "phantasm__",
+      "displayName": "Phantasm__",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/54bc37a4-1ae2-4a5b-bdd0-37e2e1bb745e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "pizamizu": {
+      "userId": "717502139",
+      "login": "pizamizu",
+      "displayName": "ぴざみず",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/da9aacab-5583-45d2-bb30-7dca4b95094f-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "psp1g": {
+      "userId": "104391402",
+      "login": "psp1g",
+      "displayName": "PSP1G",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d704ef1e-7b2f-4ddd-abdf-00de8b83b793-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "rdulive": {
+      "userId": "59965916",
+      "login": "rdulive",
+      "displayName": "RduLIVE",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/0b015a3c-513c-4e6f-b1e4-687fdfaa4138-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "rtparenacs": {
+      "userId": "122208625",
+      "login": "rtparenacs",
+      "displayName": "RTPArenaCS",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/c9d21eb4-f503-40fd-b863-8f60faaeeee1-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "rumathra": {
+      "userId": "41567638",
+      "login": "rumathra",
+      "displayName": "Rumathra",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/70787557-b053-4640-9f6e-e2f51752c367-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "sakanatl": {
+      "userId": "1105075921",
+      "login": "sakanatl",
+      "displayName": "sakanaTL",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/7e1b211f-85ce-48a0-ba44-48f899dfe05e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "seoi1016": {
+      "userId": "752742297",
+      "login": "seoi1016",
+      "displayName": "정서이_",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e35c2bab-7a71-4f95-907c-27393d84798d-profile_image-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "shaunz": {
+      "userId": "43102846",
+      "login": "shaunz",
+      "displayName": "Shaunz",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/a027458a-f0f8-488b-862a-c31fac30126f-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "shinjifromjapanxd": {
+      "userId": "276504990",
+      "login": "shinjifromjapanxd",
+      "displayName": "しんじさん",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/929df6b6-7738-40e9-86fc-43d5245618cd-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "shinyatheninja": {
+      "userId": "188526166",
+      "login": "shinyatheninja",
+      "displayName": "ShinyaTheNinja",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/aac1f136-0687-4489-96a3-804630b5fe04-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "shlorox": {
+      "userId": "40784764",
+      "login": "shlorox",
+      "displayName": "Shlorox",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/shlorox-profile_image-4be72b9009ae00a8-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "shuteye_orange": {
+      "userId": "25202416",
+      "login": "shuteye_orange",
+      "displayName": "蝦愛橘子",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e496689c-5e8f-44a6-8733-b3c5b6e17e19-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "skyrroztv": {
+      "userId": "52349411",
+      "login": "skyrroztv",
+      "displayName": "SkyrrozTV",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/849d425c-ad56-4376-a782-bb864b205831-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "skywhywalker": {
+      "userId": "254030065",
+      "login": "skywhywalker",
+      "displayName": "skywhywalker",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/6cf5c0a9-24f3-4e63-8433-022ef586e279-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "slayproxx": {
+      "userId": "57361005",
+      "login": "slayproxx",
+      "displayName": "Slayproxx",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/877af8a7-e557-4ab2-bc0f-00b5f772d698-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "solaryhs": {
+      "userId": "416031592",
+      "login": "solaryhs",
+      "displayName": "SolaryHS",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/6db903c8-5eea-4815-b36e-4acb0e6dbf90-profile_image-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "sovietwomble": {
+      "userId": "67802451",
+      "login": "sovietwomble",
+      "displayName": "SovietWomble",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/sovietwomble-profile_image-03dc5cfecd429f93-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "steel": {
+      "userId": "195675197",
+      "login": "steel",
+      "displayName": "steel",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/80027c30-3fca-4401-ac76-f2aedae1bfe6-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "sterzik": {
+      "userId": "499126234",
+      "login": "sterzik",
+      "displayName": "Sterzik",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5433b7dc-0611-448b-a8a8-17399aef9da3-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "stokes": {
+      "userId": "438465591",
+      "login": "stokes",
+      "displayName": "Stokes",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d2117bb8-d141-461f-b837-ba4fb6b56a9b-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "strawberrytabby": {
+      "userId": "562723403",
+      "login": "strawberrytabby",
+      "displayName": "StrawberryTabby",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/7b68c481-63db-4c51-aa81-9c0529a930a4-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "stray228": {
+      "userId": "40488774",
+      "login": "stray228",
+      "displayName": "Stray228",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/stray228-profile_image-ceb0393a88eb8286-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "strogo": {
+      "userId": "233741947",
+      "login": "strogo",
+      "displayName": "StRoGo",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8a9c0603-7ff0-4189-bdc1-3072029a613d-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "sumitaninasi": {
+      "userId": "745183962",
+      "login": "sumitaninasi",
+      "displayName": "墨谷",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/85886b58-361a-4a74-80cd-a57fe3caa9ad-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "sunglitters": {
+      "userId": "98916815",
+      "login": "sunglitters",
+      "displayName": "sunglitters",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1da11aa-c5c9-4fb1-9aab-8948e1d70c95-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "superjj": {
+      "userId": "58352686",
+      "login": "superjj",
+      "displayName": "SuperJJ",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/b5c8fedc-d361-43e6-8925-30ef487d3b74-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "swagg": {
+      "userId": "39724467",
+      "login": "swagg",
+      "displayName": "Swagg",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/f1e8adff-7097-4513-ab5c-e6f0f4ca44d2-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "takayaspecial": {
+      "userId": "93305727",
+      "login": "takayaspecial",
+      "displayName": "たかやスペシャル",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/9b1c0065-fd51-4752-b748-c8c175e779ba-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "theboxlily": {
+      "userId": "906723758",
+      "login": "theboxlily",
+      "displayName": "森森鈴蘭",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/db08c153-31a6-4fb8-b2d3-16ace75ed511-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "theburntpeanut_247": {
+      "userId": "1305342529",
+      "login": "theburntpeanut_247",
+      "displayName": "TheBurntPeanut_247",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/53e6d242-7fc2-494e-9cc9-417fe7453a9e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "titiseadmin": {
+      "userId": "400123822",
+      "login": "titiseadmin",
+      "displayName": "あどみん",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/faeaca1b-84b5-4d35-9454-b8ed29229d75-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "tonakaito_hendy": {
+      "userId": "510453927",
+      "login": "tonakaito_hendy",
+      "displayName": "ヘンディー",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/90eaaff2-18b6-41df-ae32-77aab2fe67b3-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "tortedelini": {
+      "userId": "22712717",
+      "login": "tortedelini",
+      "displayName": "tortedelini",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/045855b5-197e-4bcb-819e-cdcf27bb1ebd-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "tototmix": {
+      "userId": "94618049",
+      "login": "tototmix",
+      "displayName": "ととみっくす",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e0db2826-e586-4124-b287-0b6c713e0a3d-profile_image-300x300.jpeg",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "tpabomah": {
+      "userId": "265940345",
+      "login": "tpabomah",
+      "displayName": "TpaBoMaH",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/9a052d06-822c-47ab-9397-0188b7e2c994-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "tru3ta1ent": {
+      "userId": "48286022",
+      "login": "tru3ta1ent",
+      "displayName": "TrU3Ta1ent",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/29b65717-1912-4b3a-b6da-0c54455e2044-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "vau0307": {
+      "userId": "1327820963",
+      "login": "vau0307",
+      "displayName": "ばぁう",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/24eeb87a-597b-4ca8-be31-6a5ee7b9c792-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "velja_lol": {
+      "userId": "142181685",
+      "login": "velja_lol",
+      "displayName": "velja_lol",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/96c58805-3cb6-4c32-b6d9-56ea6480aac0-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "voll": {
+      "userId": "38819526",
+      "login": "voll",
+      "displayName": "Voll",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/981ecf80-afe6-408f-854a-9188e7df4e7e-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "vovapain": {
+      "userId": "39048329",
+      "login": "vovapain",
+      "displayName": "Vovapain",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/0a2f7dc4-50dd-4865-9676-d13b8b5ea0eb-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "vovohzera": {
+      "userId": "45581486",
+      "login": "vovohzera",
+      "displayName": "Vovohzera",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/594048f0-9697-45bf-95a5-593f629e5ba7-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "washidai_": {
+      "userId": "121079066",
+      "login": "washidai_",
+      "displayName": "わしだい",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/97515bb0-42bd-42b7-b9b0-3e82ff69e99c-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "watchfultv": {
+      "userId": "172643869",
+      "login": "watchfultv",
+      "displayName": "watchfulTV",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/06496d95-cab3-4d5c-acd6-114246113049-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "wendolynortizz": {
+      "userId": "1017626993",
+      "login": "wendolynortizz",
+      "displayName": "wendolynortizz",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/be45309c-e89a-4374-b69f-6b4368eef40a-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "whityyy": {
+      "userId": "31553042",
+      "login": "whityyy",
+      "displayName": "whityyy",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/f2323c19-7955-41c8-b5d7-3554403db998-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "wingo": {
+      "userId": "41384425",
+      "login": "wingo",
+      "displayName": "Wingo",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/c23e244b-8a05-4dd6-9569-5490eb97c613-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "wtf_winds123": {
+      "userId": "29546745",
+      "login": "wtf_winds123",
+      "displayName": "大丸",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/eeeb63ac-eafb-4955-88e0-9af3548a2080-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "x2twins": {
+      "userId": "189290002",
+      "login": "x2twins",
+      "displayName": "x2Twins",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1e65169d-750b-4b18-a688-af840acc8624-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "x9nium": {
+      "userId": "29377368",
+      "login": "x9nium",
+      "displayName": "x9nium",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e5ae36e5-f887-4601-9481-8863cc387a59-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "xrohat": {
+      "userId": "430023505",
+      "login": "xrohat",
+      "displayName": "xRohat",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/dc99030e-69b1-4e11-b381-e1507c991ff0-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "yaritaiji": {
+      "userId": "102631269",
+      "login": "yaritaiji",
+      "displayName": "たいじ_たいちゃんねる",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/cd38df56-e572-4a60-9b02-76db09d0acdd-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "yugi": {
+      "userId": "936171791",
+      "login": "yugi",
+      "displayName": "Yugi",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/d2f822ff-76a7-4e8b-b873-cf841acc2caa-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "yuhilolz": {
+      "userId": "108667255",
+      "login": "yuhilolz",
+      "displayName": "ゆーひ1",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/47bdfc73-ffee-4c87-a3d9-8f49d2dd76c1-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "yukiofps14": {
+      "userId": "427263526",
+      "login": "yukiofps14",
+      "displayName": "ゆきお2",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/457abaa2-37eb-49b3-a8b5-aafb2f91ecfc-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "yutapongo": {
+      "userId": "65737149",
+      "login": "yutapongo",
+      "displayName": "yutapongo",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/bd4bc99e-ffd6-43b3-bbb3-9bb582104b30-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "yuuechka": {
+      "userId": "423486275",
+      "login": "yuuechka",
+      "displayName": "yuuechka",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/e4e3a27b-2ab2-406c-825e-a793c3a53564-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.976Z"
+    },
+    "yuyuta0702": {
+      "userId": "752988454",
+      "login": "yuyuta0702",
+      "displayName": "ゆゆうた押忍",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/c9923860-b55f-435f-be2d-560107cc2205-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    },
+    "zerost_s": {
+      "userId": "89969094",
+      "login": "zerost_s",
+      "displayName": "Zerost_s",
+      "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8c1c636f-0ad4-43df-ba29-16287570579d-profile_image-300x300.png",
+      "verifiedAt": "2026-11-08T09:34:04.724Z"
+    }
+  }
+}
